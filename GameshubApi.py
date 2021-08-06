@@ -1,6 +1,7 @@
 import base64
 import json
 import os
+import flask
 from github import Github
 from pprint import pprint
 
@@ -30,4 +31,8 @@ def gameCreatorPublishLevel(html,gameInfo):
         infoFile = repo.create_file("CreatorGames/"+gameName+"/info.json","",json.dumps(gameInfo),"api")
         htmlFile = repo.create_file("CreatorGames/"+gameName+"/index.html","",html,"api")
 
-#gameCreatorPublishLevel("<HTML>",{"Name":"TestingGame"})
+app = flask.Flask(__name__)
+@app.route("/webhok", methods=["GET"])
+def webhok():
+    return flask.request.method
+app.run()
