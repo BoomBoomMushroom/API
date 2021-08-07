@@ -104,7 +104,6 @@ validate-email==1.3
 VenC==2.0.0
 waitress==2.0.0
 Werkzeug==2.0.1
-WMI==1.5.1
 wrapt==1.12.1
 yarl==1.6.3
 zope.event==4.5.0
