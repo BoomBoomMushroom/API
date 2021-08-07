@@ -27,41 +27,45 @@ def gcGetLvls():
 def checkUsername():
     try:
         requestJson = json.loads(request.json)
+    except:
+        flask.abort(400)
+    if requestJson:
         if len(requestJson["Username"]) >= 3 and len(requestJson["Username"]) <= 16:
             return GameshubApi.checkUsername(requestJson["Username"])
         else:
             return False
-    except:
-        flask.abort(400)
 @app.route("/signup", methods=["POST"])
 def signup():
     try:
         requestJson = json.loads(request.json)
-        GameshubApi.signup(requestJson["Username"],requestJson["Password"])
-        return "success", 200
     except:
         flask.abort(400)
+    if requestJson:
+        GameshubApi.signup(requestJson["Username"],requestJson["Password"])
+        return "success", 200
 @app.route("/delacc", methods=["POST"])
 def delacc():
     try:
         requestJson = json.loads(request.json)
-        GameshubApi.deleteAccount(requestJson["Token"])
-        return "success", 200
     except:
         flask.abort(400)
+    if requestJson:
+        GameshubApi.deleteAccount(requestJson["Token"])
+        return "success", 200
 @app.route("/login", methods=["GET"])
 def login():
     try:
         requestJson = json.loads(request.json)
-        GameshubApi.login(requestJson["Username"],requestJson["Password"])
-        return "success", 20
     except:
         flask.abort(400)
-@app.route("/logout", methods=["GET"])
+    if requestJson:
+        return GameshubApi.login(requestJson["Username"],requestJson["Password"])
+@app.route("/logout", methods=["POST"])
 def logout():
     try:
         requestJson = json.loads(request.json)
-        GameshubApi.logout(requestJson["Token"])
-        return "success", 200
     except:
         flask.abort(400)
+    if requestJson:
+        GameshubApi.logout(requestJson["Token"])
+        return "success", 200
