@@ -100,6 +100,7 @@ def login(username,password):
                         filePath = repo.get_contents("accountTokens.json","api")
                         repo.update_file(path=filePath.path,message="",content=fileContents,sha=filePath.sha,branch="api")
                         return generatedToken
+    return None
 def tokenLogin(token):
     tokenResponse = checkToken(token)
     if tokenResponse["TokenStatus"] == True:
