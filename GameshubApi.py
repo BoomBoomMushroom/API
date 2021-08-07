@@ -85,8 +85,9 @@ def login(username,password):
     for account in accounts:
         if account["Username"]:
             if account["Username"] == username:
-                if account["Passowrd"]:
+                if account["Passoword"]:
                     if account["Password"] == sha256hashedPasswordx2:
+                        print("Password Matches")
                         generatedToken = generateToken(16)
                         try:
                             fileContents = json.loads(requests.get("https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/api/accountTokens.json"))
