@@ -32,7 +32,7 @@ def checkUsername():
     except:
         abort(400)
 @app.route("/signup", methods=["POST"])
-def checkUsername():
+def signup():
     try:
         requestJson = request.json
         if requestJson["Username"] and requestJson["Password"]:
