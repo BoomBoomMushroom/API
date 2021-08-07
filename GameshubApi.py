@@ -3,7 +3,7 @@ import json
 import os
 import requests
 import random
-import hashlib
+#import hashlib
 from github import Github
 from pprint import pprint
 
@@ -69,7 +69,7 @@ def signup(username,password):
         if usernameAvailable == True:
             newAccountJson = {
                 "Username": username,
-                "Password": hashlib.sha256(hashlib.sha256(password))
+                "Password": password, #hashlib.sha256(hashlib.sha256(password))
             }
             accounts.append(usernameAvailable)
             filePath = repo.get_contents("accounts.json","api").path
@@ -80,7 +80,7 @@ def login(username,password):
         accounts = json.loads(requests.get(accountUrl))
     except:
         accounts = []
-    sha256hashedPasswordx2 = hashlib.sha256(hashlib.sha256(password))
+    sha256hashedPasswordx2 = password #hashlib.sha256(hashlib.sha256(password))
     for account in accounts:
         if account["Username"]:
             if account["Username"] == username:
