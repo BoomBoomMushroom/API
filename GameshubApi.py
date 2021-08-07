@@ -59,7 +59,6 @@ def signup(username,password):
             accounts = json.loads(requests.get(accountUrl))
         except:
             accounts = []
-        print(accounts)
         usernameAvailable = True
         for account in accounts:
             if account["Username"]:
@@ -72,8 +71,7 @@ def signup(username,password):
                 "Username": username,
                 "Password": password, #hashlib.sha256(hashlib.sha256(password))
             }
-            accounts.append(usernameAvailable)
-            print(accounts)
+            accounts.append(newAccountJson)
             fileHolder = repo.get_contents("accounts.json","api")
             repo.update_file(path=fileHolder.path,message="",content=accounts,sha=fileHolder.sha)
             print(f"Account {username} has been created")
