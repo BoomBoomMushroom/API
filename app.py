@@ -6,5 +6,5 @@ app = flask.Flask(__name__)
 
 @app.route("/")
 def home():
-    arg = request.args['arg1']
+    print(f"Hello {request.method} user!")
     return f"Hello {request.method} user!"
