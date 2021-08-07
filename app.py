@@ -1,10 +1,10 @@
-from flask import Flask, render_template
+import flask
+from flask import request
 
-app = Flask(__name__)
+app = flask.Flask(__name__)
+
 
 @app.route("/")
 def home():
-    return "<h1>Hello, World</h1>"
-
-if __name__ == "__main__":
-    app.run(debug=True)
+    arg = request.args['arg1']
+    return f"Hello {request.method} user!"
