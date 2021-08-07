@@ -34,7 +34,6 @@ def checkUsername():
         flask.abort(400)
 @app.route("/signup", methods=["POST"])
 def signup():
-    print(request.json)
     try:
         requestJson = request.json
         return GameshubApi.signup(requestJson["Username"],requestJson["Password"])
