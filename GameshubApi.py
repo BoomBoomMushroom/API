@@ -1,15 +1,13 @@
 import base64
 import json
 import os
-from flask import Flask, Response, abort, request
+import requests
 from github import Github
 from pprint import pprint
 
 token = "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"
 fileName = "gameCreatorLevels.json"
 repoName = "BoomBoomMushroom/GameHub"
-
-app = Flask(__name__)
 
 g = Github(token)
 user = g.get_user()
@@ -32,10 +30,9 @@ def gameCreatorPublishLevel(html,gameInfo):
         gameName = gameInfo["Name"]
         infoFile = repo.create_file("CreatorGames/"+gameName+"/info.json","",json.dumps(gameInfo),"api")
         htmlFile = repo.create_file("CreatorGames/"+gameName+"/index.html","",html,"api")
-
-@app.route('/gcPublishLvl')
-def gcPublishLvl():
-    print(request.method)
-    return(request.method + ", request"), 200
-
-app.run()
+def getGameCreatorLevels():
+    try:
+        levels = json.loads(requests.get("https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/api/gameCreatorLevels.json"))
+    except:
+        levels = []
+    return levels
