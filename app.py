@@ -35,6 +35,9 @@ def checkUsername():
 @app.route("/signup", methods=["POST"])
 def signup():
     requestJson = request.json
+    print(requestJson)
+    print(requestJson["Username"])
+    print(requestJson["Password"])
     return GameshubApi.signup(requestJson["Username"],requestJson["Password"])
 @app.route("/delacc", methods=["POST"])
 def delacc():
