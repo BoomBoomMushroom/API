@@ -73,8 +73,8 @@ def signup(username,password):
             }
             accounts.append(newAccountJson)
             fileHolder = repo.get_contents("accounts.json","api")
-            repo.update_file(path=fileHolder.path,message="",content=accounts,sha=fileHolder.sha)
-            print(f"Account {username} has been created")
+            repo.update_file(path=fileHolder.path,message="",content=json.dumps(accounts),sha=fileHolder.sha,branch="api")
+            return(f"Account {username} has been created")
 def login(username,password):
     accountUrl = "https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/api/accounts.json"
     try:
@@ -98,10 +98,8 @@ def login(username,password):
                         }
                         fileContents.append(appendData)
                         filePath = repo.get_contents("accountTokens.json","api")
-                        repo.update_file(path=filePath.path,message="",content=fileContents,sha=filePath.sha)
+                        repo.update_file(path=filePath.path,message="",content=fileContents,sha=filePath.sha,branch="api")
                         return generatedToken
-                        
-    return username, password
 def tokenLogin(token):
     tokenResponse = checkToken(token)
     if tokenResponse["TokenStatus"] == True:
@@ -122,7 +120,8 @@ def logout(token):
             if CurrentToken["Token"] == token:
                 allTokens.pop(i)
                 filePath = repo.get_contents("accountTokens.json","api")
-                repo.update_file(path=filePath.path,message="",content=allTokens,sha=filePath.sha)
+                repo.update_file(path=filePath.path,message="",content=allTokens,sha=filePath.sha,branch="api")
+                return(f"Logged out!")
 def checkToken(token):
     tokensUrl = "https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/api/accountTokens.json"
     try:
@@ -158,7 +157,8 @@ def deleteAccount(token):
                                         if searchingAccount["Password"] == account["Password"]:
                                             accounts.pop(i)
                                             filePath = repo.get_contents("accounts.json","api")
-                                            repo.update_file(path=filePath.path,message="",content=accounts,sha=filePath.sha)
+                                            repo.update_file(path=filePath.path,message="",content=accounts,sha=filePath.sha, branch="api")
+                                            return(f"Deleted")
 def generateToken(tokenLength):
     tokenCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVQRSTUV0123456789"
     token = ""
