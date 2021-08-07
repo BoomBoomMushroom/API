@@ -54,13 +54,11 @@ def checkUsername(username):
         return True
 def signup(username,password):
     if len(username) >= 3 and len(username) <= 16 and len(password) >= 6:
-        print("Passed mlength check!")
         accountUrl = "https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/api/accounts.json"
         try:
             accounts = json.loads(requests.get(accountUrl))
         except:
             accounts = []
-        print("accounts got!")
         usernameAvailable = True
         for account in accounts:
             if account["Username"]:
@@ -68,19 +66,14 @@ def signup(username,password):
                     if checkUsername(account["Username"]) == False:
                         usernameAvailable = False
                         break;
-        print("Username status is {}".format(usernameAvailable))
         if usernameAvailable == True:
             newAccountJson = {
                 "Username": username,
                 "Password": password, #hashlib.sha256(hashlib.sha256(password))
             }
-            print(newAccountJson+", new acc json")
             accounts.append(usernameAvailable)
-            print("appended new json")
             filePath = repo.get_contents("accounts.json","api").path
-            print("Got path")
             repo.update_file(path=filePath,message="",content=accounts)
-            print("Update content of folder!")
 def login(username,password):
     accountUrl = "https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/api/accounts.json"
     try:
