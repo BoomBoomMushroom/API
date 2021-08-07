@@ -1,1 +1,1 @@
-web: python GameshubApi.py
+web: gunicorn app:app
