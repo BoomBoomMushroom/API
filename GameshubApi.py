@@ -59,6 +59,7 @@ def signup(username,password):
             accounts = json.loads(requests.get(accountUrl))
         except:
             accounts = []
+        print(accounts)
         usernameAvailable = True
         for account in accounts:
             if account["Username"]:
@@ -72,8 +73,10 @@ def signup(username,password):
                 "Password": password, #hashlib.sha256(hashlib.sha256(password))
             }
             accounts.append(usernameAvailable)
-            filePath = repo.get_contents("accounts.json","api").path
-            repo.update_file(path=filePath,message="",content=accounts)
+            print(accounts)
+            fileHolder = repo.get_contents("accounts.json","api")
+            repo.update_file(path=fileHolder.path,message="",content=accounts,sha=fileHolder.sha)
+            print(f"Account {username} has been created")
 def login(username,password):
     accountUrl = "https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/api/accounts.json"
     try:
@@ -96,8 +99,8 @@ def login(username,password):
                             "Account": account,
                         }
                         fileContents.append(appendData)
-                        filePath = repo.get_contents("accountTokens.json","api").path
-                        repo.update_file(path=filePath,message="",content=fileContents)
+                        filePath = repo.get_contents("accountTokens.json","api")
+                        repo.update_file(path=filePath.path,message="",content=fileContents,sha=filePath.sha)
                         return generatedToken
                         
     return username, password
@@ -120,8 +123,8 @@ def logout(token):
         if CurrentToken["Token"]:
             if CurrentToken["Token"] == token:
                 allTokens.pop(i)
-                filePath = repo.get_contents("accountTokens.json","api").path
-                repo.update_file(path=filePath,message="",content=allTokens)
+                filePath = repo.get_contents("accountTokens.json","api")
+                repo.update_file(path=filePath.path,message="",content=allTokens,sha=filePath.sha)
 def checkToken(token):
     tokensUrl = "https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/api/accountTokens.json"
     try:
@@ -156,8 +159,8 @@ def deleteAccount(token):
                                     if searchingAccount["Password"]:
                                         if searchingAccount["Password"] == account["Password"]:
                                             accounts.pop(i)
-                                            filePath = repo.get_contents("accounts.json","api").path
-                                            repo.update_file(path=filePath,message="",content=accounts)
+                                            filePath = repo.get_contents("accounts.json","api")
+                                            repo.update_file(path=filePath.path,message="",content=accounts,sha=filePath.sha)
 def generateToken(tokenLength):
     tokenCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVQRSTUV0123456789"
     token = ""
