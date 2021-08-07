@@ -36,14 +36,21 @@ def signup():
         return GameshubApi.signup(requestJson["Username"],requestJson["Password"])
     except:
         flask.abort(400)
-@app.route("/login", method=["GET"])
+@app.route("/delacc", methods=["POST"])
+def delacc():
+    try:
+        requestJson = request.json
+        return GameshubApi.deleteAccount(requestJson["Token"])
+    except:
+        flask.abort(400)
+@app.route("/login", methods=["GET"])
 def login():
     try:
         requestJson = request.json
         return GameshubApi.login(requestJson["Username"],requestJson["Password"])
     except:
         flask.abort(400)
-@app.route("/logout", method=["GET"])
+@app.route("/logout", methods=["GET"])
 def logout():
     try:
         requestJson = request.json
