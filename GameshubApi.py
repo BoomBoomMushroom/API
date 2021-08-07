@@ -9,6 +9,8 @@ token = "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"
 fileName = "gameCreatorLevels.json"
 repoName = "BoomBoomMushroom/GameHub"
 
+app = flask.Flask(__name__)
+
 g = Github(token)
 user = g.get_user()
 for currentRepo in user.get_repos():
@@ -32,7 +34,9 @@ def gameCreatorPublishLevel(html,gameInfo):
         htmlFile = repo.create_file("CreatorGames/"+gameName+"/index.html","",html,"api")
 
 app = flask.Flask(__name__)
-@app.route("/webhok", methods=["GET"])
-def webhok():
-    return flask.request.method
+@app.route("/gcPublishLvl", methods=["POST","GET"])
+def gcPublishLvl():
+    print("TEST")
+    return "DONE", 200
+
 app.run()
