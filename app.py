@@ -26,13 +26,13 @@ def gcGetLvls():
 @app.route("/checkUsername", methods=["GET"])
 def checkUsername():
     try:
-        requestJson = json.loads(request.json
+        requestJson = json.loads(request.json)
         if len(requestJson["Username"]) >= 3 and len(requestJson["Username"]) <= 16:
             return GameshubApi.checkUsername(requestJson["Username"])
         else:
             return False
     except:
-        flaks.abort(400)
+        flask.abort(400)
 @app.route("/signup", methods=["POST"])
 def signup():
     try:
