@@ -21,4 +21,4 @@ def gcPublishLvl():
     GameshubApi.gameCreatorPublishLevel(htmlData,gameInfoData)
 @app.route("/gcGetLvls", methods=["GET"])
 def gcGetLvls():
-    return GameshubApi.getGameCreatorLevels()
+    return json.dumps(GameshubApi.getGameCreatorLevels())
