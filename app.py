@@ -1,4 +1,3 @@
-from os import abort
 import flask
 from flask import request
 from flask import json
@@ -59,7 +58,8 @@ def login():
     except:
         flask.abort(400)
     if requestJson:
-        return GameshubApi.login(requestJson["Username"],requestJson["Password"])
+        loginResponse = GameshubApi.login(requestJson["Username"],requestJson["Password"])
+        return loginResponse
 @app.route("/logout", methods=["POST"])
 def logout():
     try:
