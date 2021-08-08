@@ -39,7 +39,8 @@ def getGameCreatorLevels():
         levels = []
     return levels
 def sha256HashString(string: str):
-    return hashlib.sha256(string.encode()).hexdigest
+    encodedString = string.encode()
+    return hashlib.sha256(string.encode()).hexdigest()
 def checkUsername(username):
     accountUrl = "https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/api/accounts.json"
     try:
