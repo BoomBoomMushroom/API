@@ -3,7 +3,7 @@ import json
 import os
 import requests
 import random
-#import hashlib
+import hashlib
 from github import Github
 from pprint import pprint
 
@@ -69,7 +69,10 @@ def signup(username,password):
         if usernameAvailable == True:
             newAccountJson = {
                 "Username": username,
-                "Password": password, #hashlib.sha256(hashlib.sha256(password))
+                "Password": hashlib.sha256(hashlib.sha256(password)),
+                "UUID": generateUUID(32),
+                "IsBanned": False,
+                "IsMuted": False,
             }
             accounts.append(newAccountJson)
             fileHolder = repo.get_contents("accounts.json","api")
@@ -78,29 +81,31 @@ def signup(username,password):
 def login(username,password):
     accountUrl = "https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/api/accounts.json"
     try:
-        accounts = json.loads(requests.get(accountUrl))
+        accounts = json.loads(requests.get(accountUrl).text)
     except:
         accounts = []
-    sha256hashedPasswordx2 = password #hashlib.sha256(hashlib.sha256(password))
+    sha256hashedPasswordx2 = hashlib.sha256(hashlib.sha256(password))
     for account in accounts:
-        if account["Username"]:
-            if account["Username"] == username:
-                if account["Passoword"]:
-                    if account["Password"] == sha256hashedPasswordx2:
-                        print("Password Matches")
-                        generatedToken = generateToken(16)
-                        try:
-                            fileContents = json.loads(requests.get("https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/api/accountTokens.json"))
-                        except:
-                            fileContents = []
-                        appendData = {
-                            "Token": generatedToken,
-                            "Account": account,
-                        }
-                        fileContents.append(appendData)
-                        filePath = repo.get_contents("accountTokens.json","api")
-                        repo.update_file(path=filePath.path,message="",content=fileContents,sha=filePath.sha,branch="api")
-                        return generatedToken
+        try:
+            accUsername = account["Username"]
+            accPassword = account["Password"]
+        except:
+            accUsername = "INVALID_USER_NAME"
+            accPassword = "INVALID_ACC_PASSWORD"
+        if accUsername == username and accPassword == sha256hashedPasswordx2:
+                generatedToken = generateToken(16)
+                try:
+                    fileContents = json.loads(requests.get("https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/api/accountTokens.json").text)
+                except:
+                    fileContents = []
+                appendData = {
+                    "Token": generatedToken,
+                    "Account": account,
+                }
+                fileContents.append(appendData)
+                filePath = repo.get_contents("accountTokens.json","api")
+                repo.update_file(path=filePath.path,message="",content=json.dumps(fileContents),sha=filePath.sha,branch="api")
+                return generatedToken
     return "INVALID_ACCOUNT_TOKEN"
 def tokenLogin(token):
     tokenResponse = checkToken(token)
@@ -122,7 +127,7 @@ def logout(token):
             if CurrentToken["Token"] == token:
                 allTokens.pop(i)
                 filePath = repo.get_contents("accountTokens.json","api")
-                repo.update_file(path=filePath.path,message="",content=allTokens,sha=filePath.sha,branch="api")
+                repo.update_file(path=filePath.path,message="",content=json.dumps(allTokens),sha=filePath.sha,branch="api")
                 return(f"Logged out!")
 def checkToken(token):
     tokensUrl = "https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/api/accountTokens.json"
@@ -157,17 +162,31 @@ def deleteAccount(token):
                                 if searchingAccount["Username"] == account["Username"]:
                                     if searchingAccount["Password"]:
                                         if searchingAccount["Password"] == account["Password"]:
+                                            logout(token)
                                             accounts.pop(i)
                                             filePath = repo.get_contents("accounts.json","api")
-                                            repo.update_file(path=filePath.path,message="",content=accounts,sha=filePath.sha, branch="api")
+                                            repo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha, branch="api")
                                             return(f"Deleted")
+def generateUUID(length):
+    uuidCharset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVQRSTUV0123456789"
+    uuid = ""
+    def tokenGen():
+        uuid2 = ""
+        while len(uuid2) < length:
+            uuid2 += uuidCharset[random.randint(0,len(uuidCharset)-1)]
+        if checkToken(uuid2)["TokenStatus"] == False:
+            return uuid2
+        else:
+            return tokenGen()
+    uuid = tokenGen()
+    return uuid
 def generateToken(tokenLength):
     tokenCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVQRSTUV0123456789"
     token = ""
     def tokenGen():
         token2 = ""
         while len(token2) < tokenLength:
-            token2 += tokenCharacters[random.randint(0,len(tokenCharacters))]
+            token2 += tokenCharacters[random.randint(0,len(tokenCharacters)-1)]
         if checkToken(token2)["TokenStatus"] == False:
             return token2
         else:
