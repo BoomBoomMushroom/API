@@ -87,7 +87,6 @@ def login(username,password):
         accounts = json.loads(requests.get(accountUrl).text)
     except:
         accounts = []
-    sha256hashedPasswordx2 = sha256HashString(sha256HashString(password))
     for account in accounts:
         try:
             accUsername = account["Username"]
@@ -95,7 +94,8 @@ def login(username,password):
         except:
             accUsername = "INVALID_USER_NAME"
             accPassword = "INVALID_ACC_PASSWORD"
-        if accUsername == username and accPassword == sha256hashedPasswordx2:
+        print(accPassword==sha256HashString(sha256HashString(password)))
+        if accUsername == username and accPassword == sha256HashString(sha256HashString(password)):
                 generatedToken = generateToken(16)
                 try:
                     fileContents = json.loads(requests.get("https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/api/accountTokens.json").text)
@@ -120,7 +120,7 @@ def tokenLogin(token):
 def logout(token):
     tokensUrl = "https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/api/accountTokens.json"
     try:
-        allTokens = json.dumps(requests.get(tokensUrl))
+        allTokens = json.dumps(requests.get(tokensUrl).text)
     except:
         allTokens = []
     i = 0
