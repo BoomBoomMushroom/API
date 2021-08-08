@@ -38,6 +38,8 @@ def getGameCreatorLevels():
     except:
         levels = []
     return levels
+def sha256HashString(string: str):
+    return hashlib.sha256(string.encode()).hexdigest
 def checkUsername(username):
     accountUrl = "https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/api/accounts.json"
     try:
@@ -69,7 +71,7 @@ def signup(username,password):
         if usernameAvailable == True:
             newAccountJson = {
                 "Username": username,
-                "Password": hashlib.sha256(hashlib.sha256(password)),
+                "Password": sha256HashString(sha256HashString(password)),
                 "UUID": generateUUID(32),
                 "IsBanned": False,
                 "IsMuted": False,
@@ -84,7 +86,7 @@ def login(username,password):
         accounts = json.loads(requests.get(accountUrl).text)
     except:
         accounts = []
-    sha256hashedPasswordx2 = hashlib.sha256(hashlib.sha256(password))
+    sha256hashedPasswordx2 = sha256HashString(sha256HashString(password))
     for account in accounts:
         try:
             accUsername = account["Username"]
