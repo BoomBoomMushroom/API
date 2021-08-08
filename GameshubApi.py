@@ -125,7 +125,7 @@ def logout(token):
         allTokens = []
     i = 0
     while i < len(allTokens):
-        CurrentToken = allTokens[i]
+        CurrentToken = json.loads(allTokens[i])
         if CurrentToken["Token"]:
             if CurrentToken["Token"] == token:
                 allTokens.pop(i)
