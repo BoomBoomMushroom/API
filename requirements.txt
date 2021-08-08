@@ -27,3 +27,4 @@ requests
 roblox
 roblox.py
 SQLAlchemy
+hashlib
