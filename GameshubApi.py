@@ -57,13 +57,13 @@ def checkUsername(username):
     else:
         i = 0
         while i < len(accounts)+1:
+            if i >= len(accounts):
+                return "True"
             account = accounts[i]
             i+=1
             if account["Username"]:
                 if account["Username"].lower() == username.lower():
                     return "False"
-        if i >= len(accounts):
-            return "True"
 def signup(username,password):
     if len(username) >= 3 and len(username) <= 16 and len(password) >= 6:
         try:
