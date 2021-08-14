@@ -66,8 +66,10 @@ def login():
         user_query = str(request.args.get('username')) # /logout/?username=USERNAME
         pass_query = str(request.args.get('password')) # /logout/?username=PASSWORD
         if user_query != None:
+            print(user_query)
             0*0
         if pass_query != None:
+            print(pass_query)
             0*0
     except:
         flask.abort(400)
