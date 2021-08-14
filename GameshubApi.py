@@ -61,7 +61,7 @@ def checkUsername(username):
     else:
         for account in accounts:
             if account["Username"]:
-                if account["Username"] == username:
+                if account["Username"].str.lower() == username.str.lower():
                     return "False"
         return "True"
 def signup(username,password):
