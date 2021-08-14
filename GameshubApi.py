@@ -53,7 +53,7 @@ def checkUsername(username):
 
     accountUrl = accountsJsonUrl
     try:
-        accounts = json.loads(requests.get(accountUrl))
+        accounts = json.loads(requests.get(accountUrl).text)
     except:
         accounts = []
     if accounts == []:
