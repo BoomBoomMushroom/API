@@ -12,9 +12,6 @@ gcLvlsfileName = "gameCreatorLevels.json"
 repoName = "BoomBoomMushroom/GameHub"
 apiRepoName = "BoomBoomMushroom/API"
 
-accountsJsonUrl = f"https://raw.githubusercontent.com/BoomBoomMushroom/API/main/GameshubApi/accountTokens.json?token=ASS5RQ2S4CLEKTHBUQVO4C3BCAPZM"
-accountTokensJsonUrl = f"https://raw.githubusercontent.com/BoomBoomMushroom/API/main/GameshubApi/accountTokens.json?token=ASS5RQY6PR7IIS55TZHYU5TBCANXI"
-
 g = Github(token)
 user = g.get_user()
 for currentRepo in user.get_repos():
@@ -51,9 +48,8 @@ def checkUsername(username):
     if not len(username) >= 3 and not len(username) <= 16:
         return "False"
 
-    accountUrl = accountsJsonUrl
     try:
-        accounts = json.loads(requests.get(accountUrl).text)
+        accounts = getJsonFileContents("GameshubApi/accounts.json","main")
     except:
         accounts = []
     if accounts == []:
