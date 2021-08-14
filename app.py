@@ -1,6 +1,7 @@
 import flask
 from flask import request
 import json
+import GameshubApi
 
 app = flask.Flask(__name__)
 
