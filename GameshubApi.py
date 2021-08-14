@@ -48,6 +48,9 @@ def sha256HashString(string: str):
     encodedString = string.encode()
     return hashlib.sha256(string.encode()).hexdigest()
 def checkUsername(username):
+    if not len(username) >= 3 and not len(username) <= 16:
+        return "False"
+
     accountUrl = accountsJsonUrl
     try:
         accounts = json.loads(requests.get(accountUrl))
