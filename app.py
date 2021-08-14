@@ -65,7 +65,7 @@ def login():
     try:
         user_query = str(request.args.get('username')) # /logout/?username=USERNAME
         pass_query = str(request.args.get('password')) # /logout/?username=PASSWORD
-        print(str(request.args.items))
+        print(str(request.args.get("password")))
         if user_query != None:
             0*0
         if pass_query != None:
