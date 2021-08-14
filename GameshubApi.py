@@ -57,13 +57,13 @@ def checkUsername(username):
     except:
         accounts = []
     if accounts == []:
-        return "True"
+        return "Truse"
     else:
         for account in accounts:
             if account["Username"]:
                 if account["Username"].str.lower() == username.str.lower():
                     return "False"
-        return "True"
+    return "True"
 def signup(username,password):
     if len(username) >= 3 and len(username) <= 16 and len(password) >= 6:
         try:
