@@ -25,8 +25,6 @@ def gcGetLvls():
 def checkUsername():
     try:
         user_query = str(request.args.get('username')) # /logout/?username=USERNAME
-        if user_query != None:
-            0*0
     except:
         flask.abort(400)
     if user_query:
@@ -39,10 +37,6 @@ def signup():
     try:
         user_query = str(request.args.get('username')) # /logout/?username=USERNAME
         pass_query = str(request.args.get('password')) # /logout/?username=PASSWORD
-        if user_query != None:
-            0*0
-        if pass_query != None:
-            0*0
     except:
         flask.abort(400)
     if user_query and pass_query:
@@ -52,8 +46,6 @@ def signup():
 def delacc():
     try:
         token_query = str(request.args.get('token')) # /logout/?token=TOKEN
-        if token_query != None:
-            0*0
     except:
         flask.abort(400)
     if token_query:
@@ -65,10 +57,6 @@ def login():
         user_query = str(request.args.get('username')) # /logout/?username=USERNAME
         pass_query = str(request.args.get('password')) # /logout/?username=PASSWORD
         print(str(request.args.get("password")))
-        if user_query != None:
-            0*0
-        if pass_query != None:
-            0*0
     except:
         flask.abort(400)
     if user_query and pass_query:
@@ -78,8 +66,6 @@ def login():
 def logout():
     try:
         token_query = str(request.args.get('token')) # /logout/?token=TOKEN
-        if token_query != None:
-            0*0
     except:
         flask.abort(400)
     if token_query:

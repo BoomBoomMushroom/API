@@ -59,7 +59,7 @@ def checkUsername(username):
             if account["Username"]:
                 if account["Username"].lower() == username.lower():
                     return "False"
-    return "True"
+        return "True"
 def signup(username,password):
     if len(username) >= 3 and len(username) <= 16 and len(password) >= 6:
         try:
