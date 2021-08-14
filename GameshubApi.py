@@ -52,6 +52,7 @@ def checkUsername(username):
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
     except:
         accounts = []
+    print(accounts)
     if accounts == []:
         return "True"
     else:
