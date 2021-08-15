@@ -50,21 +50,18 @@ def checkUsername(username):
 
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
-    except:
-        accounts = []
-    print(accounts)
-    if accounts == []:
-        return "True"
-    else:
         i = 0
+        avable = "True"
         while i < len(accounts)+1:
             if i >= len(accounts):
-                return "True"
+                return avable
             account = accounts[i]
-            i+=1
             if account["Username"]:
                 if account["Username"].lower() == username.lower():
-                    return "False"
+                    ava = "False"
+    except:
+        accounts = []
+        return "True"
 def signup(username,password):
     if len(username) >= 3 and len(username) <= 16 and len(password) >= 6:
         try:
