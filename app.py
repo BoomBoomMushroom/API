@@ -9,7 +9,7 @@ app = flask.Flask(__name__)
 @app.route("/")
 def home():
     return f"Hello {request.method} user!"
-@app.route("/gcPublishLvl", methods=["POST"])
+@app.route("/gcPublishLvl")
 def gcPublishLvl():
     try:
         jsonSent = request.json
@@ -18,10 +18,10 @@ def gcPublishLvl():
     except:
         jsonSent = {}
     GameshubApi.gameCreatorPublishLevel(htmlData,gameInfoData)
-@app.route("/gcGetLvls", methods=["GET"])
+@app.route("/gcGetLvls")
 def gcGetLvls():
     return json.dumps(GameshubApi.getGameCreatorLevels())
-@app.route("/checkUsername", methods=["GET"])
+@app.route("/checkUsername")
 def checkUsername():
     try:
         user_query = str(request.args.get('username')) # /logout/?username=USERNAME
@@ -32,7 +32,7 @@ def checkUsername():
             return GameshubApi.checkUsername(user_query)
         else:
             return "False"
-@app.route("/signup", methods=["POST"])
+@app.route("/signup")
 def signup():
     try:
         user_query = str(request.args.get('username')) # /logout/?username=USERNAME
@@ -42,7 +42,7 @@ def signup():
     if user_query and pass_query:
         GameshubApi.signup(user_query,pass_query)
         return "success", 200
-@app.route("/delacc", methods=["POST"])
+@app.route("/delacc",)
 def delacc():
     try:
         token_query = str(request.args.get('token')) # /logout/?token=TOKEN
@@ -51,7 +51,7 @@ def delacc():
     if token_query:
         GameshubApi.deleteAccount(token_query)
         return "success", 200
-@app.route("/login", methods=["GET"])
+@app.route("/login")
 def login():
     try:
         user_query = str(request.args.get('username')) # /logout/?username=USERNAME
@@ -62,7 +62,7 @@ def login():
     if user_query and pass_query:
         loginResponse = GameshubApi.login(user_query,pass_query)
         return loginResponse
-@app.route("/logout", methods=["POST"])
+@app.route("/logout")
 def logout():
     try:
         token_query = str(request.args.get('token')) # /logout/?token=TOKEN
