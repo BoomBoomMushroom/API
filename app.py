@@ -49,8 +49,8 @@ def delacc():
     except:
         flask.abort(400)
     if token_query:
-        GameshubApi.deleteAccount(token_query)
-        return "success", 200
+        #GameshubApi.deleteAccount(token_query)
+        return GameshubApi.deleteAccount(token_query), 200
 @app.route("/login")
 def login():
     try:
