@@ -176,20 +176,17 @@ def deleteAccount(token):
                     accounts = getJsonFileContents("GameshubApi/accounts.json","main")
                 except:
                     accounts = []
-                if account["Username"]:
-                    if account["Password"]:
-                        i = 0
-                        while i < len(accounts):
-                            searchingAccount = accounts[i]
-                            if searchingAccount["Username"]:
-                                if searchingAccount["Username"] == account["Username"]:
-                                    if searchingAccount["Password"]:
-                                        if searchingAccount["Password"] == account["Password"]:
-                                            logout(token)
-                                            accounts.pop(i)
-                                            filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
-                                            repo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
-                                            return(f"Deleted")
+                if account["UUID"]:
+                    i = 0
+                    while i < len(accounts):
+                        searchingAccount = accounts[i]
+                        if searchingAccount["UUID"]:
+                            if searchingAccount["UUID"] == account["UUID"]:
+                                logout(token)
+                                accounts.pop(i)
+                                filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
+                                repo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+                                return(f"Deleted")
 def generateUUID(length):
     uuidCharset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVQRSTUV0123456789"
     uuid = ""
