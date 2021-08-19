@@ -167,26 +167,34 @@ def checkToken(token):
                     return {"TokenStatus":True,"Account":currentToken["Account"]}
         return {"TokenStatus":False,"Account":None}
 def deleteAccount(token):
-    tokenResponse = checkToken(token)
-    if tokenResponse["TokenStatus"]:
-        if tokenResponse["TokenStatus"] == True:
-            if tokenResponse["Account"]:
-                account = tokenResponse["Account"]
-                try:
-                    accounts = getJsonFileContents("GameshubApi/accounts.json","main")
-                except:
-                    accounts = []
-                if account["UUID"]:
-                    i = 0
-                    while i < len(accounts):
-                        searchingAccount = accounts[i]
-                        if searchingAccount["UUID"]:
-                            if searchingAccount["UUID"] == account["UUID"]:
-                                logout(token)
-                                accounts.pop(i)
-                                filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
-                                repo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
-                                return(f"Deleted")
+    
+    try:
+        accountTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
+        accounts = getJsonFileContents("GameshubApi/accounts.json","main")
+    except:
+        accountTokens = []
+        accounts = []
+    i = 0
+    while i < len(accountTokens):
+        CurrentToken = accountTokens[i]
+        if CurrentToken["Token"]:
+            if CurrentToken["Token"] == token:
+                x = 0
+                while i < len(accounts):
+                    CurrentAcc = accounts[i]
+                    if CurrentToken["Account"]:
+                        if CurrentToken["Account"] == CurrentAcc:
+                            accounts.pop(i)
+                            filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
+                            apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+                            break
+                    x+=1
+                
+                accountTokens.pop(i)
+                filePath = apiRepo.get_contents("GameshubApi/accountTokens.json","main")
+                apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accountTokens),sha=filePath.sha)
+                return(f"Account Deleted!")
+        i+=1
 def generateUUID(length):
     uuidCharset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVQRSTUV0123456789"
     uuid = ""
