@@ -179,16 +179,11 @@ def deleteAccount(token):
         CurrentToken = accountTokens[i]
         if CurrentToken["Token"]:
             if CurrentToken["Token"] == token:
-                x = 0
-                while i < len(accounts):
-                    CurrentAcc = accounts[i]
-                    if CurrentToken["Account"]:
-                        if CurrentToken["Account"] == CurrentAcc:
-                            accounts.pop(i)
-                            filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
-                            apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
-                            break
-                    x+=1
+                accountIndex = accounts.index(CurrentToken["Account"])
+                if accountIndex != None:
+                    accounts.pop(accountIndex)
+                    filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
+                    apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
                 
                 accountTokens.pop(i)
                 filePath = apiRepo.get_contents("GameshubApi/accountTokens.json","main")
