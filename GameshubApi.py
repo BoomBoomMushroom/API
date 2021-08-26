@@ -88,6 +88,8 @@ def signup(username,password):
             fileHolder = apiRepo.get_contents("GameshubApi/accounts.json","main")
             apiRepo.update_file(path=fileHolder.path,message="",content=json.dumps(accounts),sha=fileHolder.sha)
             return(f"Account {username} has been created")
+        else:
+            return "Username is already taken!"
     else:
         return(f"Account {username} couldn't be created because the Username or password is a lil weird!")
 def login(username,password):
