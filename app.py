@@ -29,7 +29,11 @@ def checkUsername():
         flask.abort(400)
     if user_query:
         if len(user_query) >= 3 and len(user_query) <= 16:
-            return GameshubApi.checkUsername(user_query)
+            usernameStatus = GameshubApi.checkUsername(user_query)
+            if usernameStatus == False:
+                return "False"
+            else:
+                return "True"
         else:
             return "False"
 @app.route("/signup")
