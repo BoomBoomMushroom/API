@@ -46,19 +46,19 @@ def sha256HashString(string: str):
     return hashlib.sha256(string.encode()).hexdigest()
 def checkUsername(username):
     if not len(username) >= 3 and not len(username) <= 16:
-        return "False"
+        return False
 
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
         i = 0
-        avable = "True"
+        avable = True
         while i < len(accounts)+1:
             if i >= len(accounts):
                 return avable
             account = accounts[i]
             if account["Username"]:
                 if account["Username"].lower() == username.lower():
-                    ava = "False"
+                    ava = False
     except:
         accounts = []
         return "True"
