@@ -50,18 +50,14 @@ def checkUsername(username):
 
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
-        i = 0
-        avable = True
-        while i < len(accounts)+1:
-            if i >= len(accounts):
-                return avable
-            account = accounts[i]
-            if account["Username"]:
-                if account["Username"].lower() == username.lower():
-                    ava = False
+        ava = True
+        for account in accounts:
+            if account['Username'] == username
+                ava = False
+        return ava
     except:
         accounts = []
-        return "True"
+        return True
 def signup(username,password):
     if len(username) >= 3 and len(username) <= 16 and len(password) >= 8:
         try:
@@ -71,10 +67,9 @@ def signup(username,password):
         usernameAvailable = True
         for account in accounts:
             if account["Username"]:
-                if account["Password"]:
-                    if checkUsername(account["Username"]) == False:
-                        usernameAvailable = False
-                        break;
+                if account["Username"] == username:
+                    usernameAvailable = False
+                    break;
         if usernameAvailable == True:
             newAccountJson = {
                 "Username": username,
@@ -91,7 +86,7 @@ def signup(username,password):
         else:
             return "Username is already taken!"
     else:
-        return(f"Account {username} couldn't be created because the Username or password is a lil weird!")
+        return(f"Account {username} couldn't be created because the Username or Password is a lil weird!")
 def login(username,password):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
