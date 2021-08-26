@@ -32,8 +32,10 @@ def checkUsername():
             usernameStatus = GameshubApi.checkUsername(user_query)
             if usernameStatus == False:
                 return "False"
-            else:
+            elif usernameStatus == True:
                 return "True"
+            else:
+                return usernameStatus
         else:
             return "False"
 @app.route("/signup")
