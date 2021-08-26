@@ -63,7 +63,7 @@ def checkUsername(username):
         accounts = []
         return "True"
 def signup(username,password):
-    if len(username) >= 3 and len(username) <= 16 and len(password) >= 6:
+    if len(username) >= 3 and len(username) <= 16 and len(password) >= 8:
         try:
             accounts = getJsonFileContents("GameshubApi/accounts.json","main")
         except:
@@ -88,6 +88,8 @@ def signup(username,password):
             fileHolder = apiRepo.get_contents("GameshubApi/accounts.json","main")
             apiRepo.update_file(path=fileHolder.path,message="",content=json.dumps(accounts),sha=fileHolder.sha)
             return(f"Account {username} has been created")
+    else:
+        return(f"Account {username} couldn't be created because the Username or password is a lil weird!")
 def login(username,password):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
