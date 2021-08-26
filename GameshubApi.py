@@ -77,7 +77,10 @@ def signup(username,password):
                 "UUID": generateUUID(32),
                 "IsBanned": False,
                 "IsMuted": False,
-                "Friends": {},
+                "Friends": [],
+                "FriendRequests": [],
+                "GameshubData": [],
+                "Misc": [],
             }
             accounts.append(newAccountJson)
             fileHolder = apiRepo.get_contents("GameshubApi/accounts.json","main")
@@ -152,6 +155,43 @@ def logout(token):
                 apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accountTokens),sha=filePath.sha)
                 return(f"Logged out!")
         i+=1
+def awardAdvancement(token,advancementId):
+    try:
+        accounts = getJsonFileContents("GameshubApi/accounts.json","main")
+        accountTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
+    except:
+        accounts = []
+        accountTokens = []
+    for account in accounts:
+        if accUsername == username and accPassword == sha256HashString(sha256HashString(password)):
+            varX = 0
+            while varX < len(accountTokens):
+                accToken = accountTokens[varX]
+                if accToken["Account"]["Username"] == username and accToken["Account"]["Password"] == sha256HashString(sha256HashString(password)):
+                    try:
+                        fileContents2 = getJsonFileContents("GameshubApi/accountTokens.json","main")
+                    except:
+                        fileContents2 = []
+                    if fileContents2 != []:
+                        fileContents2.pop(varX)
+                        filePath2 = apiRepo.get_contents("GameshubApi/accountTokens.json","main")
+                        apiRepo.update_file(filePath2.path,"",json.dumps(fileContents2),filePath2.sha)
+                        break;
+
+            generatedToken = generateToken(16)
+            try:
+                fileContents = getJsonFileContents("GameshubApi/accountTokens.json","main")
+            except:
+                fileContents = []
+            appendData = {
+                "Token": generatedToken,
+                "Account": account,
+            }
+            fileContents.append(appendData)
+            filePath = apiRepo.get_contents("GameshubApi/accountTokens.json","main")
+            apiRepo.update_file(path=filePath.path,message="",content=json.dumps(fileContents),sha=filePath.sha,branch="main")
+            return generatedToken
+    return "INVALID_ACCOUNT_TOKEN"
 def checkToken(token):
     try:
         allTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
