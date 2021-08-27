@@ -183,7 +183,7 @@ def awardAdvancement(token,advancementId):
                             break
             except:
                 i = len(accounts)+2
-                return "ACCOUNT_WASNT_FOUND"
+                return json.dumps(accounts[0])
             i += 1
     else:
         return "INVALID_ACCOUNT_TOKEN"
