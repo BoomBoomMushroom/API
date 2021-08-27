@@ -79,7 +79,11 @@ def signup(username,password):
                 "IsMuted": False,
                 "Friends": [],
                 "FriendRequests": [],
-                "GameshubData": [],
+                "GameshubData": [
+                    "Advancements": [
+                        {"id":1,"header":"Welcome!","desc":"You get this achievement when you first sign up to Gameshub!","img":"None"},
+                    ],
+                ],
                 "Misc": [],
             }
             accounts.append(newAccountJson)
@@ -155,6 +159,11 @@ def logout(token):
                 apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accountTokens),sha=filePath.sha)
                 return(f"Logged out!")
         i+=1
+def updateAcc(accountUUID):
+    try:
+        accounts = getJsonFileContents("GameshubApi/accounts.json","main")
+    except:
+        return "THERE_ARE_NO_ACCOUNTS"
 def awardAdvancement(token,advancementId):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
