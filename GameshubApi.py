@@ -172,6 +172,7 @@ def awardAdvancement(token,advancementId):
     except:
         accounts = []
         accountTokens = []
+        return "NO_ACCOUNTS"
     
     tokenStatusResp = checkToken(token)
     if tokenStatusResp["TokenStatus"] == True:
@@ -179,7 +180,10 @@ def awardAdvancement(token,advancementId):
         while i < len(accounts)+1:
             try:
                 currentAccount = accounts[i]
-                if currentAccount == tokenStatusResp["Account"]:
+            except:
+                i = len(accounts)+2
+                return "ACCOUNT_CANNOT_BE_FOUND"
+            if currentAccount == tokenStatusResp["Account"]:
                     for advancement in advancements:
                         if advancement["id"] == advancementId:
                             currentAccount["GameshubData"].update({"Advancements":[]})
@@ -190,9 +194,7 @@ def awardAdvancement(token,advancementId):
 
                             return f'ADVANCEMENT_ADDED_TO_{currentAccount["Username"]}'
                             break
-            except:
-                i = len(accounts)+2
-                return json.dumps(accounts[0])
+                    return f"ACCOUNT_FOUND{json.dumps(currentAccount)}"
             i += 1
     else:
         return "INVALID_ACCOUNT_TOKEN"
