@@ -171,16 +171,16 @@ def awardAdvancement(token,advancementId):
             try:
                 currentAccount = accounts[i]
                 if currentAccount == tokenStatusResp["Account"]:
-                for advancement in advancements:
-                    if advancement["id"] == advancementId:
-                        currentAccount["GameshubData"].update({"Advancements":[]})
-                        currentAccount["GameshubData"]["Advancements"].append(advancement)
-                        print(currentAccount,accounts)
-                        filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
-                        apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+                    for advancement in advancements:
+                        if advancement["id"] == advancementId:
+                            currentAccount["GameshubData"].update({"Advancements":[]})
+                            currentAccount["GameshubData"]["Advancements"].append(advancement)
+                            print(currentAccount,accounts)
+                            filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
+                            apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
 
-                        return f"ADVANCEMENT_ADDED_TO_{currentAccount["Username"]}"
-                        break
+                            return f"ADVANCEMENT_ADDED_TO_{currentAccount["Username"]}"
+                            break
             except:
                 i = len(accounts)+2
                 return "ACCOUNT_WASNT_FOUND"
