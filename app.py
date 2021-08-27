@@ -38,6 +38,15 @@ def checkUsername():
                 return usernameStatus
         else:
             return "False"
+@app.route("/awardadvancement")
+def awardadvancement():
+    try:
+        token_query = str(request.args.get('token')) # /logout/?username=USERNAME
+        advancement_id_query = str(request.args.get('advance_id')) # /logout/?username=USERNAME
+    except:
+        flask.abort(400)
+    
+    return GameshubApi.awardAdvancement(token_query,advancement_id_query)
 @app.route("/signup")
 def signup():
     try:
