@@ -79,11 +79,11 @@ def signup(username,password):
                 "IsMuted": False,
                 "Friends": [],
                 "FriendRequests": [],
-                "GameshubData": [
+                "GameshubData": {
                     "Advancements": [
                         {"id":1,"header":"Welcome!","desc":"You get this achievement when you first sign up to Gameshub!","img":"None"},
                     ],
-                ],
+                },
                 "Misc": [],
             }
             accounts.append(newAccountJson)
@@ -164,6 +164,23 @@ def updateAcc(accountUUID):
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
     except:
         return "THERE_ARE_NO_ACCOUNTS"
+    i = 0
+    while i < len(accounts)+1:
+        try:
+            currentAccount = accounts[i]
+        except:
+            return "COULD_NOT_FIND_ACCOUNT_WITH_UUID_"+accountUUID
+        
+        if currentAccount["UUID"] == accountUUID:
+            accountGameshub = currentAccount["GameshubData"]
+            if not accountGameshub["Advancements"]:
+                accountGameshub.update({"Advancements": [{"id":1,"header":"Welcome!","desc":"You get this achievement when you first sign up to Gameshub!","img":"None","reward":50}])
+            if not accountGameshub["Money"]:
+                accountGameshub.update({"Money":0])
+            if not accountGameshub["Purchases"]:
+                accountGameshub.update({"Purchases":[]})
+            if not accountGameshub["GameData"]:
+                accountGameshub.update({"GameData":[]})
 def awardAdvancement(token,advancementId):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
@@ -184,17 +201,18 @@ def awardAdvancement(token,advancementId):
                 i = len(accounts)+2
                 return "ACCOUNT_CANNOT_BE_FOUND"
             if currentAccount == tokenStatusResp["Account"]:
+                    updateAcc(currentAccount["UUID"])
+                    return f"ACCOUNT_FOUND{json.dumps(currentAccount)}"
                     for advancement in advancements:
                         if advancement["id"] == advancementId:
-                            currentAccount["GameshubData"].update({"Advancements":[]})
                             currentAccount["GameshubData"]["Advancements"].append(advancement)
+                            currentAccount["GameshubData"]["Money"] += int(advancement["reward"])
                             print(currentAccount,accounts)
                             filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
                             apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
 
-                            return f'ADVANCEMENT_ADDED_TO_{currentAccount["Username"]}'
+                            return f'ADVANCEMENT_ADDED_TO_\n{json.dumps(currentAccount["Username"])}'
                             break
-                    return f"ACCOUNT_FOUND{json.dumps(currentAccount)}"
             i += 1
     else:
         return "INVALID_ACCOUNT_TOKEN"
