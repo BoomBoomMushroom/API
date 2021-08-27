@@ -52,7 +52,7 @@ def checkUsername(username):
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
         ava = True
         for account in accounts:
-            if account['Username'] == username:
+            if account['Username'].lower() == username.lower():
                 ava = False
         return ava
     except:
