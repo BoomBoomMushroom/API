@@ -52,7 +52,7 @@ def checkUsername(username):
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
         ava = True
         for account in accounts:
-            if account['Username'] == username
+            if account['Username'] == username:
                 ava = False
         return ava
     except:
@@ -179,7 +179,7 @@ def awardAdvancement(token,advancementId):
                         filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
                         apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
 
-                        return f"ADVANCEMENT_ADDED_TO_{currentAccount["Username"]}"
+                        return f"ADVANCEMENT_ADDED_TO_{currentAccount["Username"]}" 
                         break
             except:
                 i = len(accounts)+2
