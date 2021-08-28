@@ -342,36 +342,6 @@ def awardAdvancement(token,advancementId):
     else:
         return "INVALID_ACCOUNT_TOKEN"
 def updateToken(token):
-    def miniAccUpdate(accountUUID):
-        try:
-            accounts = getJsonFileContents("GameshubApi/accounts.json","main")
-        except:
-            return "THERE_ARE_NO_ACCOUNTS"
-        i = 0
-        acc = {}
-        while i < len(accounts)+1:
-            try:
-                currentAccount = accounts[i]
-            except:
-                return "COULD_NOT_FIND_ACCOUNT_WITH_UUID_"+accountUUID
-            
-            if currentAccount["UUID"] == accountUUID:
-                acc = currentAccount
-                if not "Advancements" in currentAccount["GameshubData"]:
-                    currentAccount["GameshubData"].update({"Advancements": [{"id":1,"header":"Welcome!","desc":"You get this achievement when you first sign up to Gameshub!","img":"None","reward":50}]})
-                if not "Money" in currentAccount["GameshubData"]:
-                    currentAccount["GameshubData"].update({"Money":0})
-                if not "Purchases" in currentAccount["GameshubData"]:
-                    currentAccount["GameshubData"].update({"Purchases": []})
-                if not "GameData" in currentAccount["GameshubData"]:
-                    currentAccount["GameshubData"].update({"GameData":[]})
-        filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
-        apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
-    try:
-        miniAccUpdate(token["Account"]["UUID"])
-    except:
-        pass
-
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
         accountTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
