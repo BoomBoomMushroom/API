@@ -222,7 +222,15 @@ def awardAdvancement(token,advancementId):
     
     tokenStatusResp = checkToken(token)
     if tokenStatusResp["TokenStatus"] == True:
-        accountIndex = accounts.index(tokenStatusResp["Account"])
+        try:
+            accountIndex = accounts.index(tokenStatusResp["Account"])
+        except:
+            updateToken(token)
+            try:
+                accountIndex = accounts.index(tokenStatusResp["Account"])
+            except:
+                updateToken(token)
+                return "ACCOUNT_TOKEN_NOT_UPDATED"
         currentAccount = accounts[accountIndex]
         for advancement in advancementsJson:
             if advancement["id"] == advancementId:
