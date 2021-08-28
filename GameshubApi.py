@@ -160,7 +160,7 @@ def logout(token):
                 apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accountTokens),sha=filePath.sha)
                 return(f"Logged out!")
         i+=1
-def updateAcc(accountUUID):
+def updateAcc(accountUUID,token):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
     except:
@@ -184,6 +184,7 @@ def updateAcc(accountUUID):
                 accountGameshub.update({"Purchases": []})
             if not "GameData" in accountGameshub:
                 accountGameshub.update({"GameData":[]})
+    updateToken(token)
     return f"DONE_{json.dumps(acc)}"
 def awardAdvancement(token,advancementId):
     try:
@@ -200,7 +201,6 @@ def awardAdvancement(token,advancementId):
         accountIndex = accounts.index(tokenStatusResp["Account"])
         currentAccount = accounts[accountIndex]
         for advancement in advancementsJson:
-
             if advancement["id"] == advancementId:
                 for userAdvancement in currentAccount["GameshubData"]["Advancements"]:
                     if advancement == userAdvancement:
@@ -211,6 +211,7 @@ def awardAdvancement(token,advancementId):
                 print(currentAccount,accounts)
                 filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
                 apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+                updateAcc(currentAccount["UUID"],token)
                 updateToken(token)
 
                 return f'ADVANCEMENT_ADDED'
@@ -218,6 +219,7 @@ def awardAdvancement(token,advancementId):
     else:
         return "INVALID_ACCOUNT_TOKEN"
 def updateToken(token):
+    updateAcc(token)
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
         accountTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
