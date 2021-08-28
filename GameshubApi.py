@@ -183,7 +183,7 @@ def updateAcc(accountUUID):
                 if accountGameshub["Money"]:
                     pass
             except:
-                accountGameshub.update({"Money":0}):
+                accountGameshub.update({"Money":0})
             try:
                 if accountGameshub["Purchases"]:
                     pass
