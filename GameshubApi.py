@@ -211,11 +211,39 @@ def awardAdvancement(token,advancementId):
                 print(currentAccount,accounts)
                 filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
                 apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+                updateToken(token)
 
                 return f'ADVANCEMENT_ADDED'
         return "CANNOT_FIND_ADVANCEMENT!"
     else:
         return "INVALID_ACCOUNT_TOKEN"
+def updateToken(token):
+    try:
+        accounts = getJsonFileContents("GameshubApi/accounts.json","main")
+        accountTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
+        advancementsJson = getJsonFileContents("GameshubApi/advancements.json","main")
+    except:
+        return "NO_TOKENS"
+    
+    i = 0
+    while i < len(accountTokens):
+        try:
+            currentAccountToken = accountTokens[i]
+        except:
+            return "TOKEN_DOSNT_EXIST"
+        
+        if currentAccountToken["Token"] == token:
+            x = 0
+            while x < len(accounts):
+                try:
+                    currentAccount = accounts[x]
+                except:
+                    return "ACCOUNT_NOT_FOUND"
+                if currentAccount["UUID"] == currentAccountToken["Account"]["UUID"]:
+                    currentAccountToken["Account"] = currentAccount
+                    filePath = apiRepo.get_contents("GameshubApi/accountTokens.json","main")
+                    apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accountTokens),sha=filePath.sha)
+                    return "UPDATED_ACCOUNT"
 def checkToken(token):
     try:
         allTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
