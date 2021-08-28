@@ -83,6 +83,7 @@ def signup(username,password):
                     "Advancements": [
                         {"id":1,"header":"Welcome!","desc":"You get this achievement when you first sign up to Gameshub!","img":"None"},
                     ],
+                    "Money": 50,
                 },
                 "Misc": [],
             }
