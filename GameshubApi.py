@@ -202,6 +202,16 @@ def acceptFriendReq(token,friendeUUID):
         originsAccount.append(friendeAccount["UUID"])
         
         originsAccount["FriendRequests"].pop(frequestIndex)
+
+        filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
+        apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+
+        for currentToken in accountTokens:
+            if currentToken["Account"]["UUID"] == friendeAccount["UUID"]:
+                newFriendToken = currentToken
+                updateToken(newFriendToken)
+                break
+        updateToken(token)
     else:
         return "INVALID_TOKEN"
 def sendFriendRequest(tokenOfSender,ElementOfReciever):
