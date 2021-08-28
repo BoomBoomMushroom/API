@@ -199,7 +199,7 @@ def awardAdvancement(token,advancementId):
     if tokenStatusResp["TokenStatus"] == True:
         accountIndex = accounts.index(tokenStatusResp["Account"])
         currentAccount = accounts[accountIndex]
-        for advancement in advancements:
+        for advancement in advancementsJson:
             if advancement["id"] == advancementId:
                 currentAccount["GameshubData"]["Advancements"].append(advancement)
                 currentAccount["GameshubData"]["Money"] += int(advancement["reward"])
