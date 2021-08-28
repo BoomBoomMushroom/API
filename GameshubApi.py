@@ -212,7 +212,7 @@ def awardAdvancement(token,advancementId):
                 filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
                 apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
 
-                return f'ADVANCEMENT_ADDED'}
+                return f'ADVANCEMENT_ADDED'
         return "CANNOT_FIND_ADVANCEMENT!"
     else:
         return "INVALID_ACCOUNT_TOKEN"
