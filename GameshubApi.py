@@ -262,7 +262,7 @@ def sendFriendRequest(tokenOfSender,ElementOfReciever):
     #    "sender": "SenderAccountUUID",
     # }
     prebuildRequest = {
-        "sender": tokenOfSender["Account"]["UUID"]
+        "sender": accountTokens[tokenIndexOfSender]["Account"]["UUID"]
     }
     if not requests["FriendRequests"].index(prebuildRequest):
         reciever["FriendRequest"].append(prebuildRequest)
