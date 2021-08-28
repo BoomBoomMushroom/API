@@ -136,6 +136,8 @@ def login(username,password):
             fileContents.append(appendData)
             filePath = apiRepo.get_contents("GameshubApi/accountTokens.json","main")
             apiRepo.update_file(path=filePath.path,message="",content=json.dumps(fileContents),sha=filePath.sha,branch="main")
+            updateAcc(appendData["Account"]["UUID"],appendData["Token"])
+            updateToken(appendData["Token"])
             return generatedToken
     return "INVALID_ACCOUNT_TOKEN"
 def tokenLogin(token):
@@ -160,6 +162,19 @@ def logout(token):
                 apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accountTokens),sha=filePath.sha)
                 return(f"Logged out!")
         i+=1
+def getAccountData(token):
+    try:
+        accounts = getJsonFileContents("GameshubApi/accounts.json","main")
+        accountTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
+        advancementsJson = getJsonFileContents("GameshubApi/advancements.json","main")
+    except:
+        return "ERROR_WHILST_GETTING_DATA"
+    
+    for currentToken in accountTokens:
+        if currentToken["Token"] == token:
+            tokenIndex = accountTokens.index(currentToken)
+            return currentToken["Account"]
+    return "COULDNT_FIND_TOKEN"
 def updateAcc(accountUUID,token):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
