@@ -174,13 +174,21 @@ def updateAcc(accountUUID):
         
         if currentAccount["UUID"] == accountUUID:
             accountGameshub = currentAccount["GameshubData"]
-            if not accountGameshub["Advancements"]:
+            try:
+                accountGameshub["Advancements"]:
+            except:
                 accountGameshub.update({"Advancements": [{"id":1,"header":"Welcome!","desc":"You get this achievement when you first sign up to Gameshub!","img":"None","reward":50}]})
-            if not accountGameshub["Money"]:
+            try:
+                accountGameshub["Money"]:
+            except:
                 accountGameshub.update({"Money":0})
-            if not accountGameshub["Purchases"]:
+            try:
+                accountGameshub["Purchases"]:
+            except:
                 accountGameshub.update({"Purchases": []})
-            if not accountGameshub["GameData"]:
+            try:
+                accountGameshub["GameData"]:
+            except:
                 accountGameshub.update({"GameData":[]})
             #if not accountGameshub["Purchases"]:
                 #accountGameshub.update({"Purchases":[]})
