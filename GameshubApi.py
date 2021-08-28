@@ -102,7 +102,6 @@ def login(username,password):
     except:
         accounts = []
         accountTokens = []
-    print("Accounts got")
     for account in accounts:
         try:
             accUsername = account["Username"]
@@ -111,22 +110,18 @@ def login(username,password):
             accUsername = "INVALID_USER_NAME"
             accPassword = "INVALID_ACC_PASSWORD"
         if accUsername == username and accPassword == sha256HashString(sha256HashString(password)):
-            print("username and password is correct!")
             varX = 0
             while varX < len(accountTokens):
                 accToken = accountTokens[varX]
                 if accToken["Account"]["Username"] == username and accToken["Account"]["Password"] == sha256HashString(sha256HashString(password)):
-                    print("found dupe token")
                     try:
                         fileContents2 = getJsonFileContents("GameshubApi/accountTokens.json","main")
                     except:
                         fileContents2 = []
                     if fileContents2 != []:
-                        pri
                         fileContents2.pop(varX)
                         filePath2 = apiRepo.get_contents("GameshubApi/accountTokens.json","main")
                         apiRepo.update_file(filePath2.path,"",json.dumps(fileContents2),filePath2.sha)
-                        print("deleted the dupeed token!")
                         break;
 
             generatedToken = generateToken(16)
@@ -181,7 +176,8 @@ def getAccountData(token):
             tokenIndex = accountTokens.index(currentToken)
             return currentToken["Account"]
     return "COULDNT_FIND_TOKEN"
-def sendFriendRequest(tokenOfSender,ElementOfReciever):
+def sendFriendRequest(tokenOfSender,ElementOfReciever):\
+    # Element is always UUID
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
         accountTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
@@ -189,7 +185,33 @@ def sendFriendRequest(tokenOfSender,ElementOfReciever):
     except:
         return "ERROR_WHILST_GETTING_DATA"
     
-    
+    for currentToken in accountTokens:
+        if currentToken["Token"] == tokenOfSender:
+            tokenIndexOfSender = accountTokens.index(currentToken)
+            break
+    for account in accounts:
+        if account["UUID"] == ElementOfReciever:
+            reciever = account
+            break
+    for currentToken in accountTokens:
+        if currentToken["Account"]["UUID"] == ElementOfReciever:
+            tokenOfReciever = currentToken
+    # friend request structure
+    # {
+    #    "sender": "SenderAccountUUID",
+    # }
+    prebuildRequest = {
+        "sender": tokenOfSender["Account"]["UUID"]
+    }
+    if not requests["FriendRequests"].index(prebuildRequest):
+        reciever["FriendRequest"].append(prebuildRequest)
+
+        filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
+        apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+        updateToken(tokenOfReciever)
+        return "FRIEND_REQUEST_SENT"
+    else:
+        return "SENDER_HAS_ALREADY_SEND_REQUEST_TO_THE_RECIVER"
 def updateAcc(accountUUID,token):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
