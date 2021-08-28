@@ -46,7 +46,7 @@ def awardadvancement():
     except:
         flask.abort(400)
     
-    return GameshubApi.awardAdvancement(token_query,advancement_id_query)
+    return GameshubApi.awardAdvancement(token_query,int(advancement_id_query))
 @app.route("/updateacc")
 def updateacc():
     try:
