@@ -144,10 +144,6 @@ def login(username,password):
             filePath = apiRepo.get_contents("GameshubApi/accountTokens.json","main")
             apiRepo.update_file(path=filePath.path,message="",content=json.dumps(fileContents),sha=filePath.sha,branch="main")
             print("added append data to acctokens file")
-            updateAcc(appendData["Account"]["UUID"],appendData["Token"])
-            print("updateAcc() has been called and finished")
-            updateToken(appendData["Token"])
-            print("updateToken() has been called and finished")
             return generatedToken
     return "INVALID_ACCOUNT_TOKEN"
 def tokenLogin(token):
