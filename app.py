@@ -38,6 +38,15 @@ def checkUsername():
                 return usernameStatus
         else:
             return "False"
+@app.route("/acceptfriendreq")
+def acceptfriendreq():
+    try:
+        token_query = str(request.args.get('token')) # /logout/?username=USERNAME
+        uuid_query = str(request.args.get('uuid'))
+    except:
+        flask.abort(400)
+    
+    return GameshubApi.acceptFriendReq(token_query,uuid_query)
 @app.route("/sendfriendreq")
 def sendfriendreq():
     try:
