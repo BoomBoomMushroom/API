@@ -212,6 +212,7 @@ def acceptFriendReq(token,friendeUUID):
                 updateToken(newFriendToken)
                 break
         updateToken(token)
+        return "NEW_FRIENDS"
     else:
         return "INVALID_TOKEN"
 def sendFriendRequest(tokenOfSender,ElementOfReciever):
