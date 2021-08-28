@@ -210,7 +210,6 @@ def awardAdvancement(token,advancementId):
                 return f'ADVANCEMENT_ADDED_TO_\n{json.dumps(currentAccount["Username"])}'
     else:
         return "INVALID_ACCOUNT_TOKEN"
-    return "ERROR_MESSAGE?"
 def checkToken(token):
     try:
         allTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
