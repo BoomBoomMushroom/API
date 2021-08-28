@@ -178,8 +178,8 @@ def updateAcc(accountUUID):
                 accountGameshub.update({"Advancements": [{"id":1,"header":"Welcome!","desc":"You get this achievement when you first sign up to Gameshub!","img":"None","reward":50}]})
             if not accountGameshub["Money"]:
                 accountGameshub.update({"Money":0})
-            if not accountGameshub["Purchases"]:
-                accountGameshub.update({"Purchases":[]})
+            #if not accountGameshub["Purchases"]:
+                #accountGameshub.update({"Purchases":[]})
             if not accountGameshub["GameData"]:
                 accountGameshub.update({"GameData":[]})
 def awardAdvancement(token,advancementId):
