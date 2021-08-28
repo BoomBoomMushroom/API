@@ -178,7 +178,33 @@ def getAccountData(token):
             tokenIndex = accountTokens.index(currentToken)
             return currentToken["Account"]
     return "COULDNT_FIND_TOKEN"
-def sendFriendRequest(tokenOfSender,ElementOfReciever):\
+def acceptFriendReq(token,friendeUUID):
+    try:
+        accounts = getJsonFileContents("GameshubApi/accounts.json","main")
+        accountTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
+        advancementsJson = getJsonFileContents("GameshubApi/advancements.json","main")
+    except:
+        return "ERROR_WHILST_GETTING_DATA"
+    
+    for currentToken in accountTokens:
+        if currentToken["Token"] == token:
+            tokenIndex = accountTokens.index(currentToken)
+    tokenStatus = checkToken(token)
+    if tokenStatus["TokenStatus"] == True:
+        for currentAccount in accounts:
+            if currentAccount["UUID"] == friendeUUID:
+                friendeAccount = currentAccount
+                break
+        originsAccount = accounts[accounts.index(Token["Account"])]
+        frequestIndex = originsAccount["FriendRequests"].index({"sender":friendeAccount["UUID"]})
+
+        friendeAccount.append(originsAccount["UUID"])
+        originsAccount.append(friendeAccount["UUID"])
+        
+        originsAccount["FriendRequests"].pop(frequestIndex)
+    else:
+        return "INVALID_TOKEN"
+def sendFriendRequest(tokenOfSender,ElementOfReciever):
     # Element is always UUID
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
