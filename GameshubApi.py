@@ -200,6 +200,8 @@ def awardAdvancement(token,advancementId):
         accountIndex = accounts.index(tokenStatusResp["Account"])
         currentAccount = accounts[accountIndex]
         for advancement in advancementsJson:
+            print(advancement["id"],advancementId)
+            print("="*10)
             print(advancement,len(advancement))
             if advancement["id"] == advancementId:
                 print("ADVANCEMENT_ID_FOUND_"+json.dumps(advancement))
