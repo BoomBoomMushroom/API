@@ -201,6 +201,7 @@ def awardAdvancement(token,advancementId):
         currentAccount = accounts[accountIndex]
         for advancement in advancementsJson:
             if advancement["id"] == advancementId:
+                print("ADVANCEMENT_ID_FOUND_"+json.dumps(advancement))
                 currentAccount["GameshubData"]["Advancements"].append(advancement)
                 currentAccount["GameshubData"]["Money"] += int(advancement["reward"])
                 print(currentAccount,accounts)
@@ -208,6 +209,7 @@ def awardAdvancement(token,advancementId):
                 apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
 
                 return f'ADVANCEMENT_ADDED_TO_\n{json.dumps(currentAccount["Username"])}'
+        return "CANNOT_FIND_ADVANCEMENT!"
     else:
         return "INVALID_ACCOUNT_TOKEN"
 def checkToken(token):
