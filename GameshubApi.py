@@ -102,6 +102,7 @@ def login(username,password):
     except:
         accounts = []
         accountTokens = []
+    print("Accounts got")
     for account in accounts:
         try:
             accUsername = account["Username"]
@@ -110,21 +111,26 @@ def login(username,password):
             accUsername = "INVALID_USER_NAME"
             accPassword = "INVALID_ACC_PASSWORD"
         if accUsername == username and accPassword == sha256HashString(sha256HashString(password)):
+            print("username and password is correct!")
             varX = 0
             while varX < len(accountTokens):
                 accToken = accountTokens[varX]
                 if accToken["Account"]["Username"] == username and accToken["Account"]["Password"] == sha256HashString(sha256HashString(password)):
+                    print("found dupe token")
                     try:
                         fileContents2 = getJsonFileContents("GameshubApi/accountTokens.json","main")
                     except:
                         fileContents2 = []
                     if fileContents2 != []:
+                        pri
                         fileContents2.pop(varX)
                         filePath2 = apiRepo.get_contents("GameshubApi/accountTokens.json","main")
                         apiRepo.update_file(filePath2.path,"",json.dumps(fileContents2),filePath2.sha)
+                        print("deleted the dupeed token!")
                         break;
 
             generatedToken = generateToken(16)
+            print("Generated new token")
             try:
                 fileContents = getJsonFileContents("GameshubApi/accountTokens.json","main")
             except:
@@ -133,11 +139,15 @@ def login(username,password):
                 "Token": generatedToken,
                 "Account": account,
             }
+            print("append Data is made")
             fileContents.append(appendData)
             filePath = apiRepo.get_contents("GameshubApi/accountTokens.json","main")
             apiRepo.update_file(path=filePath.path,message="",content=json.dumps(fileContents),sha=filePath.sha,branch="main")
+            print("added append data to acctokens file")
             updateAcc(appendData["Account"]["UUID"],appendData["Token"])
+            print("updateAcc() has been called and finished")
             updateToken(appendData["Token"])
+            print("updateToken() has been called and finished")
             return generatedToken
     return "INVALID_ACCOUNT_TOKEN"
 def tokenLogin(token):
