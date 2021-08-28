@@ -166,6 +166,7 @@ def updateAcc(accountUUID):
     except:
         return "THERE_ARE_NO_ACCOUNTS"
     i = 0
+    acc = {}
     while i < len(accounts)+1:
         try:
             currentAccount = accounts[i]
@@ -173,6 +174,7 @@ def updateAcc(accountUUID):
             return "COULD_NOT_FIND_ACCOUNT_WITH_UUID_"+accountUUID
         
         if currentAccount["UUID"] == accountUUID:
+            acc = currentAccount
             accountGameshub = currentAccount["GameshubData"]
             try:
                 if accountGameshub["Advancements"]:
@@ -198,6 +200,7 @@ def updateAcc(accountUUID):
                 #accountGameshub.update({"Purchases":[]})
             #if not accountGameshub["GameData"]:
                 #accountGameshub.update({"GameData":[]})
+    return f"DONE_{json.dumps(acc)}"
 def awardAdvancement(token,advancementId):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")

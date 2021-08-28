@@ -47,6 +47,14 @@ def awardadvancement():
         flask.abort(400)
     
     return GameshubApi.awardAdvancement(token_query,advancement_id_query)
+@app.route("/updateacc"):
+def updateacc():
+    try:
+        uuid_query = str(request.args.get('uuid')) # /logout/?username=USERNAME
+    except:
+        flask.abort(400)
+    
+    return GameshubApi.updateAcc(uuid_query)
 @app.route("/signup")
 def signup():
     try:
