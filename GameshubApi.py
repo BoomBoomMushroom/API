@@ -178,6 +178,21 @@ def getAccountData(token):
             tokenIndex = accountTokens.index(currentToken)
             return currentToken["Account"]
     return "COULDNT_FIND_TOKEN"
+def awardMoney(token,amount):
+    try:
+        accounts = getJsonFileContents("GameshubApi/accounts.json","main")
+        accountTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
+        advancementsJson = getJsonFileContents("GameshubApi/advancements.json","main")
+    except:
+        return "ERROR_WHILST_GETTING_DATA"
+    
+    originAccount = accounts[accounts.index(token["Account"])]
+    originAccount["GameshubData"]["Money"] += int(amount)
+
+    filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
+    apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+    updateToken(token)
+    return f"GIVEN_{originAccount['Username']}_{str(amount)}_MONEYS"
 def acceptFriendReq(token,friendeUUID):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
@@ -195,11 +210,16 @@ def acceptFriendReq(token,friendeUUID):
             if currentAccount["UUID"] == friendeUUID:
                 friendeAccount = currentAccount
                 break
+
+
         originsAccount = accounts[accounts.index(Token["Account"])]
         frequestIndex = originsAccount["FriendRequests"].index({"sender":friendeAccount["UUID"]})
 
-        friendeAccount.append(originsAccount["UUID"])
-        originsAccount.append(friendeAccount["UUID"])
+        if len(originsAccount["Firends"])+1 >= 1:
+            awardAdvancement(token,2)
+
+        friendeAccount["Friends"].append(originsAccount["UUID"])
+        originsAccount["Friends"].append(friendeAccount["UUID"])
         
         originsAccount["FriendRequests"].pop(frequestIndex)
 
@@ -209,9 +229,11 @@ def acceptFriendReq(token,friendeUUID):
         for currentToken in accountTokens:
             if currentToken["Account"]["UUID"] == friendeAccount["UUID"]:
                 newFriendToken = currentToken
+                awardMoney(newFriendToken,100)
                 updateToken(newFriendToken)
                 break
         updateToken(token)
+        awardMoney(token,100)
         return "NEW_FRIENDS"
     else:
         return "INVALID_TOKEN"
