@@ -218,7 +218,7 @@ def awardAdvancement(token,advancementId):
                 i = len(accounts)+2
                 return "ACCOUNT_CANNOT_BE_FOUND"
             if currentAccount == tokenStatusResp["Account"]:
-                    updateAcc(currentAccount["UUID"])
+                    #updateAcc(currentAccount["UUID"])
                     return f"ACCOUNT_FOUND{json.dumps(currentAccount)}"
                     for advancement in advancements:
                         if advancement["id"] == advancementId:
