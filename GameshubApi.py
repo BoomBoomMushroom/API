@@ -176,30 +176,14 @@ def updateAcc(accountUUID):
         if currentAccount["UUID"] == accountUUID:
             acc = currentAccount
             accountGameshub = currentAccount["GameshubData"]
-            try:
-                if accountGameshub["Advancements"]:
-                    pass
-            except:
+            if not "Advancements" in accountGameshub:
                 accountGameshub.update({"Advancements": [{"id":1,"header":"Welcome!","desc":"You get this achievement when you first sign up to Gameshub!","img":"None","reward":50}]})
-            try:
-                if accountGameshub["Money"]:
-                    pass
-            except:
+            if not "Money" in accountGameshub:
                 accountGameshub.update({"Money":0})
-            try:
-                if accountGameshub["Purchases"]:
-                    pass
-            except:
+            if not "Purchases" in accountGameshub:
                 accountGameshub.update({"Purchases": []})
-            try:
-                if accountGameshub["GameData"]:
-                    pass
-            except:
+            if not "GameData" in accountGameshub:
                 accountGameshub.update({"GameData":[]})
-            #if not accountGameshub["Purchases"]:
-                #accountGameshub.update({"Purchases":[]})
-            #if not accountGameshub["GameData"]:
-                #accountGameshub.update({"GameData":[]})
     return f"DONE_{json.dumps(acc)}"
 def awardAdvancement(token,advancementId):
     try:
@@ -213,30 +197,20 @@ def awardAdvancement(token,advancementId):
     
     tokenStatusResp = checkToken(token)
     if tokenStatusResp["TokenStatus"] == True:
-        i = 0
-        while i < len(accounts)+1:
-            try:
-                currentAccount = accounts[i]
-            except:
-                i = len(accounts)+2
-                return "ACCOUNT_CANNOT_BE_FOUND"
-            if currentAccount == tokenStatusResp["Account"]:
-                    #updateAcc(currentAccount["UUID"])
-                    return f"ACCOUNT_FOUND{json.dumps(currentAccount)}"
-                    for advancement in advancements:
-                        if advancement["id"] == advancementId:
-                            currentAccount["GameshubData"]["Advancements"].append(advancement)
-                            currentAccount["GameshubData"]["Money"] += int(advancement["reward"])
-                            print(currentAccount,accounts)
-                            filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
-                            apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+        accountIndex = accounts.index(tokenStatusResp["Account"])
+        currentAccount = accounts[accountIndex]
+        for advancement in advancements:
+            if advancement["id"] == advancementId:
+                currentAccount["GameshubData"]["Advancements"].append(advancement)
+                currentAccount["GameshubData"]["Money"] += int(advancement["reward"])
+                print(currentAccount,accounts)
+                filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
+                apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
 
-                            return f'ADVANCEMENT_ADDED_TO_\n{json.dumps(currentAccount["Username"])}'
-                            break
-            i += 1
+                return f'ADVANCEMENT_ADDED_TO_\n{json.dumps(currentAccount["Username"])}'
     else:
         return "INVALID_ACCOUNT_TOKEN"
-    return "DONE"
+    return "ERROR_MESSAGE?"
 def checkToken(token):
     try:
         allTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
