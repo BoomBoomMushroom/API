@@ -210,7 +210,7 @@ def acceptFriendReq(token,friendeUUID):
                 break
 
 
-        originsAccount = accounts[accounts.index(token["Account"])]
+        originsAccount = accounts[accounts.index(acctokens[tokenIndex]["Account"])]
         frequestIndex = originsAccount["FriendRequests"].index({"sender":friendeAccount["UUID"]})
 
         if len(originsAccount["Firends"])+1 >= 1:
