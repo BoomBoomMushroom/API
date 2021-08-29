@@ -246,12 +246,10 @@ def sendFriendRequest(tokenOfSender,ElementOfReciever):
     except:
         return "ERROR_WHILST_GETTING_DATA"
     
-    senderAccount = {}
     for currentToken in accountTokens:
         if currentToken["Token"] == tokenOfSender:
             tokenIndexOfSender = accountTokens.index(currentToken)
             senderAccount = accountTokens[tokenIndexOfSender]["Account"]
-            return(senderAccount)
             break
     for account in accounts:
         if account["UUID"] == ElementOfReciever:
@@ -265,7 +263,12 @@ def sendFriendRequest(tokenOfSender,ElementOfReciever):
     #    "sender": "SenderAccountUUID",
     # }
     if senderAccount == {}:
-        return "CCOUNT_NOT_GOTTEN"
+        for currentToken in accountTokens:
+            if currentToken["Token"] == tokenOfSender:
+                tokenIndexOfSender = accountTokens.index(currentToken)
+                senderAccount = accountTokens[tokenIndexOfSender]["Account"]
+                return senderAccount
+                break
     
     prebuildRequest = {
         "sender": senderAccount["Account"]["UUID"]
