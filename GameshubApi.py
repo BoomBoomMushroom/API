@@ -255,6 +255,7 @@ def sendFriendRequest(tokenOfSender,ElementOfReciever):
         if account["UUID"] == ElementOfReciever:
             reciever = account
             break
+    tokenOfReciever = "INVALID_TOKEN"
     for currentToken in accountTokens:
         if currentToken["Account"]["UUID"] == ElementOfReciever:
             tokenOfReciever = currentToken
