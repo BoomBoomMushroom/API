@@ -251,7 +251,7 @@ def sendFriendRequest(tokenOfSender,ElementOfReciever):
         if currentToken["Token"] == tokenOfSender:
             tokenIndexOfSender = accountTokens.index(currentToken)
             senderAccount = accountTokens[tokenIndexOfSender]["Account"]
-            print(senderAccount)
+            return(senderAccount)
             break
     for account in accounts:
         if account["UUID"] == ElementOfReciever:
