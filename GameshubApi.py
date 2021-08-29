@@ -266,13 +266,13 @@ def sendFriendRequest(tokenOfSender,ElementOfReciever):
         if currentToken["Token"] == tokenOfSender:
             tokenIndexOfSender = accountTokens.index(currentToken)
             senderAccount = accountTokens[tokenIndexOfSender]["Account"]
-            return senderAccount
+            try:
+                prebuildRequest = {
+                    "sender": senderAccount["Account"]["UUID"]
+                }
+            except:
+                return "SENDER_ACCOUNT_NOT_FOUND"
             break
-    if senderAccount == {}:
-    
-        prebuildRequest = {
-            "sender": senderAccount["Account"]["UUID"]
-        }
     if not requests["FriendRequests"].index(prebuildRequest):
         reciever["FriendRequest"].append(prebuildRequest)
 
