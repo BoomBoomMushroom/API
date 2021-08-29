@@ -270,9 +270,9 @@ def sendFriendRequest(tokenOfSender,ElementOfReciever):
             break
     if senderAccount == {}:
     
-    prebuildRequest = {
-        "sender": senderAccount["Account"]["UUID"]
-    }
+        prebuildRequest = {
+            "sender": senderAccount["Account"]["UUID"]
+        }
     if not requests["FriendRequests"].index(prebuildRequest):
         reciever["FriendRequest"].append(prebuildRequest)
 
