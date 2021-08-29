@@ -273,7 +273,7 @@ def sendFriendRequest(tokenOfSender,ElementOfReciever):
             except:
                 return "SENDER_ACCOUNT_NOT_FOUND"
             break
-    if not requests["FriendRequests"].index(prebuildRequest):
+    if not reciever["FriendRequests"].index(prebuildRequest):
         reciever["FriendRequest"].append(prebuildRequest)
 
         filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
