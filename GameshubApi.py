@@ -112,19 +112,17 @@ def login(username,password):
             accUsername = "INVALID_USER_NAME"
             accPassword = "INVALID_ACC_PASSWORD"
         if accUsername == username and accPassword == sha256HashString(sha256HashString(password)):
-            varX = 0
-            while varX < len(accountTokens):
-                accToken = accountTokens[varX]
+            for accToken in accountTokens:
                 if accToken["Account"]["Username"] == username and accToken["Account"]["Password"] == sha256HashString(sha256HashString(password)):
                     try:
                         fileContents2 = getJsonFileContents("GameshubApi/accountTokens.json","main")
                     except:
                         fileContents2 = []
                     if fileContents2 != []:
-                        fileContents2.pop(varX)
+                        fileContents2.pop( accountTokens.index(accToken) )
                         filePath2 = apiRepo.get_contents("GameshubApi/accountTokens.json","main")
                         apiRepo.update_file(filePath2.path,"",json.dumps(fileContents2),filePath2.sha)
-                        break;
+                        break
 
             generatedToken = generateToken(16)
             print("Generated new token")
