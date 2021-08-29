@@ -211,7 +211,10 @@ def acceptFriendReq(token,friendeUUID):
 
 
         originsAccount = accounts[accounts.index(accountTokens[tokenIndex]["Account"])]
-        frequestIndex = originsAccount["FriendRequests"].index({"sender":friendeAccount["UUID"]})
+        try:
+            frequestIndex = originsAccount["FriendRequests"].index({"sender":friendeAccount["UUID"]})
+        except:
+            return "ALREADY_FRIENDS"
 
         if len(originsAccount["Firends"])+1 >= 1:
             awardAdvancement(token,2)
