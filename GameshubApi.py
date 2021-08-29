@@ -216,7 +216,7 @@ def acceptFriendReq(token,friendeUUID):
         except:
             return "ALREADY_FRIENDS"
 
-        if len(originsAccount["Firends"])+1 >= 1:
+        if len(originsAccount["Friends"])+1 >= 1:
             awardAdvancement(token,2)
 
         friendeAccount["Friends"].append(originsAccount["UUID"])
