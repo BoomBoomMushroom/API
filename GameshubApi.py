@@ -258,32 +258,23 @@ def sendFriendRequest(tokenOfSender,ElementOfReciever):
     for currentToken in accountTokens:
         if currentToken["Account"]["UUID"] == ElementOfReciever:
             tokenOfReciever = currentToken
+            break
     # friend request structure
     # {
     #    "sender": "SenderAccountUUID",
-    # }
-    for currentToken in accountTokens:
-        if currentToken["Token"] == tokenOfSender:
-            tokenIndexOfSender = accountTokens.index(currentToken)
-            senderAccount = accountTokens[tokenIndexOfSender]["Account"]
-            try:
-                prebuildRequest = {
-                    "sender": senderAccount["Account"]["UUID"]
-                }
-            except:
-                return "SENDER_ACCOUNT_NOT_FOUND"
-            if not reciever["FriendRequests"].index(prebuildRequest):
-                reciever["FriendRequest"].append(prebuildRequest)
+    # }    
+    prebuildRequest = {
+        "sender": senderAccount["Account"]["UUID"]
+    }
+    if not reciever["FriendRequests"].index(prebuildRequest):
+        reciever["FriendRequest"].append(prebuildRequest)
 
-                filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
-                apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
-                updateToken(tokenOfReciever)
-                return "FRIEND_REQUEST_SENT"
-            else:
-                return "SENDER_HAS_ALREADY_SEND_REQUEST_TO_THE_RECIVER"
-
-            
-            break
+        filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
+        apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+        updateToken(tokenOfReciever)
+        return "FRIEND_REQUEST_SENT"
+    else:
+        return "SENDER_HAS_ALREADY_SEND_REQUEST_TO_THE_RECIVER"
 def updateAcc(accountUUID,token):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
