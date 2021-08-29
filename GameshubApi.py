@@ -272,16 +272,16 @@ def sendFriendRequest(tokenOfSender,ElementOfReciever):
                 }
             except:
                 return "SENDER_ACCOUNT_NOT_FOUND"
-            break
-    if not reciever["FriendRequests"].index(prebuildRequest):
-        reciever["FriendRequest"].append(prebuildRequest)
+            if not reciever["FriendRequests"].index(prebuildRequest):
+                reciever["FriendRequest"].append(prebuildRequest)
 
-        filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
-        apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
-        updateToken(tokenOfReciever)
-        return "FRIEND_REQUEST_SENT"
-    else:
-        return "SENDER_HAS_ALREADY_SEND_REQUEST_TO_THE_RECIVER"
+                filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
+                apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+                updateToken(tokenOfReciever)
+                return "FRIEND_REQUEST_SENT"
+            else:
+                return "SENDER_HAS_ALREADY_SEND_REQUEST_TO_THE_RECIVER"
+            break
 def updateAcc(accountUUID,token):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
