@@ -249,6 +249,7 @@ def sendFriendRequest(tokenOfSender,ElementOfReciever):
     for currentToken in accountTokens:
         if currentToken["Token"] == tokenOfSender:
             tokenIndexOfSender = accountTokens.index(currentToken)
+            senderAccount = accountTokens[tokenIndexOfSender]
             break
     for account in accounts:
         if account["UUID"] == ElementOfReciever:
@@ -262,7 +263,7 @@ def sendFriendRequest(tokenOfSender,ElementOfReciever):
     #    "sender": "SenderAccountUUID",
     # }
     prebuildRequest = {
-        "sender": accountTokens[tokenIndexOfSender]["Account"]["UUID"]
+        "sender": senderAccount["Account"]["UUID"]
     }
     if not requests["FriendRequests"].index(prebuildRequest):
         reciever["FriendRequest"].append(prebuildRequest)
