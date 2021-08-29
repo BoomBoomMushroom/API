@@ -270,7 +270,6 @@ def sendFriendRequest(tokenOfSender,ElementOfReciever):
                 senderAccount = accountTokens[tokenIndexOfSender]["Account"]
                 return senderAccount or None
                 break
-    print(senderAcc())
     senderAccc = senderAcc()
     if not senderAccc == None:
         prebuildRequest = {
@@ -283,8 +282,7 @@ def sendFriendRequest(tokenOfSender,ElementOfReciever):
     except:
         indexer = {"Indexer":False}
     if indexer == {"Indexer":False}:
-        reciever["FriendRequest"].append(prebuildRequest)
-
+        reciever["FriendRequests"].append(prebuildRequest)
         filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
         apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
         updateToken(tokenOfReciever)
