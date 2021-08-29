@@ -281,6 +281,8 @@ def sendFriendRequest(tokenOfSender,ElementOfReciever):
                 return "FRIEND_REQUEST_SENT"
             else:
                 return "SENDER_HAS_ALREADY_SEND_REQUEST_TO_THE_RECIVER"
+
+            
             break
 def updateAcc(accountUUID,token):
     try:
