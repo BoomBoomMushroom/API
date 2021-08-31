@@ -187,6 +187,7 @@ def getAccountView(inputUsername):
         if currentAccount["Username"] == inputUsername:
             viewerAccount = currentAccount
             viewerAccountIndex = accounts.index(viewerAccount)
+    del viewerAccount["Password"]
     return viewerAccount
 def awardMoney(token,amount):
     try:

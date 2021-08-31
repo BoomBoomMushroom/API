@@ -44,7 +44,7 @@ def getaccount():
         username_query = str(request.args.get('username')) # /logout/?username=USERNAME
     except:
         flask.abort(400)
-       
+    
     return username_query
 @app.route("/acceptfriendreq")
 def acceptfriendreq():
