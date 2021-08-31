@@ -45,7 +45,7 @@ def getaccount():
     except:
         flask.abort(400)
     
-    return username_query
+    return GameshubApi.getAccountView(username_query)
 @app.route("/acceptfriendreq")
 def acceptfriendreq():
     try:
