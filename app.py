@@ -38,6 +38,14 @@ def checkUsername():
                 return usernameStatus
         else:
             return "False"
+@app.route("/getaccount")
+def getaccount():
+    try:
+        username_query = str(request.args.get('username')) # /logout/?username=USERNAME
+    except:
+        flask.abort(400)
+       
+    return username_query
 @app.route("/acceptfriendreq")
 def acceptfriendreq():
     try:
