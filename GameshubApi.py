@@ -165,7 +165,7 @@ def logout(token):
                 return(f"Logged out!")
         i+=1
 def accountNameUpdater(username):
-    from set import Set
+    from sets import Set
     useableCharacters = Set("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_")
     if Set(username).issubset(useableCharacters):
         return True
