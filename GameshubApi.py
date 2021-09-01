@@ -59,7 +59,7 @@ def checkUsername(username):
         accounts = []
         return True
 def signup(username,password):
-    if len(username) >= 3 and len(username) <= 16 and len(password) >= 8:
+    if len(username) >= 3 and len(username) <= 16 and len(password) >= 8 and accountNameUpdater(username) == True:
         try:
             accounts = getJsonFileContents("GameshubApi/accounts.json","main")
         except:
@@ -164,9 +164,12 @@ def logout(token):
                 return(f"Logged out!")
         i+=1
 def accountNameUpdater(username):
-    useableCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_"
-    x = 0
-    while x < len(useableCharacters)
+    from set import Set
+    useableCharacters = Set("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_")
+    if Set(username).issubset(useableCharacters):
+        return True
+    else:
+        return False
 def getAccountData(token):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
