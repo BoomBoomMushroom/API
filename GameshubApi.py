@@ -163,6 +163,10 @@ def logout(token):
                 apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accountTokens),sha=filePath.sha)
                 return(f"Logged out!")
         i+=1
+def accountNameUpdater(username):
+    useableCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_"
+    x = 0
+    while x < len(useableCharacters)
 def getAccountData(token):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
