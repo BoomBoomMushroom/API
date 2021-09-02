@@ -97,7 +97,8 @@ def signup(username,password):
         else:
             return "Username is already taken!"
     else:
-        return(f"Account {username} couldn't be created because the Username or Password is a lil weird!")
+        return accNameStatus
+        # return(f"Account {username} couldn't be created because the Username or Password is a lil weird!")
 def login(username,password):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
