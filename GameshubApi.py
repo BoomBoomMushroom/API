@@ -166,7 +166,7 @@ def logout(token):
         i+=1
 def accountNameUpdater(username):
     import re
-    useableCharacters = Set("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_")
+    useableCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_"
     return bool(re.match(useableCharacters,username))
 def getAccountData(token):
     try:
