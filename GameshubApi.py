@@ -165,12 +165,9 @@ def logout(token):
                 return(f"Logged out!")
         i+=1
 def accountNameUpdater(username):
-    from sets import Set
+    import re
     useableCharacters = Set("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_")
-    if Set(username).issubset(useableCharacters):
-        return True
-    else:
-        return False
+    return bool(re.match(useableCharacters,username))
 def getAccountData(token):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
