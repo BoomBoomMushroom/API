@@ -97,8 +97,7 @@ def signup():
     except:
         flask.abort(400)
     if user_query and pass_query:
-        GameshubApi.signup(user_query,pass_query)
-        return "success", 200
+        return GameshubApi.signup(user_query,pass_query)
 @app.route("/delacc",)
 def delacc():
     try:
