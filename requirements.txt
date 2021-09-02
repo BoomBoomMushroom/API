@@ -27,4 +27,3 @@ requests
 roblox
 roblox.py
 SQLAlchemy
-sets
