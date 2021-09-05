@@ -204,7 +204,7 @@ def accountSearch(prefix):
     except:
         return "ERROR_WHILST_GETTING_DATA"
     
-    accountUsernames = [x for x in accounts if x["Username"].startswith(prefix)]
+    accountUsernames = [x for x in accounts if lower(x["Username"]).startswith(lower(prefix))]
     print(accountUsernames)
     return accountUsernames
 def awardMoney(token,amount):
