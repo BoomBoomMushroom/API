@@ -72,6 +72,14 @@ def getaccountdata():
         flask.abort(400)
     
     return GameshubApi.getAccountData(token_query)
+@app.route("/getaccounts")
+def getaccounts():
+    try:
+        query = str(request.args.get('q')) # /logout/?username=USERNAME
+    except:
+        flask.abort(400)
+    
+    return GameshubApi.accountSearch(query)
 @app.route("/awardadvancement")
 def awardadvancement():
     try:

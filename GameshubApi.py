@@ -197,6 +197,16 @@ def getAccountView(inputUsername):
         return viewerAccount
     except:
         return "INVALID_ACCOUNT_USERNAME"
+def accountSearch(prefix):
+    try:
+        accounts = getJsonFileContents("GameshubApi/accounts.json","main")
+        advancementsJson = getJsonFileContents("GameshubApi/advancements.json","main")
+    except:
+        return "ERROR_WHILST_GETTING_DATA"
+    
+    accountUsernames = [x for x in accounts if x["Username"].startswith(prefix)]
+    print(accountUsernames)
+    return accountUsernames
 def awardMoney(token,amount):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
