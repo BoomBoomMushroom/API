@@ -79,6 +79,10 @@ def getaccounts():
     except:
         flask.abort(400)
     
+    currentHtmlString = ""
+    for acc in GameshubApi.accountSearch(query):
+        currentHtmlString += "<a src='https://gameshub.netlify.app/gamehubapi/viewacc?username="+acc['Username']+"'>"+acc['Username']+"</a><br>"
+
     return GameshubApi.accountSearch(query)
 @app.route("/awardadvancement")
 def awardadvancement():
