@@ -71,7 +71,7 @@ def signup(username,password):
             if account["Username"]:
                 if account["Username"] == username:
                     usernameAvailable = False
-                    break;
+                    break
         if usernameAvailable == True:
             newAccountJson = {
                 "Username": username,
