@@ -4,6 +4,7 @@ import os
 import requests
 import random
 import hashlib
+import time
 from github import Github
 from pprint import pprint
 
@@ -80,6 +81,7 @@ def signup(username,password):
                 "IsMuted": False,
                 "Friends": [],
                 "FriendRequests": [],
+                "AccountCreationTime": time.time(),
                 "GameshubData": {
                     "Advancements": [
                         {"id":1,"header":"Welcome!","desc":"You get this achievement when you first sign up to Gameshub!","img":"None"},
