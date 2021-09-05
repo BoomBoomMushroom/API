@@ -80,10 +80,9 @@ def getaccounts():
         flask.abort(400)
     
     currentHtmlString = ""
-    for acc in GameshubApi.accountSearch(query):
+    accRes = GameshubApi.accountSearch(query)
+    for acc in accRes:
         print(acc)
-        print("="*10)
-        print(GameshubApi.accountSearch(query))
         currentHtmlString += "<a src='https://gameshub.netlify.app/gamehubapi/viewacc?username="+acc['Username']+"'>"+acc['Username']+"</a><br>"
 
     return currentHtmlString # GameshubApi.accountSearch(query)
