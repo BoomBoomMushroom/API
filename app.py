@@ -81,6 +81,7 @@ def getaccounts():
     
     currentHtmlString = ""
     for acc in GameshubApi.accountSearch(query):
+        print(acc)
         currentHtmlString += "<a src='https://gameshub.netlify.app/gamehubapi/viewacc?username="+acc['Username']+"'>"+acc['Username']+"</a><br>"
 
     return currentHtmlString # GameshubApi.accountSearch(query)
