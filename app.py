@@ -82,7 +82,7 @@ def getaccounts():
     currentHtmlString = ""
     accRes = json.loads(GameshubApi.accountSearch(query))
     for acc in accRes:
-        currentHtmlString += "<a href='https://gameshub.netlify.app/gamehubapi/viewacc?username="+acc['Username']+"'>"+acc['Username']+"</a><br>"
+        currentHtmlString += "<a style='font-size:20px' href='https://gameshub.netlify.app/gamehubapi/viewacc?username="+acc['Username']+"'>"+acc['Username']+"</a><br>"
 
     return currentHtmlString # GameshubApi.accountSearch(query)
 @app.route("/awardadvancement")
