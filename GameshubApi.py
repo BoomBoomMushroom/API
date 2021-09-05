@@ -206,7 +206,7 @@ def accountSearch(prefix):
     
     accountUsernames = [x for x in accounts if lower(x["Username"]).startswith(lower(prefix))]
     print(accountUsernames)
-    return accountUsernames
+    return JSON.dumps(accountUsernames)
 def awardMoney(token,amount):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
