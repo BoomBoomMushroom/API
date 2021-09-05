@@ -83,7 +83,7 @@ def getaccounts():
     for acc in GameshubApi.accountSearch(query):
         currentHtmlString += "<a src='https://gameshub.netlify.app/gamehubapi/viewacc?username="+acc['Username']+"'>"+acc['Username']+"</a><br>"
 
-    return GameshubApi.accountSearch(query)
+    return currentHtmlString # GameshubApi.accountSearch(query)
 @app.route("/awardadvancement")
 def awardadvancement():
     try:
