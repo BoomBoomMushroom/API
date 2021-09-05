@@ -192,12 +192,11 @@ def getAccountView(inputUsername):
             viewerAccount = currentAccount
             viewerAccountIndex = accounts.index(viewerAccount)
             break
-    
-    if not currentAccount:
-        return "INVALID_USERNAME"
-
-    del viewerAccount["Password"]
-    return viewerAccount
+    try:
+        del viewerAccount["Password"]
+        return viewerAccount
+    except:
+        return "INVALID_ACCOUNT_USERNAME"
 def awardMoney(token,amount):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
