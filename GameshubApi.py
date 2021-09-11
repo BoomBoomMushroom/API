@@ -182,6 +182,19 @@ def getAccountData(token):
             tokenIndex = accountTokens.index(currentToken)
             return currentToken["Account"]
     return "COULDNT_FIND_TOKEN"
+def tokeninfo(token):
+    try:
+        accounts = getJsonFileContents("GameshubApi/accounts.json","main")
+        accountTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
+        advancementsJson = getJsonFileContents("GameshubApi/advancements.json","main")
+    except:
+        return "ERROR_WHILST_GETTING_DATA"
+    
+    for currentToken in accountTokens:
+        if currentToken["Token"] == token:
+            tokenIndex = accountTokens.index(currentToken)
+            return currentToken["Account"]
+    return "COULDNT_FIND_TOKEN"
 def getAccountView(inputUsername):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")

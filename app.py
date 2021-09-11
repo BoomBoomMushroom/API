@@ -46,6 +46,14 @@ def getaccount():
         flask.abort(400)
     
     return GameshubApi.getAccountView(username_query)
+@app.route("/tokeninfo")
+def tokeninfo():
+    try:
+        token_query = str(request.args.get('token')) # /logout/?username=USERNAME
+    except:
+        flask.abort(400)
+    
+    return GameshubApi.tokeninfo(token_query)
 @app.route("/acceptfriendreq")
 def acceptfriendreq():
     try:
