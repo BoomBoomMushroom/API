@@ -1,5 +1,7 @@
 {
     "lastUpdate": 0,
-    "newPrice": 99999,
-    "oldPrice": 100000
+    "expires": 0,
+    "newPrice": 0,
+    "oldPrice": 0,
+    "item": "None"
 }
