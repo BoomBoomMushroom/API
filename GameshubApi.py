@@ -375,7 +375,8 @@ def updateSpecialPrice():
     except:
         return "ERROR_WHILST_GETTING_DATA"
     
-    if specialPrices["expires"]
+    if int(specialPrices["expires"]) >= time.time():
+        pass
 
     return "NOT_YET_COMPLETED"
 def awardAdvancement(token,advancementId):
