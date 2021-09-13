@@ -369,10 +369,14 @@ def updateAcc(accountUUID,token):
 def updateSpecialPrice():
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
+        specialPrices = getJsonFileContents("GameshubApi/specialPrice.json","main")
         accountTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
         advancementsJson = getJsonFileContents("GameshubApi/advancements.json","main")
     except:
         return "ERROR_WHILST_GETTING_DATA"
+    
+    if specialPrices["expires"]
+
     return "NOT_YET_COMPLETED"
 def awardAdvancement(token,advancementId):
     try:
