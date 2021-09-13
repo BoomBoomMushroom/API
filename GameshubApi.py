@@ -366,6 +366,8 @@ def updateAcc(accountUUID,token):
 
     updateToken(token)
     return f"DONE_{json.dumps(acc)}"
+def updateSpecialPrice():
+    pass
 def awardAdvancement(token,advancementId):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
