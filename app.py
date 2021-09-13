@@ -29,87 +29,9 @@ def checkUsername():
         flask.abort(400)
     if user_query:
         if len(user_query) >= 3 and len(user_query) <= 16:
-            usernameStatus = GameshubApi.checkUsername(user_query)
-            if usernameStatus == False:
-                return "False"
-            elif usernameStatus == True:
-                return "True"
-            else:
-                return usernameStatus
+            return GameshubApi.checkUsername(user_query)
         else:
             return "False"
-@app.route("/getaccount")
-def getaccount():
-    try:
-        username_query = str(request.args.get('username')) # /logout/?username=USERNAME
-    except:
-        flask.abort(400)
-    
-    return GameshubApi.getAccountView(username_query)
-@app.route("/tokeninfo")
-def tokeninfo():
-    try:
-        token_query = str(request.args.get('token')) # /logout/?username=USERNAME
-    except:
-        flask.abort(400)
-    
-    return GameshubApi.tokeninfo(token_query)
-@app.route("/acceptfriendreq")
-def acceptfriendreq():
-    try:
-        token_query = str(request.args.get('token')) # /logout/?username=USERNAME
-        uuid_query = str(request.args.get('uuid'))
-    except:
-        flask.abort(400)
-    
-    return GameshubApi.acceptFriendReq(token_query,uuid_query)
-@app.route("/sendfriendreq")
-def sendfriendreq():
-    try:
-        token_query = str(request.args.get('token')) # /logout/?username=USERNAME
-        uuid_query = str(request.args.get('uuid'))
-    except:
-        flask.abort(400)
-    
-    return GameshubApi.sendFriendRequest(token_query,uuid_query)
-@app.route("/getaccountdata")
-def getaccountdata():
-    try:
-        token_query = str(request.args.get('token')) # /logout/?username=USERNAME
-    except:
-        flask.abort(400)
-    
-    return GameshubApi.getAccountData(token_query)
-@app.route("/getaccounts")
-def getaccounts():
-    try:
-        query = str(request.args.get('q')) # /logout/?username=USERNAME
-    except:
-        flask.abort(400)
-    
-    currentHtmlString = ""
-    accRes = json.loads(GameshubApi.accountSearch(query))
-    for acc in accRes:
-        currentHtmlString += "<a style='font-size:20px' href='https://gameshub.netlify.app/gamehubapi/viewacc?username="+acc['Username']+"'>"+acc['Username']+"</a><br>"
-
-    return currentHtmlString # GameshubApi.accountSearch(query)
-@app.route("/awardadvancement")
-def awardadvancement():
-    try:
-        token_query = str(request.args.get('token')) # /logout/?username=USERNAME
-        advancement_id_query = str(request.args.get('advance_id')) # /logout/?username=USERNAME
-    except:
-        flask.abort(400)
-    
-    return GameshubApi.awardAdvancement(token_query,int(advancement_id_query))
-@app.route("/updateacc")
-def updateacc():
-    try:
-        uuid_query = str(request.args.get('uuid')) # /logout/?username=USERNAME
-    except:
-        flask.abort(400)
-    
-    return GameshubApi.updateAcc(uuid_query)
 @app.route("/signup")
 def signup():
     try:
@@ -118,7 +40,8 @@ def signup():
     except:
         flask.abort(400)
     if user_query and pass_query:
-        return GameshubApi.signup(user_query,pass_query)
+        GameshubApi.signup(user_query,pass_query)
+        return "success", 200
 @app.route("/delacc",)
 def delacc():
     try:
@@ -126,8 +49,8 @@ def delacc():
     except:
         flask.abort(400)
     if token_query:
-        #GameshubApi.deleteAccount(token_query)
-        return GameshubApi.deleteAccount(token_query), 200
+        GameshubApi.deleteAccount(token_query)
+        return "success", 200
 @app.route("/login")
 def login():
     try:

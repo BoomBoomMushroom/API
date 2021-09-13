@@ -69,9 +69,10 @@ def signup(username,password):
         usernameAvailable = True
         for account in accounts:
             if account["Username"]:
-                if account["Username"] == username:
-                    usernameAvailable = False
-                    break
+                if account["Password"]:
+                    if checkUsername(account["Username"]) == False:
+                        usernameAvailable = False
+                        break
         if usernameAvailable == True:
             newAccountJson = {
                 "Username": username,
@@ -355,7 +356,7 @@ def updateAcc(accountUUID,token):
             if not "Advancements" in currentAccount["GameshubData"]:
                 currentAccount["GameshubData"].update({"Advancements": [{"id":1,"header":"Welcome!","desc":"You get this achievement when you first sign up to Gameshub!","img":"None","reward":50}]})
             if not "Money" in currentAccount["GameshubData"]:
-                currentAccount["GameshubData"].update({"Money":0})
+                currentAccount["GameshubData"].update({"Money":50})
             if not "Purchases" in currentAccount["GameshubData"]:
                 currentAccount["GameshubData"].update({"Purchases": []})
             if not "GameData" in currentAccount["GameshubData"]:
