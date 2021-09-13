@@ -367,7 +367,13 @@ def updateAcc(accountUUID,token):
     updateToken(token)
     return f"DONE_{json.dumps(acc)}"
 def updateSpecialPrice():
-    pass
+    try:
+        accounts = getJsonFileContents("GameshubApi/accounts.json","main")
+        accountTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
+        advancementsJson = getJsonFileContents("GameshubApi/advancements.json","main")
+    except:
+        return "ERROR_WHILST_GETTING_DATA"
+    return "NOT_YET_COMPLETED"
 def awardAdvancement(token,advancementId):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
