@@ -62,6 +62,7 @@ def checkUsername(username):
 def signup(username,password):
     accNameStatus = accountNameUpdater(username)
     if len(username) >= 3 and len(username) <= 16 and len(password) >= 7 and accNameStatus == True:
+        print("Acc is good processing")
         try:
             accounts = getJsonFileContents("GameshubApi/accounts.json","main")
         except:
