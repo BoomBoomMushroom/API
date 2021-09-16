@@ -61,7 +61,7 @@ def checkUsername(username):
         return True
 def signup(username,password):
     accNameStatus = accountNameUpdater(username)
-    if len(username) >= 3 and len(username) <= 16 and len(password) >= 8 and accNameStatus == True:
+    if len(username) >= 3 and len(username) <= 16 and len(password) >= 7 and accNameStatus == True:
         try:
             accounts = getJsonFileContents("GameshubApi/accounts.json","main")
         except:
@@ -100,7 +100,11 @@ def signup(username,password):
         else:
             return "Username is already taken!"
     else:
-        return(f"Account {username} couldn't be created because the Username or Password is a lil weird!")
+        if len(username) >= 3 and len(username) <= 16:
+            return(f"Account {username} couldn't be created because the Password is a lil weird!")
+        else:
+            return(f"Account {username} couldn't be created because the Username is a lil weird!")
+        # return(f"Account {username} couldn't be created because the Username or Password is a lil weird!")
 def login(username,password):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
