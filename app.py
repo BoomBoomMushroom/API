@@ -32,6 +32,13 @@ def checkUsername():
             return GameshubApi.checkUsername(user_query)
         else:
             return "False"
+@app.route("/tokeninfo")
+def tokeninfo():
+    try:
+        token_q = str(request.args.get("token"))
+    except:
+        flask.abort(400)
+    return GameshubApi.tokeninfo(token_q)
 @app.route("/signup")
 def signup():
     try:
