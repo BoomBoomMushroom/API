@@ -67,39 +67,33 @@ def signup(username,password):
             accounts = getJsonFileContents("GameshubApi/accounts.json","main")
         except:
             accounts = []
-        usernameAvailable = True
-        for account in accounts:
-            if account["Username"]:
-                if account["Password"]:
-                    if checkUsername(account["Username"]) == False:
-                        usernameAvailable = False
-                        break
-        if usernameAvailable == True:
-            newAccountJson = {
-                "Username": username,
-                "Password": sha256HashString(sha256HashString(password)),
-                "UUID": generateUUID(32),
-                "IsBanned": False,
-                "IsMuted": False,
-                "Friends": [],
-                "FriendRequests": [],
-                "AccountCreationTime": time.time(),
-                "GameshubData": {
-                    "Advancements": [
-                        {"id":1,"header":"Welcome!","desc":"You get this achievement when you first sign up to Gameshub!","img":"None"},
-                    ],
-                    "Money": 50,
-                    "Purchases": [],
-                    "GameData": [],
-                },
-                "Misc": [],
-            }
-            accounts.append(newAccountJson)
-            fileHolder = apiRepo.get_contents("GameshubApi/accounts.json","main")
-            apiRepo.update_file(path=fileHolder.path,message="",content=json.dumps(accounts),sha=fileHolder.sha)
-            return(f"Account {username} has been created")
-        else:
-            return "Username is already taken!"
+        print("Gopt all accs")
+        newAccountJson = {
+            "Username": username,
+            "Password": sha256HashString(sha256HashString(password)),
+            "UUID": generateUUID(32),
+            "IsBanned": False,
+            "IsMuted": False,
+            "Friends": [],
+            "FriendRequests": [],
+            "AccountCreationTime": time.time(),
+            "GameshubData": {
+                "Advancements": [
+                    {"id":1,"header":"Welcome!","desc":"You get this achievement when you first sign up to Gameshub!","img":"None"},
+                ],
+                "Money": 50,
+                "Purchases": [],
+                "GameData": [],
+            },
+            "Misc": [],
+        }
+        print("Made accound Data")
+        accounts.append(newAccountJson)
+        print("appended Data")
+        fileHolder = apiRepo.get_contents("GameshubApi/accounts.json","main")
+        apiRepo.update_file(path=fileHolder.path,message="",content=json.dumps(accounts),sha=fileHolder.sha)
+        print("updated file")
+        return(f"Account {username} has been created")
     else:
         if len(username) >= 3 and len(username) <= 16:
             return(f"Account {username} couldn't be created because the Password is a lil weird!")
