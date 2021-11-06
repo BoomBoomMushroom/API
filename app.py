@@ -109,7 +109,8 @@ def setpet():
     except:
         flask.abort(400)
     if token_query and name_query and values_query:
-        return json.dumps(GameshubApi.setPet(token_query,name_query,values_query))
+        deta = GameshubApi.setPet(token_query,name_query,values_query)
+        return flask.jsonify(deta)
 @app.route("/awardAdvancement")
 def awardAdvancement():
     try:
