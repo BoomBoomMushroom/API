@@ -231,7 +231,7 @@ def setPet(token,name,action):
 
     for i in range(len(accounts)):
         acc = accounts[i]
-        print(acc["UUID"])
+        print(acc["UUID"], account["UUID"])
         if acc["UUID"] == account["UUID"]:
             account[i] = account
             print(acc)
