@@ -109,7 +109,7 @@ def badgeupdate():
     except:
         flask.abort(400)
     if token_query and name_query and values_query:
-       return GameshubApi.badgeEdit(token_query,name_query,values_query)
+       return "success", 200 #GameshubApi.badgeEdit(token_query,name_query,values_query)
 @app.route("/setpet")
 def setpet():
     try:
