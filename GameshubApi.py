@@ -182,6 +182,35 @@ def getAccountData(token):
             tokenIndex = accountTokens.index(currentToken)
             return currentToken["Account"]
     return "COULDNT_FIND_TOKEN"
+def badgeEdit(username,name,action):
+    try:
+        accounts = getJsonFileContents("GameshubApi/accounts.json","main")
+        badges = getJsonFileContents("GameshubApi/badges.json","main")
+        accountTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
+        advancementsJson = getJsonFileContents("GameshubApi/advancements.json","main")
+    except:
+        return "ERROR_WHILST_GETTING_DATA"
+    for account in accounts:
+        if not "badges" in account:
+            account.update({"Badges":[]})
+        if account["Username"] == username:
+            # Look for badge
+            indexBadge = False
+            for badge in badges:
+                if badge["name"] == name:
+                    indexBadge = badge
+            if indexBadge == False:
+                return "Badge Not Found!"
+            # Add badge
+            if action == 'set':
+                for badge in account["Badges"]:
+                    if badge.name == name: 
+                        return "User already has badge!"
+                account["Badges"].append(indexBadge)
+                return "Added {name} Badge to {username}"
+            elif action == "remove":
+                account["Badges"].pop(account["Badges"].index(indexbadge))
+                return "Removed {name} Badge from {username}"
 def setPet(token,name,action):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
