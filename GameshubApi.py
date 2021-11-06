@@ -196,7 +196,8 @@ def badgeEdit(username,name,action):
         if account["Username"] == username:
             # Look for badge
             indexBadge = False
-            for x,badge in badges:
+            for x in badges:
+                badge = badges[x]
                 print(badge,badges)
                 if badge["name"] == name:
                     indexBadge = badge
