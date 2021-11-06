@@ -203,6 +203,7 @@ def setPet(token,name,action):
         if hasPet == False: return "No Pet Found!"
         else:
             for pet in account["Pets"]:
+                pet["Pet"]["Count"]
                 if pet["Pet"]["DisplayName"] == name and pet["Pet"]["CanSell"] == True and pet["Pet"]["Count"] > 0:
                     pet["Pet"]["Count"] -= 1
     elif action == "box_open":
