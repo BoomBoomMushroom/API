@@ -494,8 +494,7 @@ def updateToken(token):
         if token == "INVALID_TOKEN":
             return "INVALUD_TOKEN"
         if currentAccountToken["Token"] == token:
-            x = 0
-            while x < len(accounts):
+            for x in range(len(accounts)):
                 try:
                     currentAccount = accounts[x]
                 except:
