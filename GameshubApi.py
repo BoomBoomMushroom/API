@@ -227,15 +227,14 @@ def setPet(token,name,action):
             }
             account["Pets"].append(appender)
         print(won)
-        print(account)
 
     for i in range(len(accounts)):
         acc = accounts[i]
-        print(acc["UUID"], account["UUID"])
+        print(acc["UUID"]==account["UUID"])
         if acc["UUID"] == account["UUID"]:
             account[i] = account
-            print(acc)
-            print(accounts)
+            break
+    print(accounts)
     filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
     apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
     updateToken(token)
