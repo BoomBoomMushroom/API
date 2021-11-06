@@ -78,14 +78,14 @@ def logout():
     if token_query:
         GameshubApi.logout(token_query)
         return "success", 200
-@app.route("/getaccounts")
-def getaccounts():
+@app.route("/viewacc")
+def viewacc():
     try:
         query = str(request.args.get('q')) # /logout/?token=TOKEN
     except:
         flask.abort(400)
     if query:
-        return GameshubApi.accountSearch(query)
+        return GameshubApi.getAccountView(query)
 @app.route("/awardAdvancement")
 def getaccounts():
     try:
