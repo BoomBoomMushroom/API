@@ -223,7 +223,6 @@ def accountSearch(prefix):
         accountUsernames = [x for x in accounts if x["Username"].lower().startswith("")]
     else:
         accountUsernames = [x for x in accounts if x["Username"].lower().startswith(prefix.lower())]
-    print(accountUsernames)
     return json.dumps(accountUsernames)
 def awardMoney(token,amount):
     try:
