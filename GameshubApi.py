@@ -89,6 +89,7 @@ def signup(username,password):
         }
         print("Made accound Data")
         accounts = json.dumps(accounts)
+        accounts = json.loads(accounts)
         accounts.append(newAccountJson)
         print("appended Data")
         fileHolder = apiRepo.get_contents("GameshubApi/accounts.json","main")
