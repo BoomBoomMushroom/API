@@ -86,6 +86,16 @@ def viewacc():
         flask.abort(400)
     if query:
         return GameshubApi.getAccountView(query)
+@app.route("/accsearch")
+def accsearch():
+    try:
+        query = str(request.args.get('q')) # /logout/?token=TOKEN
+    except:
+        flask.abort(400)
+    if query:
+        data = json.loads(GameshubApi.accountSearch(query))
+        print(data)
+        return "<h1>Currently working on webpage!</h1>"
 @app.route("/awardAdvancement")
 def getaccounts():
     try:

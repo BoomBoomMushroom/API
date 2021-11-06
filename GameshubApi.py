@@ -201,7 +201,6 @@ def getAccountView(inputUsername):
         advancementsJson = getJsonFileContents("GameshubApi/advancements.json","main")
     except:
         return "ERROR_WHILST_GETTING_DATA"
-    
     for currentAccount in accounts:
         if currentAccount["Username"] == inputUsername:
             viewerAccount = currentAccount
