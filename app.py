@@ -95,12 +95,10 @@ def accsearch():
     if query:
         data = json.loads(GameshubApi.accountSearch(query))
         out = ""
-        print(data)
         for i in range(len(data)):
             ele = data[i]
             inp = "<a href='https://gameshub.netlify.app/gamehubapi/viewacc?q="+ele["Username"]+"'>"+ele['Username']+"</a><br>"
             out += inp
-        print(out)
         return out
 @app.route("/awardAdvancement")
 def awardAdvancement():
