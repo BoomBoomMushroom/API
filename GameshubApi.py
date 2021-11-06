@@ -208,13 +208,15 @@ def badgeEdit(username,name,action):
                     if badge.name == name: 
                         return "User already has badge!"
                 account["Badges"].append(indexBadge)
+                filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
+                apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+                updateToken(token)
             elif action == "remove":
                 print(account["Badges"].index(indexbadge))
                 account["Badges"].pop(account["Badges"].index(indexbadge))
-    filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
-    apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
-    updateToken(token)
-    return "Done"
+                filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
+                apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+                updateToken(token)
 def setPet(token,name,action):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
