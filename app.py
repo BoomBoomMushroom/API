@@ -84,5 +84,25 @@ def getaccounts():
         query = str(request.args.get('q')) # /logout/?token=TOKEN
     except:
         flask.abort(400)
-    if token_query:
+    if query:
         return GameshubApi.accountSearch(query)
+@app.route("/awardAdvancement")
+def getaccounts():
+    try:
+        token_query = str(request.args.get('token')) # /logout/?token=TOKEN
+        advance_id_query = str(request.args.get('id')) # /logout/?token=TOKEN
+    except:
+        flask.abort(400)
+    if token_query and advance_id_query:
+        GameshubApi.awardAdvancement(token_query,advance_id_query)
+        return "success", 200
+@app.route("/awardmoney")
+def awardmoney():
+    try:
+        token_query = str(request.args.get('token')) # /logout/?token=TOKEN
+        amount = int(request.args.get('amount')) # /logout/?token=TOKEN
+    except:
+        flask.abort(400)
+    if token_query and amount:
+        GameshubApi.awardMoney(token_query,amount)
+        return "success", 200
