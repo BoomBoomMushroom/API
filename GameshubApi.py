@@ -204,7 +204,7 @@ def setPet(token,name,action):
         else:
             for pet in account["Pets"]:
                 pet["Pet"]["Count"]
-                if pet["Pet"]["DisplayName"] == name and pet["Pet"]["CanSell"] == True and pet["Pet"]["Count"] > 0:
+                if pet["Pet"]["DisplayName"] == name and pet["Pet"]["CanSell"] == True and int(pet["Pet"]["Count"]) > int(0):
                     pet["Pet"]["Count"] -= 1
     elif action == "box_open":
         won = random.choice(list(pets.values()))
@@ -231,8 +231,10 @@ def setPet(token,name,action):
 
     for i in range(len(accounts)):
         acc = accounts[i]
+        print(acc["UUID"])
         if acc["UUID"] == account["UUID"]:
             account[i] = account
+            print(acc)
             print(accounts)
     filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
     apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
