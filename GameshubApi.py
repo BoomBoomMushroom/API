@@ -45,20 +45,6 @@ def getGameCreatorLevels():
 def sha256HashString(string: str):
     encodedString = string.encode()
     return hashlib.sha256(string.encode()).hexdigest()
-def checkUsername(username):
-    if not len(username) >= 3 and not len(username) <= 16:
-        return False
-
-    try:
-        accounts = getJsonFileContents("GameshubApi/accounts.json","main")
-        ava = True
-        for account in accounts:
-            if account['Username'].lower() == username.lower():
-                ava = False
-        return ava
-    except:
-        accounts = []
-        return True
 def signup(username,password):
     accNameStatus = accountNameUpdater(username)
     if len(username) >= 3 and len(username) <= 16 and len(password) >= 7 and accNameStatus == True:
@@ -167,8 +153,22 @@ def logout(token):
                 return(f"Logged out!")
         i+=1
 def accountNameUpdater(username):
+    try:
+        accounts = getJsonFileContents("GameshubApi/accounts.json","main")
+    except:
+        accounts = []
     useableCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_"
-    return all([characters in useableCharacters for characters in username])
+    g_chars = all([characters in useableCharacters for characters in username])
+    dupe_name = False
+
+    for ele in accounts:
+        if ele.Username.lower() == username.lower():
+            dupe_name = True
+            pass
+    if(g_chars==False or dupe_name == True):
+        return False
+    else:
+        return True 
 def getAccountData(token):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
