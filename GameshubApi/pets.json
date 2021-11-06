@@ -6,5 +6,6 @@
     "Fox": {"DisplayName": "Fox","Rarity":"Rare","SellValue":75,"CanSell":true},
     "Monkey": {"DisplayName": "Monkey","Rarity":"Legendary","SellValue":200,"CanSell":true},
     "Snake": {"DisplayName": "Snake","Rarity":"Epic","SellValue":100,"CanSell":true},
-    "Spooky_Cat": {"DisplayName": "Spooky Cat","Rarity":"Event","SellValue":300,"CanSell":true}
+    "Spooky_Cat": {"DisplayName": "Spooky Cat","Rarity":"Event","SellValue":300,"CanSell":true},
+    "Cat": {"DisplayName": "Cat","Rarity":"Uncommon","SellValue":30,"CanSell":true}
 }
