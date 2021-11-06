@@ -207,6 +207,7 @@ def setPet(token,name,action):
                 if pet["Pet"]["DisplayName"] == name and pet["Pet"]["CanSell"] == True and int(pet["Pet"]["Count"]) > int(0):
                     pet["Pet"]["Count"] -= 1
     elif action == "box_open":
+        print(account)
         won = random.choice(list(pets.values()))
         hasPet = False
         hasMoney = False
