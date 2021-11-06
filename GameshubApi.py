@@ -234,10 +234,9 @@ def setPet(token,name,action):
         if acc["UUID"] == account["UUID"]:
             account[i] = account
             break
-    print(accounts)
     filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
     apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
-    updateToken(token)
+    #updateToken(token)
     return account
 def tokeninfo(token):
     try:
@@ -485,7 +484,8 @@ def updateToken(token):
     except:
         return "NO_TOKENS"
     
-    for i in range(len(accountTokens)):
+    i = 0
+    while i < len(accountTokens):
         try:
             currentAccountToken = accountTokens[i]
         except:
@@ -494,7 +494,8 @@ def updateToken(token):
         if token == "INVALID_TOKEN":
             return "INVALUD_TOKEN"
         if currentAccountToken["Token"] == token:
-            for x in range(len(accounts)):
+            x = 0
+            while x < len(accounts):
                 try:
                     currentAccount = accounts[x]
                 except:
