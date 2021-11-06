@@ -485,8 +485,7 @@ def updateToken(token):
     except:
         return "NO_TOKENS"
     
-    i = 0
-    while i < len(accountTokens):
+    for i in range(len(accountTokens)):
         try:
             currentAccountToken = accountTokens[i]
         except:
