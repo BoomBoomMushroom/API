@@ -182,6 +182,52 @@ def getAccountData(token):
             tokenIndex = accountTokens.index(currentToken)
             return currentToken["Account"]
     return "COULDNT_FIND_TOKEN"
+def setPet(token,name,action):
+    try:
+        accounts = getJsonFileContents("GameshubApi/accounts.json","main")
+        pets = getJsonFileContents("GameshubApi/pets.json","main")
+        accountTokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
+        advancementsJson = getJsonFileContents("GameshubApi/advancements.json","main")
+    except:
+        return "ERROR_WHILST_GETTING_DATA"
+    account = getAccountData(token)
+    if not "pets" in account:
+        account["Pets"] = []
+    
+    if action=="sell":
+        hasPet = False
+        for pet in account["Pets"]:
+            if pet["Pet"]["DisplayName"] == name:
+                hasPet = True
+        
+        if hasPet == False: return "No Pet Found!"
+        else:
+            for pet in account["Pets"]:
+                if pet["Pet"]["DisplayName"] == name:
+                    pet["Pet"]["Count"] -= 1
+    elif action == "box_open":
+        won = random.choice(list(pets.values()))
+        hasPet = False
+        for pet in account["Pets"]:
+            if pet["Pet"]["DisplayName"] == won.DisplayName:
+                hasPet = True
+                break
+        if hasPet==True:
+            for pet in account["Pets"]:
+                if pet["Pet"]["DisplayName"] == won.DisplayName:
+                    pet["Count"] += 1
+                    break
+        else:
+            appender = {
+                "Pet": won,
+                "Count": 1
+            }
+            account["Pets"].append()
+        print(won)
+
+    filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
+    apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+    updateToken(token)
 def tokeninfo(token):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")

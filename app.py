@@ -100,6 +100,17 @@ def accsearch():
             inp = "<a href='https://gameshub.netlify.app/gamehubapi/viewacc?q="+ele["Username"]+"'>"+ele['Username']+"</a><br>"
             out += inp
         return out
+@app.route("setpet")
+def setpet():
+    try:
+        token_query = str(request.args.get('token')) # /logout/?token=TOKEN
+        name_query = str(request.args.get('name')) # /logout/?token=TOKEN
+        values_query = str(request.args.get('action'))
+    except:
+        flask.abort(400)
+    if token_query and name_query and values_query:
+        GameshubApi.setPet(token_query,name_query,values_query)
+        return "success", 200
 @app.route("/awardAdvancement")
 def awardAdvancement():
     try:

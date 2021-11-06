@@ -1,0 +1,10 @@
+{
+    "Bean": {"DisplayName": "Bean","Rarity":"Common","SellValue":10,"CanSell":true},
+    "Bord": {"DisplayName": "Bord","Rarity":"Uncommon","SellValue":30,"CanSell":true},
+    "Bull": {"DisplayName": "Bull","Rarity":"Uncommon","SellValue":30,"CanSell":true},
+    "Crab": {"DisplayName": "Crab","Rarity":"Rare","SellValue":75,"CanSell":false},
+    "Fox": {"DisplayName": "Fox","Rarity":"Rare","SellValue":75,"CanSell":false},
+    "Monkey": {"DisplayName": "Monkey","Rarity":"Legendary","SellValue":200,"CanSell":false},
+    "Snake": {"DisplayName": "Snake","Rarity":"Epic","SellValue":100,"CanSell":false},
+    "Spooky_Cat": {"DisplayName": "Spooky Cat","Rarity":"Event","SellValue":300,"CanSell":false}
+}
