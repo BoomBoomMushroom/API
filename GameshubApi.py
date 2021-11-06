@@ -197,7 +197,8 @@ def badgeEdit(username,name,action):
             # Look for badge
             indexBadge = False
             for badge in badges:
-                if badge.name == name:
+                print(badge,badges)
+                if badge["name"] == name:
                     indexBadge = badge
             if indexBadge == False:
                 return "Badge Not Found!"
