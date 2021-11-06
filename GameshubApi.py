@@ -192,7 +192,7 @@ def setPet(token,name,action):
         return "ERROR_WHILST_GETTING_DATA"
     account = getAccountData(token)
     if not "pets" in account:
-        account["Pets"] = []
+        account.update({"Pets":[]})
     
     if action=="sell":
         hasPet = False
@@ -226,10 +226,12 @@ def setPet(token,name,action):
             }
             account["Pets"].append(appender)
         print(won)
+        print(account)
 
     filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
     apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
     updateToken(token)
+    return account
 def tokeninfo(token):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
