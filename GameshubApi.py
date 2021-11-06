@@ -198,7 +198,6 @@ def badgeEdit(username,name,action):
             indexBadge = False
             for x in badges:
                 badge = badges[x]
-                print(badge,badges)
                 if badge["name"] == name:
                     indexBadge = badge
             if indexBadge == False:
