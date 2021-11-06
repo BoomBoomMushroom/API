@@ -100,7 +100,7 @@ def accsearch():
             inp = "<a href='https://gameshub.netlify.app/gamehubapi/viewacc?q="+ele["Username"]+"'>"+ele['Username']+"</a><br>"
             out += inp
         return out
-@app.route("setpet")
+@app.route("/setpet")
 def setpet():
     try:
         token_query = str(request.args.get('token')) # /logout/?token=TOKEN
