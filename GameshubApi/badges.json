@@ -1,7 +1,7 @@
 {
-    "ArtBadge": {"name":"ArtBadge","html":"<abbr title='Art Badge'><img style='border:1px solid black;background-color:white;' width=50 height=50 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Art_Badge.png?raw=true'></abbr>"},
-    "DevBadge": {"name":"DevBadge","html":"<abbr title='Developer Badge'><img style='border:1px solid black;background-color:white;' width=50 height=50 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Developer_badge.png?raw=true'></abbr>"},
-    "AdminBadge": {"name":"AdminBadge","html":"<abbr title='Admin Badge'><img style='border:1px solid black;background-color:white;' width=50 height=50 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Op_Badge.png?raw=true'></abbr>"},
-    "GameTesterBadge": {"name":"GameTesterBadge","html":"<abbr title='Game Tester Badge'><img style='border:1px solid black;background-color:white;' width=50 height=50 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Game_tester_badge.png?raw=true'></abbr>"},
-    "BotBadge": {"name":"BotBadge","html":"<abbr title='Bot Badge'><img style='border:1px solid black;background-color:white;' width=50 height=50 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Bot_badge.png?raw=true'></abbr>"}
+    "ArtBadge": {"name":"ArtBadge","html":"<abbr title='Art Badge'><img width=100 height=100 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Art_Badge.png?raw=true'></abbr>"},
+    "DevBadge": {"name":"DevBadge","html":"<abbr title='Developer Badge'><img width=100 height=100 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Developer_badge.png?raw=true'></abbr>"},
+    "AdminBadge": {"name":"AdminBadge","html":"<abbr title='Admin Badge'><img width=100 height=100 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Op_Badge.png?raw=true'></abbr>"},
+    "GameTesterBadge": {"name":"GameTesterBadge","html":"<abbr title='Game Tester Badge'><img width=100 height=100 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Game_tester_badge.png?raw=true'></abbr>"},
+    "BotBadge": {"name":"BotBadge","html":"<abbr title='Bot Badge'><img width=100 height=100 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Bot_badge.png?raw=true'></abbr>"}
 }
