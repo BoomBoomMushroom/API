@@ -208,6 +208,8 @@ def setPet(token,name,action):
     elif action == "box_open":
         won = random.choice(list(pets.values()))
         hasPet = False
+        hasMoney = False
+
         for pet in account["Pets"]:
             if pet["Pet"]["DisplayName"] == won.DisplayName:
                 hasPet = True
