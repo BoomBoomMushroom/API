@@ -78,7 +78,7 @@ def logout():
     if token_query:
         GameshubApi.logout(token_query)
         return "success", 200
-@app.route("/viewacc")
+@app.route("/getaccount")
 def viewacc():
     try:
         query = str(request.args.get('username')) # /logout/?token=TOKEN
