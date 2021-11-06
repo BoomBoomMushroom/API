@@ -236,7 +236,7 @@ def setPet(token,name,action):
             break
     filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
     apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
-    #updateToken(token)
+    updateToken(token)
     return account
 def tokeninfo(token):
     try:
