@@ -98,6 +98,7 @@ def accsearch():
         print(data)
         for i in range(len(data)):
             ele = data[i]
+            print(ele["Username"])
             out += "<a href='https://gameshub.netlify.app/gamehubapi/viewacc?q="+ele["Username"]+"'></a><br>"
         return out
 @app.route("/awardAdvancement")
