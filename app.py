@@ -109,8 +109,8 @@ def setpet():
     except:
         flask.abort(400)
     if token_query and name_query and values_query:
-        GameshubApi.setPet(token_query,name_query,values_query)
-        return "success", 200 #GameshubApi.setPet(token_query,name_query,values_query)
+        acc_update = GameshubApi.setPet(token_query,name_query,values_query)
+        return acc_update, 200 #GameshubApi.setPet(token_query,name_query,values_query)
 @app.route("/awardAdvancement")
 def awardAdvancement():
     try:
