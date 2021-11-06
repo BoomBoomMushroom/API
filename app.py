@@ -81,7 +81,7 @@ def logout():
 @app.route("/viewacc")
 def viewacc():
     try:
-        query = str(request.args.get('q')) # /logout/?token=TOKEN
+        query = str(request.args.get('username')) # /logout/?token=TOKEN
     except:
         flask.abort(400)
     if query:
@@ -94,10 +94,13 @@ def accsearch():
         flask.abort(400)
     if query:
         data = json.loads(GameshubApi.accountSearch(query))
-        print(data)
+        out = ""
+        for i in range(len(data)):
+            ele = data[i]
+            out += "<a href='https://gameshub.netlify.app/gamehubapi/viewacc?q=BBM'></a><br>"
         return "<h1>Currently working on webpage!</h1>"
 @app.route("/awardAdvancement")
-def getaccounts():
+def awardAdvancement():
     try:
         token_query = str(request.args.get('token')) # /logout/?token=TOKEN
         advance_id_query = str(request.args.get('id')) # /logout/?token=TOKEN
