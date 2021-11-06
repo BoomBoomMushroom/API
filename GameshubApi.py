@@ -222,7 +222,7 @@ def setPet(token,name,action):
                 "Pet": won,
                 "Count": 1
             }
-            account["Pets"].append()
+            account["Pets"].append(appender)
         print(won)
 
     filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
