@@ -97,7 +97,7 @@ def accsearch():
         out = ""
         for i in range(len(data)):
             ele = data[i]
-            inp = "<a href='https://gameshub.netlify.app/gamehubapi/viewacc?q="+ele["Username"]+"'>"+ele['Username']+"</a><br>"
+            inp = "<a href='https://gameshub.dev/gamehubapi/viewacc?q="+ele["Username"]+"'>"+ele['Username']+"</a><br>"
             out += inp
         return out
 @app.route("/badgeupdate")
