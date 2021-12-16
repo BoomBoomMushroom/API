@@ -162,9 +162,9 @@ def accountNameUpdater(username):
     dupe_name = False
 
     for ele in accounts:
-        if ele.Username.lower() == username.lower():
+        if ele["Username"].lower() == username.lower():
             dupe_name = True
-            pass
+            break
     if(g_chars==False or dupe_name == True):
         return False
     else:
