@@ -5,10 +5,14 @@ import GameshubApi
 
 app = flask.Flask(__name__)
 
+def responseMake(r):
+  resp = flask.Response(r)
+  resp.headers['Access-Control-Allow-Origin'] = "*"
+  return resp
 
 @app.route("/")
 def home():
-    return f"Hello {request.method} user!"
+    return responseMake("Hello "+request.method+" user!")
 @app.route("/gcPublishLvl")
 def gcPublishLvl():
     try:
@@ -17,10 +21,10 @@ def gcPublishLvl():
         gameInfoData = jsonSent["GameInfo"]
     except:
         jsonSent = {}
-    GameshubApi.gameCreatorPublishLevel(htmlData,gameInfoData)
+    return responseMake(GameshubApi.gameCreatorPublishLevel(htmlData,gameInfoData))
 @app.route("/gcGetLvls")
 def gcGetLvls():
-    return json.dumps(GameshubApi.getGameCreatorLevels())
+    return responseMake(json.dumps(GameshubApi.getGameCreatorLevels()))
 @app.route("/checkUsername")
 def checkUsername():
     try:
@@ -29,16 +33,16 @@ def checkUsername():
         flask.abort(400)
     if user_query:
         if len(user_query) >= 3 and len(user_query) <= 16:
-            return GameshubApi.checkUsername(user_query)
+            return responseMake(GameshubApi.checkUsername(user_query))
         else:
-            return "False"
+            return responseMake("False")
 @app.route("/tokeninfo")
 def tokeninfo():
     try:
         token_q = str(request.args.get("token"))
     except:
         flask.abort(400)
-    return GameshubApi.tokeninfo(token_q)
+    return responseMake(GameshubApi.tokeninfo(token_q))
 @app.route("/signup")
 def signup():
     try:
@@ -48,7 +52,7 @@ def signup():
         flask.abort(400)
     if user_query and pass_query:
         GameshubApi.signup(user_query,pass_query)
-        return "success", 200
+        return responseMake("success"), 200
 @app.route("/delacc",)
 def delacc():
     try:
@@ -57,7 +61,7 @@ def delacc():
         flask.abort(400)
     if token_query:
         GameshubApi.deleteAccount(token_query)
-        return "success", 200
+        return responseMake("success"), 200
 @app.route("/login")
 def login():
     try:
@@ -68,7 +72,7 @@ def login():
         flask.abort(400)
     if user_query and pass_query:
         loginResponse = GameshubApi.login(user_query,pass_query)
-        return loginResponse
+        return responseMake(loginResponse)
 @app.route("/logout")
 def logout():
     try:
@@ -77,7 +81,7 @@ def logout():
         flask.abort(400)
     if token_query:
         GameshubApi.logout(token_query)
-        return "success", 200
+        return responseMake("success"), 200
 @app.route("/getaccount")
 def viewacc():
     try:
@@ -85,7 +89,7 @@ def viewacc():
     except:
         flask.abort(400)
     if query:
-        return GameshubApi.getAccountView(query)
+        return responseMake(GameshubApi.getAccountView(query))
 @app.route("/accsearch")
 def accsearch():
     try:
@@ -99,7 +103,7 @@ def accsearch():
             ele = data[i]
             inp = "<a href='https://gameshub.dev/gamehubapi/viewacc?q="+ele["Username"]+"'>"+ele['Username']+"</a><br>"
             out += inp
-        return out
+        return responseMake(out)
 @app.route("/badgeupdate")
 def badgeupdate():
     try:
@@ -109,7 +113,7 @@ def badgeupdate():
     except:
         flask.abort(400)
     if token_query and name_query and values_query:
-       return "Success", 200 # GameshubApi.badgeEdit(token_query,name_query,values_query)
+       return responseMake("Success"), 200 # GameshubApi.badgeEdit(token_query,name_query,values_query)
 @app.route("/setpet")
 def setpet():
     try:
@@ -120,7 +124,7 @@ def setpet():
         flask.abort(400)
     if token_query and name_query and values_query:
         #deta = GameshubApi.setPet(token_query,name_query,values_query)
-        return "success", 200
+        return responseMake("success"), 200
 @app.route("/awardAdvancement")
 def awardAdvancement():
     try:
@@ -130,7 +134,7 @@ def awardAdvancement():
         flask.abort(400)
     if token_query and advance_id_query:
         GameshubApi.awardAdvancement(token_query,advance_id_query)
-        return "success", 200
+        return responseMake("success"), 200
 @app.route("/awardmoney")
 def awardmoney():
     try:
@@ -140,4 +144,4 @@ def awardmoney():
         flask.abort(400)
     if token_query and amount:
         GameshubApi.awardMoney(token_query,amount)
-        return "success", 200
+        return responseMake("success"), 200
