@@ -6,7 +6,7 @@ import GameshubApi
 app = flask.Flask(__name__)
 
 def responseMake(r):
-  resp = flask.Response(r)
+  resp = flask.Response(json.dumps(r))
   resp.headers['Access-Control-Allow-Origin'] = "*"
   return resp
 
