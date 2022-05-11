@@ -1,1 +1,3 @@
-[]
+[
+    {"name":"Developer Item","description":"A developer item used to test the shop!","price":0,"canPurchase":"false"}
+]
