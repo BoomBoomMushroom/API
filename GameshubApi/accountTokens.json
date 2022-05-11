@@ -19,7 +19,7 @@
                         "img": "None"
                     }
                 ],
-                "Money": 50,
+                "Money": 51,
                 "Purchases": [],
                 "GameData": []
             },
@@ -53,11 +53,11 @@
             },
             "Misc": [],
             "Badges": [
-            {
-                "name": "ArtBadge",
-                "html": "<abbr title='Art Badge'><img width=100 height=100 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Art_Badge.png?raw=true'></abbr>"
-            }
-        ]
+                {
+                    "name": "ArtBadge",
+                    "html": "<abbr title='Art Badge'><img width=100 height=100 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Art_Badge.png?raw=true'></abbr>"
+                }
+            ]
         }
     },
     {
