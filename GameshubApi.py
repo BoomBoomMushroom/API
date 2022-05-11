@@ -30,18 +30,6 @@ def publishLevel(data):
         repo.update_file(path=file.path,message="",content=json.dumps(data),sha=file.sha)
     else:
         repo.update_file(path=file.path,message="",content=json.dumps([]),sha=file.sha)
-def gameCreatorPublishLevel(html,gameInfo):
-    repoBranch = repo.get_branch("api")
-    if gameInfo["Name"]:
-        gameName = gameInfo["Name"]
-        infoFile = repo.create_file("CreatorGames/"+gameName+"/info.json","",json.dumps(gameInfo),"api")
-        htmlFile = repo.create_file("CreatorGames/"+gameName+"/index.html","",html,"api")
-def getGameCreatorLevels():
-    try:
-        levels = json.loads(requests.get("https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/api/gameCreatorLevels.json"))
-    except:
-        levels = []
-    return levels
 def sha256HashString(string: str):
     encodedString = string.encode()
     return hashlib.sha256(string.encode()).hexdigest()
@@ -315,6 +303,56 @@ def accountSearch(prefix):
     else:
         accountUsernames = [x for x in accounts if x["Username"].lower().startswith(prefix.lower())]
     return json.dumps(accountUsernames)
+
+def getCustomGames():
+  try:
+    games = getJsonFileContents("GameshubApi/customGames.json","main")
+  except:
+    return "ERROR_WHILST_GETTING_GAMES"
+  return games
+def publishCustomGame(worldData):
+  try:
+    games = getJsonFileContents("GameshubApi/customGames.json","main")
+  except:
+    return "ERROR_WHILST_GETTING_GAMES"
+  games.append(worldData)
+  filePath = apiRepo.get_contents("GameshubApi/customGames.json","main")
+  apiRepo.update_file(path=filePath.path,message="",content=json.dumps(games,indent=4),sha=filePath.sha)
+  return "ADDED_GAME"
+
+def getShop():
+  try:
+    shop = getJsonFileContents("GameshubApi/shop.json","main")
+  except:
+    return "ERROR_WHILST_GETTING_SHOP"
+  return shop
+
+def buyItem(id,token):
+  try:
+    shop = getJsonFileContents("GameshubApi/shop.json","main")
+    accounts = getJsonFileContents("GameshubAPi/accounts.json","main")
+  except:
+    return "ERROR_WHILST_GETTING_SHOP"
+  userIndex = accounts.index(token["Account"])
+  itemIndex = -1
+  for item in shop:
+    if item["id"] == id:
+      itemIndex = shop.index(item)
+  if itemIndex != -1:
+    if id in accounts[userIndex]["Purchases"]:
+      if accounts[userIndex]["GameshubData"]["Money"]>=item["price"]:
+        awardMoney(token,item["price"] * -1)
+        accounts[userIndex]["GameshubData"]["Purchases"].append(id)
+  filePathAcc = apiRepo.get_contents(
+    "GameshubApi/accounts.json","main")
+  apiRepo.update_file(
+    path=filePathAcc.path,
+    message="",
+    content=json.dumps(accounts,indent=4),
+    sha=filePathAcc.sha)
+  updateToken(token)
+  return "BOUGHT_ITEM_"+id
+
 def awardMoney(token,amount):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
@@ -322,14 +360,19 @@ def awardMoney(token,amount):
         advancementsJson = getJsonFileContents("GameshubApi/advancements.json","main")
     except:
         return "ERROR_WHILST_GETTING_DATA"
-    
-    originAccount = accounts[accounts.index(token["Account"])]
-    originAccount["GameshubData"]["Money"] += int(amount)
+
+    originAccount = None
+    # accounts[accounts.index(token["Account"])]
+    for currentToken in accountTokens:
+        if currentToken["Token"] == token:
+            originAccount = currentToken["Account"]
+            accounts[accounts.index(originAccount)]["GameshubData"]["Money"] += int(amount)
 
     filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
-    apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+    apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts,indent=4),sha=filePath.sha)
     updateToken(token)
     return f"GIVEN_{originAccount['Username']}_{str(amount)}_MONEYS"
+
 def acceptFriendReq(token,friendeUUID):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
@@ -364,7 +407,7 @@ def acceptFriendReq(token,friendeUUID):
         originsAccount["FriendRequests"].pop(frequestIndex)
 
         filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
-        apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+        apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts,indent=4),sha=filePath.sha)
 
         for currentToken in accountTokens:
             if currentToken["Account"]["UUID"] == friendeAccount["UUID"]:
@@ -425,7 +468,7 @@ def sendFriendRequest(tokenOfSender,ElementOfReciever):
     if indexer == {"Indexer":False}:
         reciever["FriendRequests"].append(prebuildRequest)
         filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
-        apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+        apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts,indent=4),sha=filePath.sha)
         updateToken(tokenOfReciever)
         return "FRIEND_REQUEST_SENT"
     else:
@@ -454,7 +497,7 @@ def updateAcc(accountUUID,token):
             if not "GameData" in currentAccount["GameshubData"]:
                 currentAccount["GameshubData"].update({"GameData":[]})
     filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
-    apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+    apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts,indent=4),sha=filePath.sha)
 
     updateToken(token)
     return f"DONE_{json.dumps(acc)}"
@@ -503,7 +546,7 @@ def awardAdvancement(token,advancementId):
                 currentAccount["GameshubData"]["Money"] += int(advancement["reward"])
                 print(currentAccount,accounts)
                 filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
-                apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+                apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts,indent=4),sha=filePath.sha)
                 updateAcc(currentAccount["UUID"],token)
                 updateToken(token)
 
@@ -538,7 +581,7 @@ def updateToken(token):
                 if currentAccount["UUID"] == currentAccountToken["Account"]["UUID"]:
                     currentAccountToken["Account"] = currentAccount
                     filePath = apiRepo.get_contents("GameshubApi/accountTokens.json","main")
-                    apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accountTokens),sha=filePath.sha)
+                    apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accountTokens,indent=4),sha=filePath.sha)
                     return "UPDATED_ACCOUNT"
 def checkToken(token):
     try:
@@ -570,11 +613,11 @@ def deleteAccount(token):
                 if accountIndex != None:
                     accounts.pop(accountIndex)
                     filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
-                    apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts),sha=filePath.sha)
+                    apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts,indent=4),sha=filePath.sha)
                 
                 accountTokens.pop(i)
                 filePath = apiRepo.get_contents("GameshubApi/accountTokens.json","main")
-                apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accountTokens),sha=filePath.sha)
+                apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accountTokens,indent=4),sha=filePath.sha)
                 return(f"Account Deleted!")
         i+=1
 def generateUUID(length):

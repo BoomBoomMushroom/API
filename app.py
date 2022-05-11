@@ -145,3 +145,29 @@ def awardmoney():
     if token_query and amount:
         GameshubApi.awardMoney(token_query,amount)
         return responseMake("success"), 200
+@app.route("/getshop")
+def getShop():
+  d = GameshubApi.getShop()
+  return responseMake(d), 200
+@app.route("/buyitem")
+def buyItem():
+  try:
+    id_query = str(request.args.get('id'))
+  except:
+    flask.abort(400)
+  d = GameshubApi.buyItem(id_query)
+  return responseMake(d), 200
+@app.route("/getcustomgames")
+def getCustomGames():
+  d = GameshubApi.getCustomGames()
+  return responseMake(d), 200
+@app.route("/publishcustomgame")
+def publishCustomGame():
+  try:
+    world = str(request.args.get('world'))
+    token = str(request.args.get('token'))
+  except:
+    flask.abort(400)
+  d = GameshubApi.publishCustomGame(world,token)
+  return responseMake(d), 200
+app.run(host="0.0.0.0",port=7777)
