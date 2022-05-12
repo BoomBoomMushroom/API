@@ -18,7 +18,9 @@
                 }
             ],
             "Money": 56,
-            "Purchases": [],
+            "Purchases": [
+                "devitem0"
+            ],
             "GameData": []
         },
         "Misc": [],
