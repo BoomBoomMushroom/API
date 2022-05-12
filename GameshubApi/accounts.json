@@ -28,7 +28,7 @@
     },
     {
         "Username": "NatNick",
-        "Password": "5CE762B15F654F54C0341E244FCB138C4DFD4318693CE224E46ED4F487BE9CF2",
+        "Password": "2a777fd5df2408a8ce860087b9b59f7ef8ae1657ae645c63d43ab4251c55c6e3",
         "UUID": "STSwcRgBLwmMSVg56iQ93Shlhn3dTb3c",
         "IsBanned": false,
         "IsMuted": false,
@@ -44,7 +44,7 @@
                     "img": "None"
                 }
             ],
-            "Money": 1052,
+            "Money": 1000,
             "Purchases": [],
             "GameData": []
         },
