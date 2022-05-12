@@ -17,9 +17,10 @@
                     "img": "None"
                 }
             ],
-            "Money": 56,
+            "Money": 1056,
             "Purchases": [
-                "devitem0"
+                "devitem0",
+                "snakeDLC"
             ],
             "GameData": []
         },
