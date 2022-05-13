@@ -17,8 +17,10 @@
                     "img": "None"
                 }
             ],
-            "Money": 56,
-            "Purchases": [],
+            "Money": 1056,
+            "Purchases": [
+                "snakeDLC"
+            ],
             "GameData": []
         },
         "Misc": [],
