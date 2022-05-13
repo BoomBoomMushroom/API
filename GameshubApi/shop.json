@@ -1,4 +1,3 @@
 [
-    {"name":"Developer Item","description":"A developer item used to test the shop!","id":"devitem0","price":0,"canPurchase":"false"},
     {"name":"Snake Powerups DLC","description":"This DLC lets you use powerups in the Snake game","id":"snakeDLC","price":1000,"canPurchase":"false"}
 ]
