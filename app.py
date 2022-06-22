@@ -163,4 +163,4 @@ def publishCustomGame():
     flask.abort(400)
   d = GameshubApi.publishCustomGame(world,token)
   return responseMake(d), 200
-app.run(host="0.0.0.0",port=random.randint(1000,9999))
+app.run(host="0.0.0.0",port=7777)
