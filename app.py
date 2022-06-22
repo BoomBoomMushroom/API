@@ -1,3 +1,6 @@
+import os
+#os.system('pip install PyGithub')
+
 import flask
 from flask import request
 import json
@@ -13,18 +16,6 @@ def responseMake(r):
 @app.route("/")
 def home():
     return responseMake("Hello "+request.method+" user!")
-@app.route("/gcPublishLvl")
-def gcPublishLvl():
-    try:
-        jsonSent = request.json
-        htmlData = jsonSent["HTML"]
-        gameInfoData = jsonSent["GameInfo"]
-    except:
-        jsonSent = {}
-    return responseMake(GameshubApi.gameCreatorPublishLevel(htmlData,gameInfoData))
-@app.route("/gcGetLvls")
-def gcGetLvls():
-    return responseMake(json.dumps(GameshubApi.getGameCreatorLevels()))
 @app.route("/checkUsername")
 def checkUsername():
     try:
@@ -85,7 +76,7 @@ def logout():
 @app.route("/getaccount")
 def viewacc():
     try:
-        query = str(request.args.get('username')) # /logout/?token=TOKEN
+        query = str(request.args.get('username'))
     except:
         flask.abort(400)
     if query:
@@ -143,19 +134,20 @@ def awardmoney():
     except:
         flask.abort(400)
     if token_query and amount:
-        GameshubApi.awardMoney(token_query,amount)
-        return responseMake("success"), 200
+        d = GameshubApi.awardMoney(token_query,amount)
+        return responseMake(d), 200
 @app.route("/getshop")
 def getShop():
   d = GameshubApi.getShop()
   return responseMake(d), 200
-@app.route("/buyitem")
+@app.route("/buy")
 def buyItem():
   try:
-    id_query = str(request.args.get('id'))
+    id = str(request.args.get('id'))
+    token = str(request.args.get('token'))
   except:
-    flask.abort(400)
-  d = GameshubApi.buyItem(id_query)
+    return responseMake("Failed to get params!"), 400
+  d = GameshubApi.buyItem(id,token)
   return responseMake(d), 200
 @app.route("/getcustomgames")
 def getCustomGames():

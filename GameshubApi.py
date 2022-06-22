@@ -9,27 +9,23 @@ from github import Github
 from pprint import pprint
 
 token = "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"
-gcLvlsfileName = "gameCreatorLevels.json"
 repoName = "BoomBoomMushroom/GameHub"
 apiRepoName = "BoomBoomMushroom/API"
 
 g = Github(token)
 user = g.get_user()
-for currentRepo in user.get_repos():
-    if currentRepo.full_name == repoName:
-        repo = currentRepo
-    if currentRepo.full_name == apiRepoName:
-        apiRepo = currentRepo
+apiRepo = user.get_repo("API")
+
 def getJsonFileContents(FilePath,branch):
-    return json.loads(apiRepo.get_contents(FilePath,branch).decoded_content)
+    return json.loads(apiRepo.get_contents(FilePath).decoded_content.decode())
 def publishLevel(data):
-    repoBranch = repo.get_branch("api")
+    repoBranch = apiRepo.get_branch("api")
     file = repo.get_contents(gcLvlsfileName,"api")
 
     if data != None:
-        repo.update_file(path=file.path,message="",content=json.dumps(data),sha=file.sha)
+        apiRepo.update_file(path=file.path,message="",content=json.dumps(data),sha=file.sha)
     else:
-        repo.update_file(path=file.path,message="",content=json.dumps([]),sha=file.sha)
+        apiRepo.update_file(path=file.path,message="",content=json.dumps([]),sha=file.sha)
 def sha256HashString(string: str):
     encodedString = string.encode()
     return hashlib.sha256(string.encode()).hexdigest()
@@ -330,24 +326,39 @@ def getShop():
 def buyItem(id,token):
   try:
     shop = getJsonFileContents("GameshubApi/shop.json","main")
-    accounts = getJsonFileContents("GameshubAPi/accounts.json","main")
+    accounts = getJsonFileContents("GameshubApi/accounts.json","main")
+    tokens = getJsonFileContents("GameshubApi/accountTokens.json","main")
   except:
-    return "ERROR_WHILST_GETTING_SHOP"
-  userIndex = accounts.index(token["Account"])
+    return "ERROR_WHILST_GETTING_CONSTANTS"
+  tokenIndex = -1
+  tokenFull = ""
+  for accToken in tokens:
+    if accToken["Token"]==token:
+      tokenIndex = tokens.index(accToken)
+      tokenFull = tokens[tokenIndex]
+  if tokenIndex == -1: return "INVAILID_TOKEN"
+  userIndex = accounts.index(tokenFull["Account"])
   itemIndex = -1
   for item in shop:
     if item["id"] == id:
       itemIndex = shop.index(item)
+
   if itemIndex != -1:
-    if id in accounts[userIndex]["Purchases"]:
+    if id in accounts[userIndex]["GameshubData"]["Purchases"]:
+      return "ALREADY_HAVE_ITEM_NOT_BOUGHT"
+    else:
       if accounts[userIndex]["GameshubData"]["Money"]>=item["price"]:
-        awardMoney(token,item["price"] * -1)
+        accounts[userIndex]["GameshubData"]["Money"] -= item["price"]
         accounts[userIndex]["GameshubData"]["Purchases"].append(id)
+      else:
+        return "NOT_ENOUGH_GAMESHUB_COINS"
+  else:
+    return "INVALID_ITEM"
   filePathAcc = apiRepo.get_contents(
     "GameshubApi/accounts.json","main")
   apiRepo.update_file(
     path=filePathAcc.path,
-    message="",
+    message="Bought Item id "+id,
     content=json.dumps(accounts,indent=4),
     sha=filePathAcc.sha)
   updateToken(token)
