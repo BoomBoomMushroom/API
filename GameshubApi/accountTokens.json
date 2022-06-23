@@ -24,9 +24,16 @@
                         "desc": "Bet all your chips, totaling 50 or over, in a single round of BlackJack",
                         "img": "None",
                         "reward": 100
+                    },
+                    {
+                        "id": 6,
+                        "header": "Winner Winner Chicken Dinner!",
+                        "desc": "Win a round of BlackJack in GamesHub",
+                        "img": "None",
+                        "reward": 200
                     }
                 ],
-                "Money": 200,
+                "Money": 400,
                 "Purchases": [
                     "snakeDLC"
                 ],
