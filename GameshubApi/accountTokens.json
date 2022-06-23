@@ -45,9 +45,16 @@
                         "desc": "Get a BlackJack! (Ace + Face card)",
                         "img": "None",
                         "reward": 25
+                    },
+                    {
+                        "id": 8,
+                        "header": "Close call",
+                        "desc": "Push with the house with a bet of 100 chips or higher",
+                        "img": "None",
+                        "reward": 50
                     }
                 ],
-                "Money": 505,
+                "Money": 555,
                 "Purchases": [
                     "snakeDLC"
                 ],
