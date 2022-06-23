@@ -31,9 +31,16 @@
                         "desc": "Win a round of BlackJack in GamesHub",
                         "img": "None",
                         "reward": 200
+                    },
+                    {
+                        "id": 7,
+                        "header": "You win some, and you lose some",
+                        "desc": "Lose over 100 chips (20G) in a single blackjack bet!",
+                        "img": "None",
+                        "reward": 100
                     }
                 ],
-                "Money": 400,
+                "Money": 500,
                 "Purchases": [
                     "snakeDLC"
                 ],
