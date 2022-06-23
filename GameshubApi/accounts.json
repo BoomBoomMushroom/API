@@ -36,9 +36,16 @@
                     "desc": "Lose over 100 chips (20G) in a single blackjack bet!",
                     "img": "None",
                     "reward": 100
+                },
+                {
+                    "id": 10,
+                    "header": "BlackJack!",
+                    "desc": "Get a BlackJack! (Ace + Face card)",
+                    "img": "None",
+                    "reward": 25
                 }
             ],
-            "Money": 480,
+            "Money": 505,
             "Purchases": [
                 "snakeDLC"
             ],
