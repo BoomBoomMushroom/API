@@ -65,6 +65,39 @@
         }
     },
     {
+        "Token": "hklsPp2MzbritrUK",
+        "Account": {
+            "Username": "NatNick",
+            "Password": "2fa81f00369950e309ff3b1e80dd3804827474977a96c5217ab9cf0446bbe974",
+            "UUID": "STSwcRgBLwmMSVg56iQ93Shlhn3dTb3c",
+            "IsBanned": false,
+            "IsMuted": false,
+            "Friends": [],
+            "FriendRequests": [],
+            "AccountCreationTime": 1636167662.5528288,
+            "GameshubData": {
+                "Advancements": [
+                    {
+                        "id": 1,
+                        "header": "Welcome!",
+                        "desc": "You get this achievement when you first sign up to Gameshub!",
+                        "img": "None"
+                    }
+                ],
+                "Money": 1000,
+                "Purchases": [],
+                "GameData": []
+            },
+            "Misc": [],
+            "Badges": [
+                {
+                    "name": "ArtBadge",
+                    "html": "<abbr title='Art Badge'><img width=100 height=100 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Art_Badge.png?raw=true'></abbr>"
+                }
+            ]
+        }
+    },
+    {
         "Token": "rze3n12qQS12j0CM",
         "Account": {
             "Username": "DerpyE",
