@@ -37,13 +37,14 @@ def signup(username,password):
             accounts = getJsonFileContents("GameshubApi/accounts.json","main")
         except:
             accounts = []
-        print("Gopt all accs")
+        print("Got all accs")
         newAccountJson = {
             "Username": username,
             "Password": sha256HashString(sha256HashString(password)),
             "UUID": generateUUID(32),
             "IsBanned": False,
             "IsMuted": False,
+            "IsAdmin": False,
             "Friends": [],
             "FriendRequests": [],
             "AccountCreationTime": time.time(),
@@ -85,7 +86,9 @@ def login(username,password):
             accUsername = "INVALID_USER_NAME"
             accPassword = "INVALID_ACC_PASSWORD"
         if accUsername == username and accPassword == sha256HashString(sha256HashString(password)):
+            print("Passed Login checks")
             for accToken in accountTokens:
+                print("token exists, deleting now...")
                 if accToken["Account"]["Username"] == username and accToken["Account"]["Password"] == sha256HashString(sha256HashString(password)):
                     try:
                         fileContents2 = getJsonFileContents("GameshubApi/accountTokens.json","main")
@@ -536,35 +539,36 @@ def awardAdvancement(token,advancementId):
         return "NO_ACCOUNTS"
     
     tokenStatusResp = checkToken(token)
-    if tokenStatusResp["TokenStatus"] == True:
+    if tokenStatusResp["TokenStatus"] == False:
+      return "INVALID_ACCOUNT_TOKEN"
+    try:
+        accountIndex = accounts.index(tokenStatusResp["Account"])
+    except:
+        updateToken(token)
         try:
             accountIndex = accounts.index(tokenStatusResp["Account"])
         except:
             updateToken(token)
-            try:
-                accountIndex = accounts.index(tokenStatusResp["Account"])
-            except:
-                updateToken(token)
-                return "ACCOUNT_TOKEN_NOT_UPDATED"
-        currentAccount = accounts[accountIndex]
-        for advancement in advancementsJson:
-            if advancement["id"] == advancementId:
-                for userAdvancement in currentAccount["GameshubData"]["Advancements"]:
-                    if advancement == userAdvancement:
-                        return "USER_ALREADY_HAS_THIS_ADVANCEMENT"
-                
-                currentAccount["GameshubData"]["Advancements"].append(advancement)
-                currentAccount["GameshubData"]["Money"] += int(advancement["reward"])
-                print(currentAccount,accounts)
-                filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
-                apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts,indent=4),sha=filePath.sha)
-                updateAcc(currentAccount["UUID"],token)
-                updateToken(token)
+            return "ACCOUNT_TOKEN_NOT_UPDATED"
+    currentAccount = accounts[accountIndex]
+    foundId = False
+    for advancement in advancementsJson:
+      if str(advancement["id"]) == str(advancementId):
+        foundId = True
+        for userAdvancement in currentAccount["GameshubData"]["Advancements"]:
+          if advancement == userAdvancement:
+              return "USER_ALREADY_HAS_THIS_ADVANCEMENT"    
+        currentAccount["GameshubData"]["Advancements"].append(advancement)
+        currentAccount["GameshubData"]["Money"] += int(advancement["reward"])
+        print(currentAccount,accounts)
+        filePath = apiRepo.get_contents("GameshubApi/accounts.json","main")
+        apiRepo.update_file(path=filePath.path,message="",content=json.dumps(accounts,indent=4),sha=filePath.sha)
+        updateAcc(currentAccount["UUID"],token)
+        updateToken(token)
 
-                return f'ADVANCEMENT_ADDED'
-        return "CANNOT_FIND_ADVANCEMENT!"
-    else:
-        return "INVALID_ACCOUNT_TOKEN"
+        return f'ADVANCEMENT_ADDED'
+    if foundId == False:
+      return "CANNOT_FIND_ADVANCEMENT!"
 def updateToken(token):
     try:
         accounts = getJsonFileContents("GameshubApi/accounts.json","main")
