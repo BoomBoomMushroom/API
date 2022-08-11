@@ -7,6 +7,7 @@
             "UUID": "QlpUmGhdlaHCaskn1vvSR34V6sQkRUVA",
             "IsBanned": false,
             "IsMuted": false,
+            "IsAdmin": true,
             "Friends": [],
             "FriendRequests": [],
             "AccountCreationTime": 1636166689.760447,
