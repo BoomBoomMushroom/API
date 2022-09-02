@@ -314,9 +314,16 @@
                         "header": "Welcome!",
                         "desc": "You get this achievement when you first sign up to Gameshub!",
                         "img": "None"
+                    },
+                    {
+                        "id": 9,
+                        "header": "Big Man!",
+                        "desc": "Bet all your chips, totaling 50 or over, in a single round of BlackJack",
+                        "img": "None",
+                        "reward": 100
                     }
                 ],
-                "Money": 50,
+                "Money": 150,
                 "Purchases": [],
                 "GameData": []
             },
