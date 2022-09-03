@@ -27,3 +27,4 @@ requests
 roblox
 roblox.py
 SQLAlchemy
+aiohttp>=3.8.0 # not directly required, pinned by Snyk to avoid a vulnerability
