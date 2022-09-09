@@ -315,7 +315,9 @@
             "Purchases": [],
             "GameData": []
         },
-        "Misc": []
+        "Misc": [],
+        "UsernameHistory": [],
+        "ProfilePicture": ""
     },
     {
         "Username": "Dillian_is_coo",
