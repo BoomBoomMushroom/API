@@ -10,6 +10,10 @@
         "FriendRequests": [],
         "AccountCreationTime": 1636166689.760447,
         "GameshubData": {
+<<<<<<< HEAD
+            "Advancements": [1,9,6,7,10,8],
+            "Money": 16026004,
+=======
             "Advancements": [
                 {
                     "id": 1,
@@ -60,7 +64,8 @@
                     "reward": 100
                 }
             ],
-            "Money": 16026454,
+            "Money": 16026434,
+>>>>>>> 7df47c9baa969c8381d179845a61433e5c7dc63b
             "Purchases": [
                 "snakeDLC"
             ],
@@ -82,14 +87,7 @@
         "FriendRequests": [],
         "AccountCreationTime": 1636167662.5528288,
         "GameshubData": {
-            "Advancements": [
-                {
-                    "id": 1,
-                    "header": "Welcome!",
-                    "desc": "You get this achievement when you first sign up to Gameshub!",
-                    "img": "None"
-                }
-            ],
+            "Advancements": [1],
             "Money": 3500,
             "Purchases": [],
             "GameData": []
@@ -115,14 +113,7 @@
         "FriendRequests": [],
         "AccountCreationTime": 1645024753.0140705,
         "GameshubData": {
-            "Advancements": [
-                {
-                    "id": 1,
-                    "header": "Welcome!",
-                    "desc": "You get this achievement when you first sign up to Gameshub!",
-                    "img": "None"
-                }
-            ],
+            "Advancements": [1],
             "Money": 1051,
             "Purchases": [
                 "snakeDLC"
@@ -152,14 +143,7 @@
         "FriendRequests": [],
         "AccountCreationTime": 1647816112.5055916,
         "GameshubData": {
-            "Advancements": [
-                {
-                    "id": 1,
-                    "header": "Welcome!",
-                    "desc": "You get this achievement when you first sign up to Gameshub!",
-                    "img": "None"
-                }
-            ],
+            "Advancements": [1],
             "Money": 50,
             "Purchases": [],
             "GameData": []
@@ -179,14 +163,7 @@
         "FriendRequests": [],
         "AccountCreationTime": 1648907002.3216841,
         "GameshubData": {
-            "Advancements": [
-                {
-                    "id": 1,
-                    "header": "Welcome!",
-                    "desc": "You get this achievement when you first sign up to Gameshub!",
-                    "img": "None"
-                }
-            ],
+            "Advancements": [1],
             "Money": 50,
             "Purchases": [],
             "GameData": []
@@ -206,14 +183,7 @@
         "FriendRequests": [],
         "AccountCreationTime": 1649184767.9262314,
         "GameshubData": {
-            "Advancements": [
-                {
-                    "id": 1,
-                    "header": "Welcome!",
-                    "desc": "You get this achievement when you first sign up to Gameshub!",
-                    "img": "None"
-                }
-            ],
+            "Advancements": [1],
             "Money": 10051,
             "Purchases": [],
             "GameData": []
@@ -233,14 +203,7 @@
         "FriendRequests": [],
         "AccountCreationTime": 1649956119.5931003,
         "GameshubData": {
-            "Advancements": [
-                {
-                    "id": 1,
-                    "header": "Welcome!",
-                    "desc": "You get this achievement when you first sign up to Gameshub!",
-                    "img": "None"
-                }
-            ],
+            "Advancements": [1],
             "Money": 50,
             "Purchases": [],
             "GameData": []
@@ -260,14 +223,7 @@
         "FriendRequests": [],
         "AccountCreationTime": 1649960068.693046,
         "GameshubData": {
-            "Advancements": [
-                {
-                    "id": 1,
-                    "header": "Welcome!",
-                    "desc": "You get this achievement when you first sign up to Gameshub!",
-                    "img": "None"
-                }
-            ],
+            "Advancements": [1],
             "Money": 1051,
             "Purchases": [],
             "GameData": []
@@ -287,14 +243,7 @@
         "FriendRequests": [],
         "AccountCreationTime": 1650075961.5832791,
         "GameshubData": {
-            "Advancements": [
-                {
-                    "id": 1,
-                    "header": "Welcome!",
-                    "desc": "You get this achievement when you first sign up to Gameshub!",
-                    "img": "None"
-                }
-            ],
+            "Advancements": [1],
             "Money": 51,
             "Purchases": [],
             "GameData": []
@@ -314,14 +263,7 @@
         "FriendRequests": [],
         "AccountCreationTime": 1654785557.7509205,
         "GameshubData": {
-            "Advancements": [
-                {
-                    "id": 1,
-                    "header": "Welcome!",
-                    "desc": "You get this achievement when you first sign up to Gameshub!",
-                    "img": "None"
-                }
-            ],
+            "Advancements": [1],
             "Money": 50,
             "Purchases": [],
             "GameData": []
@@ -341,21 +283,7 @@
         "FriendRequests": [],
         "AccountCreationTime": 1660918976.722669,
         "GameshubData": {
-            "Advancements": [
-                {
-                    "id": 1,
-                    "header": "Welcome!",
-                    "desc": "You get this achievement when you first sign up to Gameshub!",
-                    "img": "None"
-                },
-                {
-                    "id": 9,
-                    "header": "Big Man!",
-                    "desc": "Bet all your chips, totaling 50 or over, in a single round of BlackJack",
-                    "img": "None",
-                    "reward": 100
-                }
-            ],
+            "Advancements": [1,9],
             "Money": 150,
             "Purchases": [],
             "GameData": []
@@ -375,14 +303,7 @@
         "FriendRequests": [],
         "AccountCreationTime": 1662399739.1132169,
         "GameshubData": {
-            "Advancements": [
-                {
-                    "id": 1,
-                    "header": "Welcome!",
-                    "desc": "You get this achievement when you first sign up to Gameshub!",
-                    "img": "None"
-                }
-            ],
+            "Advancements": [1],
             "Money": 50,
             "Purchases": [],
             "GameData": []
