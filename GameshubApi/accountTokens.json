@@ -12,8 +12,16 @@
             "FriendRequests": [],
             "AccountCreationTime": 1636166689.760447,
             "GameshubData": {
-                "Advancements": [1,9,6,7,10,8,3],
-                "Money": 16026454,
+                "Money": 16026004,
+                "Advancements": [
+                    1,
+                    9,
+                    6,
+                    7,
+                    10,
+                    8,
+                    3
+                ],
                 "Purchases": [
                     "snakeDLC"
                 ],
@@ -38,7 +46,9 @@
             "FriendRequests": [],
             "AccountCreationTime": 1636167662.5528288,
             "GameshubData": {
-                "Advancements": [1],
+                "Advancements": [
+                    1
+                ],
                 "Money": 3500,
                 "Purchases": [],
                 "GameData": []
@@ -67,7 +77,9 @@
             "FriendRequests": [],
             "AccountCreationTime": 1648907002.3216841,
             "GameshubData": {
-                "Advancements": [1],
+                "Advancements": [
+                    1
+                ],
                 "Money": 50,
                 "Purchases": [],
                 "GameData": []
@@ -90,7 +102,9 @@
             "FriendRequests": [],
             "AccountCreationTime": 1647816112.5055916,
             "GameshubData": {
-                "Advancements": [1],
+                "Advancements": [
+                    1
+                ],
                 "Money": 50,
                 "Purchases": [],
                 "GameData": []
@@ -113,7 +127,9 @@
             "FriendRequests": [],
             "AccountCreationTime": 1649184767.9262314,
             "GameshubData": {
-                "Advancements": [1],
+                "Advancements": [
+                    1
+                ],
                 "Money": 10051,
                 "Purchases": [],
                 "GameData": []
@@ -136,7 +152,9 @@
             "FriendRequests": [],
             "AccountCreationTime": 1649956119.5931003,
             "GameshubData": {
-                "Advancements": [1],
+                "Advancements": [
+                    1
+                ],
                 "Money": 50,
                 "Purchases": [],
                 "GameData": []
@@ -159,7 +177,9 @@
             "FriendRequests": [],
             "AccountCreationTime": 1649960068.693046,
             "GameshubData": {
-                "Advancements": [1],
+                "Advancements": [
+                    1
+                ],
                 "Money": 1051,
                 "Purchases": [],
                 "GameData": []
@@ -182,7 +202,9 @@
             "FriendRequests": [],
             "AccountCreationTime": 1650075961.5832791,
             "GameshubData": {
-                "Advancements": [1],
+                "Advancements": [
+                    1
+                ],
                 "Money": 51,
                 "Purchases": [],
                 "GameData": []
@@ -205,7 +227,9 @@
             "FriendRequests": [],
             "AccountCreationTime": 1654785557.7509205,
             "GameshubData": {
-                "Advancements": [1],
+                "Advancements": [
+                    1
+                ],
                 "Money": 50,
                 "Purchases": [],
                 "GameData": []
@@ -228,7 +252,10 @@
             "FriendRequests": [],
             "AccountCreationTime": 1660918976.722669,
             "GameshubData": {
-                "Advancements": [1,9],
+                "Advancements": [
+                    1,
+                    9
+                ],
                 "Money": 150,
                 "Purchases": [],
                 "GameData": []
@@ -251,7 +278,9 @@
             "FriendRequests": [],
             "AccountCreationTime": 1645024753.0140705,
             "GameshubData": {
-                "Advancements": [1],
+                "Advancements": [
+                    1
+                ],
                 "Money": 1051,
                 "Purchases": [
                     "snakeDLC"
@@ -284,7 +313,9 @@
             "FriendRequests": [],
             "AccountCreationTime": 1662399739.1132169,
             "GameshubData": {
-                "Advancements": [1],
+                "Advancements": [
+                    1
+                ],
                 "Money": 50,
                 "Purchases": [],
                 "GameData": []
@@ -307,7 +338,9 @@
             "FriendRequests": [],
             "AccountCreationTime": 1662399739.1132169,
             "GameshubData": {
-                "Advancements": [1],
+                "Advancements": [
+                    1
+                ],
                 "Money": 50,
                 "Purchases": [],
                 "GameData": []
