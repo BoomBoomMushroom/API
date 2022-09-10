@@ -51,9 +51,16 @@
                     "desc": "Push with the house with a bet of 100 chips or higher",
                     "img": "None",
                     "reward": 50
+                },
+                {
+                    "id": 3,
+                    "header": "The code",
+                    "desc": "You entered the Konami Code!",
+                    "img": "None",
+                    "reward": 100
                 }
             ],
-            "Money": 16026024,
+            "Money": 16026124,
             "Purchases": [
                 "snakeDLC"
             ],
