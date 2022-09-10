@@ -451,7 +451,7 @@
     {
         "Token": "O3dRsuUTEVtCKhOg",
         "Account": {
-            "Username": "Billy",
+            "Username": "2kool4u",
             "Password": "b1281bd53f7411d73f64f9dfdf60bb438c56dfe4d4d1414b9d05473792be305f",
             "UUID": "GEtppxLnlvOCqxRQgS3wUBC936bslq1T",
             "IsBanned": false,
@@ -459,7 +459,9 @@
             "IsAdmin": false,
             "Friends": [],
             "FriendRequests": [],
-            "UsernameHistory": [],
+            "UsernameHistory": [
+                "Billy"
+            ],
             "ProfilePicture": "",
             "AccountCreationTime": 1662818365.4303737,
             "GameshubData": {
