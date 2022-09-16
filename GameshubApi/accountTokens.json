@@ -155,8 +155,10 @@
                 "Advancements": [
                     1
                 ],
-                "Money": 1051,
-                "Purchases": [],
+                "Money": 51,
+                "Purchases": [
+                    "snakeDLC"
+                ],
                 "GameData": []
             },
             "Misc": [],
