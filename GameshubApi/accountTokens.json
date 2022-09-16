@@ -257,13 +257,7 @@
             "GameshubData": {
                 "Advancements": [
                     1,
-                    {
-                        "id": 3,
-                        "header": "The code",
-                        "desc": "You entered the Konami Code!",
-                        "img": "None",
-                        "reward": 100
-                    }
+                    3
                 ],
                 "Money": 6151,
                 "Purchases": [
