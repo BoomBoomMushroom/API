@@ -111,9 +111,10 @@
             "AccountCreationTime": 1649184767.9262314,
             "GameshubData": {
                 "Advancements": [
-                    1
+                    1,
+                    6
                 ],
-                "Money": 9055,
+                "Money": 9255,
                 "Purchases": [
                     "snakeDLC"
                 ],
