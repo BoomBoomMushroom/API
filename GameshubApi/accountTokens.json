@@ -72,9 +72,10 @@
             "GameshubData": {
                 "Advancements": [
                     1,
-                    6
+                    6,
+                    8
                 ],
-                "Money": 9257,
+                "Money": 9307,
                 "Purchases": [
                     "snakeDLC"
                 ],
