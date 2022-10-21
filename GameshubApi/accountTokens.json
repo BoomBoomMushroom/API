@@ -296,8 +296,10 @@
                     7,
                     10
                 ],
-                "Money": 398132,
-                "Purchases": [],
+                "Money": 397132,
+                "Purchases": [
+                    "snakeDLC"
+                ],
                 "GameData": []
             },
             "Misc": [],
