@@ -79,9 +79,10 @@
             "Advancements": [
                 1,
                 3,
-                7
+                7,
+                6
             ],
-            "Money": 6261,
+            "Money": 6461,
             "Purchases": [
                 "snakeDLC"
             ],
