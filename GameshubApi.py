@@ -8,7 +8,7 @@ import time
 from github import Github
 from pprint import pprint
 
-token = "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"
+token = ""
 repoName = "BoomBoomMushroom/GameHub"
 apiRepoName = "BoomBoomMushroom/API"
 
