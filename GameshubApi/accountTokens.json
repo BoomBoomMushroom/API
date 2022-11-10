@@ -438,9 +438,10 @@
             "AccountCreationTime": 1647816112.5055916,
             "GameshubData": {
                 "Advancements": [
-                    1
+                    1,
+                    11
                 ],
-                "Money": 400,
+                "Money": 450,
                 "Purchases": [],
                 "GameData": []
             },
