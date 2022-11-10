@@ -9,5 +9,6 @@
   {"id":7,"header":"You win some, and you lose some","desc":"Lose over 100 chips (20G) in a single blackjack bet!","img":"None","reward":100},
   {"id":8,"header":"Close call","desc":"Push with the house with a bet of 100 chips or higher","img":"None","reward":50},
   {"id":9,"header":"Big Man!","desc":"Bet all your chips, totaling 50 or over, in a single round of BlackJack","img":"None","reward":100},
-  {"id":10,"header":"BlackJack!","desc":"Get a BlackJack! (Ace + Face card)","img":"None","reward":25}
+  {"id":10,"header":"BlackJack!","desc":"Get a BlackJack! (Ace + Face card)","img":"None","reward":25},
+  {"id":11,"header":"Mugshot","desc":"Add a custom profile picture to your account!","img":"None","reward":50}
 ]
