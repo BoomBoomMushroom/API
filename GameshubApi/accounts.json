@@ -335,12 +335,7 @@
         "AccountCreationTime": 1666193619.5796502,
         "GameshubData": {
             "Advancements": [
-                {
-                    "id": 1,
-                    "header": "Welcome!",
-                    "desc": "You get this achievement when you first sign up to Gameshub!",
-                    "img": "None"
-                },
+                1,
                 6,
                 9,
                 7,
@@ -370,12 +365,7 @@
         "AccountCreationTime": 1666278277.4858322,
         "GameshubData": {
             "Advancements": [
-                {
-                    "id": 1,
-                    "header": "Welcome!",
-                    "desc": "You get this achievement when you first sign up to Gameshub!",
-                    "img": "None"
-                }
+                1
             ],
             "Money": 50,
             "Purchases": [],
@@ -397,12 +387,7 @@
         "AccountCreationTime": 1668186829.498739,
         "GameshubData": {
             "Advancements": [
-                {
-                    "id": 1,
-                    "header": "Welcome!",
-                    "desc": "You get this achievement when you first sign up to Gameshub!",
-                    "img": "None"
-                }
+                1
             ],
             "Money": 52,
             "Purchases": [],
