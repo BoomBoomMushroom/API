@@ -575,9 +575,10 @@
             "GameshubData": {
                 "Advancements": [
                     1,
-                    8
+                    8,
+                    6
                 ],
-                "Money": 200,
+                "Money": 400,
                 "Purchases": [],
                 "GameData": []
             },
