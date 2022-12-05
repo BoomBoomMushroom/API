@@ -489,49 +489,5 @@
         },
         "Misc": [],
         "Trophies": []
-    },
-    {
-        "Username": "will.i.am",
-        "Password": "1de6fcb302cae238addbc9fbab7285b5fcd4ef30d7fb8ed5838fcc534b523d9e",
-        "UUID": "SuDebLMslQJmfSPRE3CQGK3SR258CBw7",
-        "IsBanned": false,
-        "IsMuted": false,
-        "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "AccountCreationTime": 1670005367.1388984,
-        "GameshubData": {
-            "Advancements": [
-                1
-            ],
-            "Money": 50,
-            "Purchases": [],
-            "GameData": []
-        },
-        "Misc": []
-    },
-    {
-        "Username": "will.i.am",
-        "Password": "1de6fcb302cae238addbc9fbab7285b5fcd4ef30d7fb8ed5838fcc534b523d9e",
-        "UUID": "EgUAbSAAeRcwM5atTgQnLeKhhIRu9T5q",
-        "IsBanned": false,
-        "IsMuted": false,
-        "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "AccountCreationTime": 1670005368.3027306,
-        "GameshubData": {
-            "Advancements": [
-                1
-            ],
-            "Money": 50,
-            "Purchases": [],
-            "GameData": []
-        },
-        "Misc": []
     }
 ]
