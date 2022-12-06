@@ -23,7 +23,8 @@
             "Purchases": [
                 "snakeDLC"
             ],
-            "GameData": []
+            "GameData": [],
+            "RedButtonClicks": 1
         },
         "Misc": [],
         "Badges": [
