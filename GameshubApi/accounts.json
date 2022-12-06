@@ -511,49 +511,5 @@
             "GameData": []
         },
         "Misc": []
-    },
-    {
-        "Username": "I_itch_my_b@lls",
-        "Password": "48556bfd580238b822d5ba52a0744a13f23aa54768e7b4f5fef7dd9945db18dd",
-        "UUID": "M1QJ8oenTNMSQ1TVivTwUOsDR875uN6y",
-        "IsBanned": false,
-        "IsMuted": false,
-        "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "AccountCreationTime": 1670339543.688688,
-        "GameshubData": {
-            "Advancements": [
-                1
-            ],
-            "Money": 50,
-            "Purchases": [],
-            "GameData": []
-        },
-        "Misc": []
-    },
-    {
-        "Username": "I_itch_my_b@lls",
-        "Password": "48556bfd580238b822d5ba52a0744a13f23aa54768e7b4f5fef7dd9945db18dd",
-        "UUID": "ViUkpomyhAH5pmS8t45TUcV6UubUKNJw",
-        "IsBanned": false,
-        "IsMuted": false,
-        "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "AccountCreationTime": 1670339634.789815,
-        "GameshubData": {
-            "Advancements": [
-                1
-            ],
-            "Money": 50,
-            "Purchases": [],
-            "GameData": []
-        },
-        "Misc": []
     }
 ]
