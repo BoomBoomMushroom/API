@@ -50,7 +50,8 @@
                 ],
                 "Money": 50,
                 "Purchases": [],
-                "GameData": []
+                "GameData": [],
+                "RedButtonClicks": 0
             },
             "Misc": [],
             "UsernameHistory": [],
