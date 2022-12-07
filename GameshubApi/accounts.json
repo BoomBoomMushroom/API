@@ -558,29 +558,6 @@
         "Misc": []
     },
     {
-        "Username": "Carter Woods",
-        "Password": "30c0c4ac970a3cba110d3b56864084c2b93c550724fc314b7e1a42ba4da8c9fe",
-        "UUID": "IT1mDbpaCMeaHGeSzcCSVBTRt4cioRzf",
-        "IsBanned": false,
-        "IsMuted": false,
-        "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "AccountCreationTime": 1670423409.5027132,
-        "GameshubData": {
-            "Advancements": [
-                1
-            ],
-            "Money": 50,
-            "Purchases": [],
-            "GameData": [],
-            "RedButtonClicks": 0
-        },
-        "Misc": []
-    },
-    {
         "Username": "i_lick_my_b@llz",
         "Password": "30c0c4ac970a3cba110d3b56864084c2b93c550724fc314b7e1a42ba4da8c9fe",
         "UUID": "Sefdf9TkzFzItatySc84vTxqVFUSI0zd",
@@ -600,29 +577,6 @@
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 57
-        },
-        "Misc": []
-    },
-    {
-        "Username": "i_lick_my_b@llz",
-        "Password": "30c0c4ac970a3cba110d3b56864084c2b93c550724fc314b7e1a42ba4da8c9fe",
-        "UUID": "A9aBEnTtpJJB0xlerHpTF3i7RESxNba9",
-        "IsBanned": false,
-        "IsMuted": false,
-        "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "AccountCreationTime": 1670424288.0364563,
-        "GameshubData": {
-            "Advancements": [
-                1
-            ],
-            "Money": 50,
-            "Purchases": [],
-            "GameData": [],
-            "RedButtonClicks": 0
         },
         "Misc": []
     }
