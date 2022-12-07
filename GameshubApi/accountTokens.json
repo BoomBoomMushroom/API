@@ -420,7 +420,8 @@
                 ],
                 "Money": 450,
                 "Purchases": [],
-                "GameData": []
+                "GameData": [],
+                "RedButtonClicks": 0
             },
             "Misc": [],
             "UsernameHistory": [],
