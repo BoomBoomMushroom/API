@@ -586,7 +586,8 @@
                 ],
                 "Money": 61967,
                 "Purchases": [],
-                "GameData": []
+                "GameData": [],
+                "RedButtonClicks": 0
             },
             "Misc": [],
             "Trophies": []
