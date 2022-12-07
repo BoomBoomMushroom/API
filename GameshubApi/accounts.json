@@ -429,7 +429,8 @@
             ],
             "Money": 250,
             "Purchases": [],
-            "GameData": []
+            "GameData": [],
+            "RedButtonClicks": 0
         },
         "Misc": [],
         "Trophies": []
