@@ -612,7 +612,13 @@
             "Misc": [],
             "UsernameHistory": [],
             "ProfilePicture": "https://github.com/BoomBoomMushroom/API/blob/main/ProfilePictures/6ICnSPUbcLkdngIUjSG0pm1TnjcUU6qo.jpeg?raw=true",
-            "Trophies": []
+            "Trophies": [],
+            "Badges": [
+                {
+                    "name": "ArtBadge",
+                    "html": "<abbr title='Art Badge'><img width=100 height=100 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Art_Badge.png?raw=true' style='border:1px solid black;image-rendering: pixelated;'></abbr>"
+                }
+            ]
         }
     },
     {
