@@ -255,12 +255,7 @@
                 "RedButtonClicks": 342
             },
             "Misc": [],
-            "Badges": [
-                {
-                    "name": "IdiotSubdivision",
-                    "html": "<abbr title='Idiot Subdivision Badge'><img width=100 height=100 src='https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/main/GamehubApi/images/Idiot_Badge.png' style='border:1px solid black;image-rendering: pixelated;'></abbr>"
-                }
-            ],
+            "Badges": [],
             "UsernameHistory": [],
             "ProfilePicture": "",
             "Trophies": []
