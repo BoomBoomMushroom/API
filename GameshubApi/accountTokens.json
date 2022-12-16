@@ -15,7 +15,7 @@
                 "Advancements": [
                     1
                 ],
-                "Money": 3500,
+                "Money": 50,
                 "Purchases": [],
                 "GameData": [],
                 "RedButtonClicks": 0
@@ -103,7 +103,7 @@
                     1,
                     6
                 ],
-                "Money": 5240,
+                "Money": 50,
                 "Purchases": [
                     "snakeDLC"
                 ],
@@ -160,7 +160,7 @@
                     1,
                     9
                 ],
-                "Money": 150,
+                "Money": 50,
                 "Purchases": [],
                 "GameData": [],
                 "RedButtonClicks": 0
@@ -187,34 +187,7 @@
                 "Advancements": [
                     1
                 ],
-                "Money": 51,
-                "Purchases": [],
-                "GameData": [],
-                "RedButtonClicks": 0
-            },
-            "Misc": [],
-            "UsernameHistory": [],
-            "ProfilePicture": "",
-            "Trophies": []
-        }
-    },
-    {
-        "Token": "DyugVKbf5r4nfV23",
-        "Account": {
-            "Username": "Master2redwow",
-            "Password": "f4a91e5636083e2d71cbb463f52bc0b0bbaa1ebf3f21c3a81c15f0a6016f4c89",
-            "UUID": "qghlrNLQLocbBfg4ryCxULJy1aaa5MgV",
-            "IsBanned": false,
-            "IsMuted": false,
-            "IsAdmin": false,
-            "Friends": [],
-            "FriendRequests": [],
-            "AccountCreationTime": 1662399739.1132169,
-            "GameshubData": {
-                "Advancements": [
-                    1
-                ],
-                "Money": 51,
+                "Money": 50,
                 "Purchases": [],
                 "GameData": [],
                 "RedButtonClicks": 0
@@ -238,7 +211,7 @@
             "FriendRequests": [],
             "AccountCreationTime": 1636166689.760447,
             "GameshubData": {
-                "Money": -44112040759999,
+                "Money": 50,
                 "Advancements": [
                     1,
                     9,
@@ -283,7 +256,7 @@
                     9,
                     10
                 ],
-                "Money": 1137445128,
+                "Money": 50,
                 "Purchases": [
                     "snakeDLC"
                 ],
@@ -322,7 +295,7 @@
                     10,
                     8
                 ],
-                "Money": 2227172,
+                "Money": 50,
                 "Purchases": [
                     "snakeDLC"
                 ],
@@ -349,7 +322,7 @@
                 "Advancements": [
                     1
                 ],
-                "Money": 81,
+                "Money": 50,
                 "Purchases": [],
                 "GameData": [],
                 "RedButtonClicks": 0
@@ -378,7 +351,7 @@
                 "Advancements": [
                     1
                 ],
-                "Money": 52,
+                "Money": 50,
                 "Purchases": [],
                 "GameData": [],
                 "RedButtonClicks": 39
@@ -405,7 +378,7 @@
                     1,
                     6
                 ],
-                "Money": 250,
+                "Money": 50,
                 "Purchases": [],
                 "GameData": [],
                 "RedButtonClicks": 0
@@ -489,7 +462,7 @@
                     10,
                     9
                 ],
-                "Money": 25840,
+                "Money": 50,
                 "Purchases": [],
                 "GameData": [],
                 "RedButtonClicks": 100
@@ -518,7 +491,7 @@
                     9,
                     7
                 ],
-                "Money": 68,
+                "Money": 50,
                 "Purchases": [],
                 "GameData": [],
                 "RedButtonClicks": 620
@@ -570,7 +543,7 @@
                 "Advancements": [
                     1
                 ],
-                "Money": 0,
+                "Money": 50,
                 "Purchases": [],
                 "GameData": [],
                 "RedButtonClicks": 57
@@ -598,7 +571,7 @@
                     7,
                     10
                 ],
-                "Money": 1530831209,
+                "Money": 50,
                 "Purchases": [
                     "snakeDLC"
                 ],
@@ -628,7 +601,7 @@
                     1,
                     11
                 ],
-                "Money": -192999999939540,
+                "Money": 50,
                 "Purchases": [],
                 "GameData": [],
                 "RedButtonClicks": 419
