@@ -599,9 +599,10 @@
             "GameshubData": {
                 "Advancements": [
                     1,
-                    11
+                    11,
+                    9
                 ],
-                "Money": 50,
+                "Money": 150,
                 "Purchases": [],
                 "GameData": [],
                 "RedButtonClicks": 422
