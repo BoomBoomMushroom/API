@@ -519,9 +519,10 @@
             "Advancements": [
                 1,
                 9,
-                7
+                7,
+                6
             ],
-            "Money": 109,
+            "Money": 309,
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 673
