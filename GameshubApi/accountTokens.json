@@ -433,9 +433,10 @@
                     1,
                     9,
                     7,
-                    10
+                    10,
+                    6
                 ],
-                "Money": 103,
+                "Money": 303,
                 "Purchases": [],
                 "GameData": [],
                 "RedButtonClicks": 673
