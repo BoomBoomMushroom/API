@@ -396,8 +396,10 @@
             "Advancements": [
                 1
             ],
-            "Money": 2691,
-            "Purchases": [],
+            "Money": 1691,
+            "Purchases": [
+                "snakeDLC"
+            ],
             "GameData": [],
             "RedButtonClicks": 42
         },
