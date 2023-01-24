@@ -898,9 +898,10 @@
                 1,
                 8,
                 9,
-                6
+                6,
+                7
             ],
-            "Money": 400,
+            "Money": 500,
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 0
