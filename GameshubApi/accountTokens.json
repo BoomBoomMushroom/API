@@ -852,9 +852,10 @@
             "GameshubData": {
                 "Advancements": [
                     1,
-                    8
+                    8,
+                    9
                 ],
-                "Money": 100,
+                "Money": 200,
                 "Purchases": [],
                 "GameData": [],
                 "RedButtonClicks": 0
