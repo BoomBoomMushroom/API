@@ -872,9 +872,10 @@
         "AccountCreationTime": 1674490146.8842623,
         "GameshubData": {
             "Advancements": [
-                1
+                1,
+                6
             ],
-            "Money": 5725,
+            "Money": 5925,
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 0
