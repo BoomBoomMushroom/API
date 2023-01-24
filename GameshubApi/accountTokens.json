@@ -853,9 +853,10 @@
                 "Advancements": [
                     1,
                     8,
-                    9
+                    9,
+                    6
                 ],
-                "Money": 200,
+                "Money": 400,
                 "Purchases": [],
                 "GameData": [],
                 "RedButtonClicks": 0
