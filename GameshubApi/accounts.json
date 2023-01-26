@@ -712,9 +712,10 @@
                 1,
                 7,
                 6,
-                8
+                8,
+                10
             ],
-            "Money": 34150,
+            "Money": 34175,
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 925
