@@ -371,8 +371,10 @@
                     10,
                     9
                 ],
-                "Money": 4556,
-                "Purchases": [],
+                "Money": 3556,
+                "Purchases": [
+                    "snakeDLC"
+                ],
                 "GameData": [],
                 "RedButtonClicks": 200
             },
