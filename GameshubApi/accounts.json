@@ -433,29 +433,6 @@
         "Trophies": []
     },
     {
-        "Username": "yourmom",
-        "Password": "fef3d83e32b4d981b0c0f75206e891268c6aa8bd8db5a315db7bf24168a4be27",
-        "UUID": "GTNUA0JQjvibTobnkRlqQpFw8TQvtCRi",
-        "IsBanned": false,
-        "IsMuted": false,
-        "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "AccountCreationTime": 1669132865.81801,
-        "GameshubData": {
-            "Advancements": [
-                1
-            ],
-            "Money": 50,
-            "Purchases": [],
-            "GameData": [],
-            "RedButtonClicks": 17
-        },
-        "Misc": []
-    },
-    {
         "Username": "dillionishot",
         "Password": "2d03df3145c1c3e3ef285d0b7dccee8102b7da1ed19cdfdbdcb965bd3326c7f6",
         "UUID": "UVVeVDn2VQjFUjaMnASN8BVkN50EIsto",
@@ -538,7 +515,7 @@
         "Misc": []
     },
     {
-        "Username": "Carter Woods",
+        "Username": "Carter_Woods",
         "Password": "30c0c4ac970a3cba110d3b56864084c2b93c550724fc314b7e1a42ba4da8c9fe",
         "UUID": "2t2OAepRk8TCslmwwRjiKG3L5dJ39Fo8",
         "IsBanned": false,
@@ -580,29 +557,6 @@
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 57
-        },
-        "Misc": []
-    },
-    {
-        "Username": "Menace",
-        "Password": "d409cbacc98dd0dcae058c294447346b7878dbe7852e3625230cb288aca84ef9",
-        "UUID": "Gmjc6wJpxDvcK1L4QkSL8mjTvOFS2HJT",
-        "IsBanned": false,
-        "IsMuted": false,
-        "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "AccountCreationTime": 1671463775.2618861,
-        "GameshubData": {
-            "Advancements": [
-                1
-            ],
-            "Money": 50,
-            "Purchases": [],
-            "GameData": [],
-            "RedButtonClicks": 0
         },
         "Misc": []
     },
@@ -677,29 +631,6 @@
         "Misc": []
     },
     {
-        "Username": "fortnite god",
-        "Password": "f8a35950e34c3340f8b540e8b2c19b43c035fa7a319e2b36d9b531a4c8769365",
-        "UUID": "mosfePgn54gSr1eSNx0mSUKUjlyfr9pq",
-        "IsBanned": false,
-        "IsMuted": false,
-        "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "AccountCreationTime": 1673634719.0423956,
-        "GameshubData": {
-            "Advancements": [
-                1
-            ],
-            "Money": 50,
-            "Purchases": [],
-            "GameData": [],
-            "RedButtonClicks": 0
-        },
-        "Misc": []
-    },
-    {
         "Username": "itching my balls",
         "Password": "9f274caac452c33adb79b91ffa8ac02327c924f56bd400ede4d8062e4ae1b8af",
         "UUID": "naapAT3tI90egJCwRS1Kwqq0HG5mcPPn",
@@ -723,75 +654,6 @@
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 925
-        },
-        "Misc": []
-    },
-    {
-        "Username": "itching my balls",
-        "Password": "9f274caac452c33adb79b91ffa8ac02327c924f56bd400ede4d8062e4ae1b8af",
-        "UUID": "hur2h7LA8VBc2Hk0bMJPU98Hohm83KxL",
-        "IsBanned": false,
-        "IsMuted": false,
-        "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "AccountCreationTime": 1674233558.9557228,
-        "GameshubData": {
-            "Advancements": [
-                1
-            ],
-            "Money": 50,
-            "Purchases": [],
-            "GameData": [],
-            "RedButtonClicks": 0
-        },
-        "Misc": []
-    },
-    {
-        "Username": "itching my balls",
-        "Password": "9f274caac452c33adb79b91ffa8ac02327c924f56bd400ede4d8062e4ae1b8af",
-        "UUID": "yMJA871m0VCfK6CuO27tpLKeTRDCRL4G",
-        "IsBanned": false,
-        "IsMuted": false,
-        "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "AccountCreationTime": 1674233560.0482378,
-        "GameshubData": {
-            "Advancements": [
-                1
-            ],
-            "Money": 50,
-            "Purchases": [],
-            "GameData": [],
-            "RedButtonClicks": 0
-        },
-        "Misc": []
-    },
-    {
-        "Username": "itching my balls",
-        "Password": "9f274caac452c33adb79b91ffa8ac02327c924f56bd400ede4d8062e4ae1b8af",
-        "UUID": "OK5ojiHRAH3RgBITtxiP9oQ0QBvIe9vu",
-        "IsBanned": false,
-        "IsMuted": false,
-        "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "AccountCreationTime": 1674233561.0902786,
-        "GameshubData": {
-            "Advancements": [
-                1
-            ],
-            "Money": 50,
-            "Purchases": [],
-            "GameData": [],
-            "RedButtonClicks": 0
         },
         "Misc": []
     },
@@ -933,52 +795,6 @@
                 1
             ],
             "Money": 10302,
-            "Purchases": [],
-            "GameData": [],
-            "RedButtonClicks": 0
-        },
-        "Misc": []
-    },
-    {
-        "Username": "D-nice02",
-        "Password": "6153b65afc58f55e6af1706e41883f913b7a85ae3e766a3eb0e643a39e1d9896",
-        "UUID": "CR3dE5qKSfNaTUetRVuPyLCAAImiRBqT",
-        "IsBanned": false,
-        "IsMuted": false,
-        "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "AccountCreationTime": 1674575919.2360933,
-        "GameshubData": {
-            "Advancements": [
-                1
-            ],
-            "Money": 50,
-            "Purchases": [],
-            "GameData": [],
-            "RedButtonClicks": 0
-        },
-        "Misc": []
-    },
-    {
-        "Username": "BBM",
-        "Password": "b1281bd53f7411d73f64f9dfdf60bb438c56dfe4d4d1414b9d05473792be305f",
-        "UUID": "mwcGDP6GUSm93RHUdT6AVjPhpskUdAlo",
-        "IsBanned": false,
-        "IsMuted": false,
-        "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "AccountCreationTime": 1674759901.8367448,
-        "GameshubData": {
-            "Advancements": [
-                1
-            ],
-            "Money": 50,
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 0
