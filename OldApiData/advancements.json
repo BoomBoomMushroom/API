@@ -1,0 +1,14 @@
+[
+  {"id":0,"header":"Haxer?!?!","desc":"This is a development achievement for devs ONLY!","img":"None","reward":0},
+  {"id":1,"header":"Welcome!","desc":"You get this achievement when you first sign up to Gameshub!","img":"None","reward":50},
+  {"id":2,"header":"Frens","desc":"You got your first friend!","img":"None","reward":100},
+  {"id":3,"header":"The code","desc":"You entered the Konami Code!","img":"None","reward":100},
+  {"id":4,"header":"The start","desc":"Place your first pixel in g/Place.","img":"None","reward":100},
+  {"id":5,"header":"Killer!","desc":"Kill someone in the Gun Game lobby for the first time.","img":"None","reward":200},
+  {"id":6,"header":"Winner Winner Chicken Dinner!","desc":"Win a round of BlackJack in GamesHub","img":"None","reward":200},
+  {"id":7,"header":"You win some, and you lose some","desc":"Lose over 100 chips (20G) in a single blackjack bet!","img":"None","reward":100},
+  {"id":8,"header":"Close call","desc":"Push with the house with a bet of 100 chips or higher","img":"None","reward":50},
+  {"id":9,"header":"Big Man!","desc":"Bet all your chips, totaling 50 or over, in a single round of BlackJack","img":"None","reward":100},
+  {"id":10,"header":"BlackJack!","desc":"Get a BlackJack! (Ace + Face card)","img":"None","reward":25},
+  {"id":11,"header":"Mugshot","desc":"Add a custom profile picture to your account!","img":"None","reward":50}
+]

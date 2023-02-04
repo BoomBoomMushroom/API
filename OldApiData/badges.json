@@ -1,0 +1,8 @@
+{
+    "ArtBadge": {"name":"ArtBadge","html":"<abbr title='Art Badge'><img width=100 height=100 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Art_Badge.png?raw=true' style='border:1px solid black;image-rendering: pixelated;'></abbr>"},
+    "DevBadge": {"name":"DevBadge","html":"<abbr title='Developer Badge'><img width=100 height=100 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Developer_badge.png?raw=true' style='border:1px solid black;image-rendering: pixelated;'></abbr>"},
+    "AdminBadge": {"name":"AdminBadge","html":"<abbr title='Admin Badge'><img width=100 height=100 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Op_Badge.png?raw=true' style='border:1px solid black;image-rendering: pixelated;'></abbr>"},
+    "GameTesterBadge": {"name":"GameTesterBadge","html":"<abbr title='Game Tester Badge'><img width=100 height=100 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Game_tester_badge.png?raw=true' style='border:1px solid black;image-rendering: pixelated;'></abbr>"},
+    "BotBadge": {"name":"BotBadge","html":"<abbr title='Bot Badge'><img width=100 height=100 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Bot_badge.png?raw=true' style='border:1px solid black;image-rendering: pixelated;'></abbr>"},
+    "IdiotBadge": {"name":"IdiotSubdivision","html":"<abbr title='Idiot Subdivision Badge'><img width=100 height=100 src='https://raw.githubusercontent.com/BoomBoomMushroom/GameHub/main/GamehubApi/images/Idiot_Badge.png' style='border:1px solid black;image-rendering: pixelated;'></abbr>"}
+}
