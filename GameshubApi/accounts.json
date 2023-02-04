@@ -1,13 +1,13 @@
-[
-    {
+{
+    "QlpUmGhdlaHCaskn1vvSR34V6sQkRUVA": {
         "Username": "BBM",
         "Password": "b1281bd53f7411d73f64f9dfdf60bb438c56dfe4d4d1414b9d05473792be305f",
         "UUID": "QlpUmGhdlaHCaskn1vvSR34V6sQkRUVA",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": true,
-        "Friends": [],
-        "FriendRequests": [],
+        "Friends": {},
+        "FriendRequests": {},
         "AccountCreationTime": 1636166689.760447,
         "GameshubData": {
             "Money": 340,
@@ -23,49 +23,49 @@
             "Purchases": [
                 "snakeDLC"
             ],
-            "GameData": [],
+            "GameData": {},
             "RedButtonClicks": 391
         },
-        "Misc": [],
-        "Badges": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "Trophies": []
+        "Misc": {},
+        "Badges": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
+        "Trophies": {}
     },
-    {
+    "STSwcRgBLwmMSVg56iQ93Shlhn3dTb3c": {
         "Username": "NatNick",
         "Password": "2fa81f00369950e309ff3b1e80dd3804827474977a96c5217ab9cf0446bbe974",
         "UUID": "STSwcRgBLwmMSVg56iQ93Shlhn3dTb3c",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
+        "Friends": {},
+        "FriendRequests": {},
         "AccountCreationTime": 1636167662.5528288,
         "GameshubData": {
             "Advancements": [
                 1
             ],
             "Money": 50,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": [],
-        "Badges": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "Trophies": []
+        "Misc": {},
+        "Badges": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
+        "Trophies": {}
     },
-    {
+    "AVyS6qQtxFcVeRGR1iRoRDnilU3OTeuD": {
         "Username": "Dexobite",
         "Password": "90b5f376f961dff1cba0677bd89bc67fd0ed94a66534ea14ef244842942e9d42",
         "UUID": "AVyS6qQtxFcVeRGR1iRoRDnilU3OTeuD",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
+        "Friends": {},
+        "FriendRequests": {},
         "AccountCreationTime": 1645024753.0140705,
         "GameshubData": {
             "Advancements": [
@@ -81,26 +81,26 @@
             "Purchases": [
                 "snakeDLC"
             ],
-            "GameData": [],
+            "GameData": {},
             "RedButtonClicks": 833
         },
-        "Misc": [],
-        "Badges": [],
+        "Misc": {},
+        "Badges": {},
         "UsernameHistory": [
             "DerpyE"
         ],
-        "ProfilePicture": "",
-        "Trophies": []
+        "ProfilePicture": {},
+        "Trophies": {}
     },
-    {
+    "6ICnSPUbcLkdngIUjSG0pm1TnjcUU6qo": {
         "Username": "Circuitbreaker08",
         "Password": "fef3d83e32b4d981b0c0f75206e891268c6aa8bd8db5a315db7bf24168a4be27",
         "UUID": "6ICnSPUbcLkdngIUjSG0pm1TnjcUU6qo",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
+        "Friends": {},
+        "FriendRequests": {},
         "AccountCreationTime": 1647816112.5055916,
         "GameshubData": {
             "Advancements": [
@@ -109,54 +109,51 @@
                 9
             ],
             "Money": 100,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 543
         },
-        "Misc": [],
-        "UsernameHistory": [],
+        "Misc": {},
+        "UsernameHistory": {},
         "ProfilePicture": "https://github.com/BoomBoomMushroom/API/blob/main/ProfilePictures/6ICnSPUbcLkdngIUjSG0pm1TnjcUU6qo.jpeg?raw=true",
-        "Trophies": [],
-        "Badges": [
-            {
-                "name": "ArtBadge",
-                "html": "<abbr title='Art Badge'><img width=100 height=100 src='https://github.com/BoomBoomMushroom/GameHub/blob/main/GamehubApi/images/Art_Badge.png?raw=true' style='border:1px solid black;image-rendering: pixelated;'></abbr>"
-            }
-        ]
+        "Trophies": {},
+        "Badges": {
+            "name": "html"
+        }
     },
-    {
+    "sRT7uGByAOll7g9jl5CTLVpVavOIfIR8": {
         "Username": "misterfireman",
         "Password": "fef3d83e32b4d981b0c0f75206e891268c6aa8bd8db5a315db7bf24168a4be27",
         "UUID": "sRT7uGByAOll7g9jl5CTLVpVavOIfIR8",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
+        "Friends": {},
+        "FriendRequests": {},
         "AccountCreationTime": 1648907002.3216841,
         "GameshubData": {
             "Advancements": [
                 1
             ],
             "Money": 50,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "Trophies": []
+        "Misc": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
+        "Trophies": {}
     },
-    {
+    "6Mt21e3Qf8f6giOeLEVydxGtsqSiNQlK": {
         "Username": "Periheliond",
         "Password": "fef3d83e32b4d981b0c0f75206e891268c6aa8bd8db5a315db7bf24168a4be27",
         "UUID": "6Mt21e3Qf8f6giOeLEVydxGtsqSiNQlK",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
+        "Friends": {},
+        "FriendRequests": {},
         "AccountCreationTime": 1649184767.9262314,
         "GameshubData": {
             "Advancements": [
@@ -170,47 +167,47 @@
             "Purchases": [
                 "snakeDLC"
             ],
-            "GameData": [],
+            "GameData": {},
             "RedButtonClicks": 1100
         },
-        "Misc": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "Trophies": []
+        "Misc": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
+        "Trophies": {}
     },
-    {
+    "SSiLS0fQiD2QVIqsLDTTm3Us1vR7ORab": {
         "Username": "jkks",
         "Password": "ed92e4c7e54e3f4a29d8041ec93124bd3c1ec4825701cac42b3fffaf0bd7120a",
         "UUID": "SSiLS0fQiD2QVIqsLDTTm3Us1vR7ORab",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
+        "Friends": {},
+        "FriendRequests": {},
         "AccountCreationTime": 1649956119.5931003,
         "GameshubData": {
             "Advancements": [
                 1
             ],
             "Money": 50,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "Trophies": []
+        "Misc": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
+        "Trophies": {}
     },
-    {
+    "SMSwTu8ImVuSVkRHsMQVS4TyRtaQcuD5": {
         "Username": "Altered_Fire",
         "Password": "8f91cf479d3fac77c315f304024230fbbcc5d9bda8d7835213a8e2d7c237b847",
         "UUID": "SMSwTu8ImVuSVkRHsMQVS4TyRtaQcuD5",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
+        "Friends": {},
+        "FriendRequests": {},
         "AccountCreationTime": 1649960068.693046,
         "GameshubData": {
             "Advancements": [
@@ -221,23 +218,23 @@
             "Purchases": [
                 "snakeDLC"
             ],
-            "GameData": [],
+            "GameData": {},
             "RedButtonClicks": 44
         },
-        "Misc": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "Trophies": []
+        "Misc": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
+        "Trophies": {}
     },
-    {
+    "HimaBBRUpdhTCh5BVSoBTfdTHLvqDaBK": {
         "Username": "Menace",
         "Password": "d409cbacc98dd0dcae058c294447346b7878dbe7852e3625230cb288aca84ef9",
         "UUID": "HimaBBRUpdhTCh5BVSoBTfdTHLvqDaBK",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
+        "Friends": {},
+        "FriendRequests": {},
         "AccountCreationTime": 1650075961.5832791,
         "GameshubData": {
             "Advancements": [
@@ -247,47 +244,47 @@
             "Purchases": [
                 "snakeDLC"
             ],
-            "GameData": [],
+            "GameData": {},
             "RedButtonClicks": 14
         },
-        "Misc": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "Trophies": []
+        "Misc": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
+        "Trophies": {}
     },
-    {
+    "TLTjGn60QUkNTzwLMDt1k3lOsrRM3sNV": {
         "Username": "dillionisdaddy",
         "Password": "5883fa571433840512956dadab1ba368c6a2dccf31dd7aad3c8a0ad25bb0fbe2",
         "UUID": "TLTjGn60QUkNTzwLMDt1k3lOsrRM3sNV",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
+        "Friends": {},
+        "FriendRequests": {},
         "AccountCreationTime": 1654785557.7509205,
         "GameshubData": {
             "Advancements": [
                 1
             ],
             "Money": 50,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "Trophies": []
+        "Misc": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
+        "Trophies": {}
     },
-    {
+    "U8GKQ3fJCjdH3QE2iDSnjVk4GDL3r5Sy": {
         "Username": "Dillian_is_coo",
         "Password": "e2271b93daef715c14baec9358966be23f03705edbb170a25d67ddbce31be5b3",
         "UUID": "U8GKQ3fJCjdH3QE2iDSnjVk4GDL3r5Sy",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
+        "Friends": {},
+        "FriendRequests": {},
         "AccountCreationTime": 1660918976.722669,
         "GameshubData": {
             "Advancements": [
@@ -295,50 +292,50 @@
                 9
             ],
             "Money": 50,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 10
         },
-        "Misc": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "Trophies": []
+        "Misc": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
+        "Trophies": {}
     },
-    {
+    "qghlrNLQLocbBfg4ryCxULJy1aaa5MgV": {
         "Username": "Master2redwow",
         "Password": "f4a91e5636083e2d71cbb463f52bc0b0bbaa1ebf3f21c3a81c15f0a6016f4c89",
         "UUID": "qghlrNLQLocbBfg4ryCxULJy1aaa5MgV",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
+        "Friends": {},
+        "FriendRequests": {},
         "AccountCreationTime": 1662399739.1132169,
         "GameshubData": {
             "Advancements": [
                 1
             ],
             "Money": 50,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
-        "Trophies": []
+        "Misc": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
+        "Trophies": {}
     },
-    {
+    "RQktOFrqkzEzsCkKpHt4QKV3RNaiPwnt": {
         "Username": "Exigol",
         "Password": "4c27869a9be247117c73633fc0dd53a23412711d4cb70b877bcf841367794972",
         "UUID": "RQktOFrqkzEzsCkKpHt4QKV3RNaiPwnt",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1666193619.5796502,
         "GameshubData": {
             "Advancements": [
@@ -353,46 +350,46 @@
             "Purchases": [
                 "snakeDLC"
             ],
-            "GameData": [],
+            "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": [],
-        "Trophies": []
+        "Misc": {},
+        "Trophies": {}
     },
-    {
+    "oifrbO9DUuVNUfHDGx968z3IQGREke2n": {
         "Username": "lydiacraft",
         "Password": "c4a075b7ae5bcb209bbae2503da5aaeb9e6391551ac3c20380a8ddc79aa1d4fe",
         "UUID": "oifrbO9DUuVNUfHDGx968z3IQGREke2n",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1666278277.4858322,
         "GameshubData": {
             "Advancements": [
                 1
             ],
             "Money": 50,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 6
         },
-        "Misc": []
+        "Misc": {}
     },
-    {
+    "hVe9oCGejmfJyS7uIigRv9veby0qnRSl": {
         "Username": "monkey",
         "Password": "ed92e4c7e54e3f4a29d8041ec93124bd3c1ec4825701cac42b3fffaf0bd7120a",
         "UUID": "hVe9oCGejmfJyS7uIigRv9veby0qnRSl",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1668186829.498739,
         "GameshubData": {
             "Advancements": [
@@ -402,22 +399,22 @@
             "Purchases": [
                 "snakeDLC"
             ],
-            "GameData": [],
+            "GameData": {},
             "RedButtonClicks": 42
         },
-        "Misc": []
+        "Misc": {}
     },
-    {
+    "FHc2GzQDuDSmoz1Vx1KPEv4QC8a93kKT": {
         "Username": "TheBeast51",
         "Password": "7f8b2faae2ffc2b68666f1aa09ad5bbf8de681ab8b98466c86cb5f87d044a375",
         "UUID": "FHc2GzQDuDSmoz1Vx1KPEv4QC8a93kKT",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1669053498.9568417,
         "GameshubData": {
             "Advancements": [
@@ -425,47 +422,47 @@
                 6
             ],
             "Money": 50,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": [],
-        "Trophies": []
+        "Misc": {},
+        "Trophies": {}
     },
-    {
+    "UVVeVDn2VQjFUjaMnASN8BVkN50EIsto": {
         "Username": "dillionishot",
         "Password": "2d03df3145c1c3e3ef285d0b7dccee8102b7da1ed19cdfdbdcb965bd3326c7f6",
         "UUID": "UVVeVDn2VQjFUjaMnASN8BVkN50EIsto",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1669137279.8359337,
         "GameshubData": {
             "Advancements": [
                 1
             ],
             "Money": 50,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 3
         },
-        "Misc": []
+        "Misc": {}
     },
-    {
+    "GfGRSzTQIVjyC0HmoVAPv0DAUghkCyHT": {
         "Username": "will.i.am",
         "Password": "1de6fcb302cae238addbc9fbab7285b5fcd4ef30d7fb8ed5838fcc534b523d9e",
         "UUID": "GfGRSzTQIVjyC0HmoVAPv0DAUghkCyHT",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1670005365.9023342,
         "GameshubData": {
             "Advancements": [
@@ -480,23 +477,23 @@
             "Purchases": [
                 "snakeDLC"
             ],
-            "GameData": [],
+            "GameData": {},
             "RedButtonClicks": 200
         },
-        "Misc": [],
-        "Trophies": []
+        "Misc": {},
+        "Trophies": {}
     },
-    {
+    "Juo3V9f2G1UKo8HaBSnUBtaUDcwC8tbo": {
         "Username": "I_itch_my_b@lls",
         "Password": "48556bfd580238b822d5ba52a0744a13f23aa54768e7b4f5fef7dd9945db18dd",
         "UUID": "Juo3V9f2G1UKo8HaBSnUBtaUDcwC8tbo",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1670339542.3104136,
         "GameshubData": {
             "Advancements": [
@@ -508,92 +505,92 @@
                 8
             ],
             "Money": 17700,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 860
         },
-        "Misc": []
+        "Misc": {}
     },
-    {
+    "2t2OAepRk8TCslmwwRjiKG3L5dJ39Fo8": {
         "Username": "Carter_Woods",
         "Password": "30c0c4ac970a3cba110d3b56864084c2b93c550724fc314b7e1a42ba4da8c9fe",
         "UUID": "2t2OAepRk8TCslmwwRjiKG3L5dJ39Fo8",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1670423407.8251812,
         "GameshubData": {
             "Advancements": [
                 1
             ],
             "Money": 50,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 25
         },
-        "Misc": []
+        "Misc": {}
     },
-    {
+    "Sefdf9TkzFzItatySc84vTxqVFUSI0zd": {
         "Username": "i_lick_my_b@llz",
         "Password": "30c0c4ac970a3cba110d3b56864084c2b93c550724fc314b7e1a42ba4da8c9fe",
         "UUID": "Sefdf9TkzFzItatySc84vTxqVFUSI0zd",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1670424273.765083,
         "GameshubData": {
             "Advancements": [
                 1
             ],
             "Money": 50,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 57
         },
-        "Misc": []
+        "Misc": {}
     },
-    {
+    "mhovTmcLQD9ePeFpjuiQgJyEHLoj7Iy8": {
         "Username": "(0)(0)",
         "Password": "ed92e4c7e54e3f4a29d8041ec93124bd3c1ec4825701cac42b3fffaf0bd7120a",
         "UUID": "mhovTmcLQD9ePeFpjuiQgJyEHLoj7Iy8",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1671556096.4852505,
         "GameshubData": {
             "Advancements": [
                 1
             ],
             "Money": 50,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": []
+        "Misc": {}
     },
-    {
+    "G15colLKBmCB9G02m24ikCUJpJdV9QU1": {
         "Username": "Happy hippo",
         "Password": "20303e49b5a650a057fc1fc2987f53b1f177c7370052d2d707d34c3c0a2a7222",
         "UUID": "G15colLKBmCB9G02m24ikCUJpJdV9QU1",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1673629274.3921676,
         "GameshubData": {
             "Advancements": [
@@ -601,46 +598,46 @@
                 6
             ],
             "Money": 13516,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": []
+        "Misc": {}
     },
-    {
+    "DIDVwOv0eLRSDuUv2bSVQ5jLL5tu3qIz": {
         "Username": "fortnite god",
         "Password": "f8a35950e34c3340f8b540e8b2c19b43c035fa7a319e2b36d9b531a4c8769365",
         "UUID": "DIDVwOv0eLRSDuUv2bSVQ5jLL5tu3qIz",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1673634716.6506572,
         "GameshubData": {
             "Advancements": [
                 1
             ],
             "Money": 50,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": []
+        "Misc": {}
     },
-    {
+    "naapAT3tI90egJCwRS1Kwqq0HG5mcPPn": {
         "Username": "itching my balls",
         "Password": "9f274caac452c33adb79b91ffa8ac02327c924f56bd400ede4d8062e4ae1b8af",
         "UUID": "naapAT3tI90egJCwRS1Kwqq0HG5mcPPn",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1674233556.514482,
         "GameshubData": {
             "Advancements": [
@@ -651,92 +648,92 @@
                 10
             ],
             "Money": 36375,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 925
         },
-        "Misc": []
+        "Misc": {}
     },
-    {
+    "BtecTB3QmapxayzRF8Av4z13L9zjQnR9": {
         "Username": "Angry hippo",
         "Password": "30cd562bf65a98a8a36344e461beb569b3717af63e25b137319b9a86a223aa66",
         "UUID": "BtecTB3QmapxayzRF8Av4z13L9zjQnR9",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1674233760.1200256,
         "GameshubData": {
             "Advancements": [
                 1
             ],
             "Money": -1200,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": []
+        "Misc": {}
     },
-    {
+    "nkl9TP1uAw1gFm4okhcQvSQGhey8SfrV": {
         "Username": "B A ll Sn I FfeR",
         "Password": "df2ba235e2bb228f0ac792b4ce03dec418928dab9bf11f49b447e7c29a45d713",
         "UUID": "nkl9TP1uAw1gFm4okhcQvSQGhey8SfrV",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1674234297.407277,
         "GameshubData": {
             "Advancements": [
                 1
             ],
             "Money": 2,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": []
+        "Misc": {}
     },
-    {
+    "9tDu1TR8RyaIvcw6ewdyrEHbATMcRsa4": {
         "Username": "Big cheese",
         "Password": "ef3a53b8099c53790c1ca05505d7d9ad87d2ca72fa629dce79861188a4313d93",
         "UUID": "9tDu1TR8RyaIvcw6ewdyrEHbATMcRsa4",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1674481081.1869583,
         "GameshubData": {
             "Advancements": [
                 1
             ],
             "Money": -1280,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": []
+        "Misc": {}
     },
-    {
+    "BDFRDfBP7SMRVfdRsK0ytuNfevUlP1Rg": {
         "Username": "j cole is daddy",
         "Password": "ef3a53b8099c53790c1ca05505d7d9ad87d2ca72fa629dce79861188a4313d93",
         "UUID": "BDFRDfBP7SMRVfdRsK0ytuNfevUlP1Rg",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1674490146.8842623,
         "GameshubData": {
             "Advancements": [
@@ -744,23 +741,23 @@
                 6
             ],
             "Money": 22375,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": []
+        "Misc": {}
     },
-    {
+    "8Tgm10SCuuVasA0wDqEDbj34jPt6I9Tk": {
         "Username": "YourMom",
         "Password": "87f5b0f1750ff9990c42276e9f36f2fcc38bc9762b66651662826fa51844f17c",
         "UUID": "8Tgm10SCuuVasA0wDqEDbj34jPt6I9Tk",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1674572979.8952365,
         "GameshubData": {
             "Advancements": [
@@ -772,33 +769,33 @@
                 10
             ],
             "Money": 40545,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 31
         },
-        "Misc": []
+        "Misc": {}
     },
-    {
+    "Rq1rMMTtSeQ55SVFyPKiPkLJKVEldOxb": {
         "Username": "D-nice02",
         "Password": "6153b65afc58f55e6af1706e41883f913b7a85ae3e766a3eb0e643a39e1d9896",
         "UUID": "Rq1rMMTtSeQ55SVFyPKiPkLJKVEldOxb",
         "IsBanned": false,
         "IsMuted": false,
         "IsAdmin": false,
-        "Friends": [],
-        "FriendRequests": [],
-        "UsernameHistory": [],
-        "ProfilePicture": "",
+        "Friends": {},
+        "FriendRequests": {},
+        "UsernameHistory": {},
+        "ProfilePicture": {},
         "AccountCreationTime": 1674575915.692891,
         "GameshubData": {
             "Advancements": [
                 1
             ],
             "Money": 10302,
-            "Purchases": [],
-            "GameData": [],
+            "Purchases": {},
+            "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": []
+        "Misc": {}
     }
-]
+}
