@@ -28,7 +28,7 @@
         },
         "Misc": {},
         "Badges": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "https://github.com/BoomBoomMushroom/API/blob/main/ProfilePictures/QlpUmGhdlaHCaskn1vvSR34V6sQkRUVA.png?raw=true",
         "Trophies": {}
     },
@@ -47,13 +47,13 @@
                 1
             ],
             "Money": 50,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 0
         },
         "Misc": {},
         "Badges": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {}
     },
@@ -109,12 +109,12 @@
                 9
             ],
             "Money": 100,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 543
         },
         "Misc": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {},
         "Badges": {
@@ -136,12 +136,12 @@
                 1
             ],
             "Money": 50,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 0
         },
         "Misc": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {}
     },
@@ -171,7 +171,7 @@
             "RedButtonClicks": 1100
         },
         "Misc": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {}
     },
@@ -190,12 +190,12 @@
                 1
             ],
             "Money": 50,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 0
         },
         "Misc": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {}
     },
@@ -222,7 +222,7 @@
             "RedButtonClicks": 44
         },
         "Misc": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {}
     },
@@ -248,7 +248,7 @@
             "RedButtonClicks": 14
         },
         "Misc": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {}
     },
@@ -267,12 +267,12 @@
                 1
             ],
             "Money": 50,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 0
         },
         "Misc": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {}
     },
@@ -292,12 +292,12 @@
                 9
             ],
             "Money": 50,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 10
         },
         "Misc": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {}
     },
@@ -316,12 +316,12 @@
                 1
             ],
             "Money": 50,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 0
         },
         "Misc": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {}
     },
@@ -334,7 +334,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1666193619.5796502,
         "GameshubData": {
@@ -365,7 +365,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1666278277.4858322,
         "GameshubData": {
@@ -373,7 +373,7 @@
                 1
             ],
             "Money": 50,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 6
         },
@@ -388,7 +388,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1668186829.498739,
         "GameshubData": {
@@ -413,7 +413,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1669053498.9568417,
         "GameshubData": {
@@ -422,7 +422,7 @@
                 6
             ],
             "Money": 50,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 0
         },
@@ -438,7 +438,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1669137279.8359337,
         "GameshubData": {
@@ -446,7 +446,7 @@
                 1
             ],
             "Money": 50,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 3
         },
@@ -461,7 +461,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1670005365.9023342,
         "GameshubData": {
@@ -492,7 +492,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1670339542.3104136,
         "GameshubData": {
@@ -505,7 +505,7 @@
                 8
             ],
             "Money": 17700,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 860
         },
@@ -520,7 +520,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1670423407.8251812,
         "GameshubData": {
@@ -528,7 +528,7 @@
                 1
             ],
             "Money": 50,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 25
         },
@@ -543,7 +543,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1670424273.765083,
         "GameshubData": {
@@ -551,7 +551,7 @@
                 1
             ],
             "Money": 50,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 57
         },
@@ -566,7 +566,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1671556096.4852505,
         "GameshubData": {
@@ -574,7 +574,7 @@
                 1
             ],
             "Money": 50,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 0
         },
@@ -589,7 +589,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1673629274.3921676,
         "GameshubData": {
@@ -598,7 +598,7 @@
                 6
             ],
             "Money": 13516,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 0
         },
@@ -613,7 +613,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1673634716.6506572,
         "GameshubData": {
@@ -621,7 +621,7 @@
                 1
             ],
             "Money": 50,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 0
         },
@@ -636,7 +636,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1674233556.514482,
         "GameshubData": {
@@ -648,7 +648,7 @@
                 10
             ],
             "Money": 36375,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 925
         },
@@ -663,7 +663,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1674233760.1200256,
         "GameshubData": {
@@ -671,7 +671,7 @@
                 1
             ],
             "Money": -1200,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 0
         },
@@ -686,7 +686,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1674234297.407277,
         "GameshubData": {
@@ -694,7 +694,7 @@
                 1
             ],
             "Money": 2,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 0
         },
@@ -709,7 +709,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1674481081.1869583,
         "GameshubData": {
@@ -717,7 +717,7 @@
                 1
             ],
             "Money": -1280,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 0
         },
@@ -732,7 +732,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1674490146.8842623,
         "GameshubData": {
@@ -741,7 +741,7 @@
                 6
             ],
             "Money": 22375,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 0
         },
@@ -756,7 +756,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1674572979.8952365,
         "GameshubData": {
@@ -769,7 +769,7 @@
                 10
             ],
             "Money": 40545,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 31
         },
@@ -784,7 +784,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "",
         "AccountCreationTime": 1674575915.692891,
         "GameshubData": {
@@ -792,7 +792,7 @@
                 1
             ],
             "Money": 10302,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 0
         },
@@ -807,7 +807,7 @@
         "IsAdmin": false,
         "Friends": {},
         "FriendRequests": {},
-        "UsernameHistory": {},
+        "UsernameHistory": [],
         "ProfilePicture": "https://github.com/BoomBoomMushroom/API/blob/main/ProfilePictures/BtIHVjV72eKbuCfVHrF0AfxsR1KISb36.png?raw=true",
         "AccountCreationTime": 1675608570.2804747,
         "GameshubData": {
@@ -815,7 +815,7 @@
                 1
             ],
             "Money": 1050,
-            "Purchases": {},
+            "Purchases": [],
             "GameData": {},
             "RedButtonClicks": 25
         },
