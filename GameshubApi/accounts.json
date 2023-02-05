@@ -797,31 +797,5 @@
             "RedButtonClicks": 0
         },
         "Misc": {}
-    },
-    "BtIHVjV72eKbuCfVHrF0AfxsR1KISb36": {
-        "Username": "BBM2",
-        "Password": "0dee1ebd2342c4796f8fa25375dbb68cebd8ee5dcc83e7ece5406b3aa624c89c",
-        "UUID": "BtIHVjV72eKbuCfVHrF0AfxsR1KISb36",
-        "IsBanned": false,
-        "IsMuted": false,
-        "IsAdmin": false,
-        "Friends": {},
-        "FriendRequests": {},
-        "UsernameHistory": [],
-        "ProfilePicture": "https://github.com/BoomBoomMushroom/API/blob/main/ProfilePictures/BtIHVjV72eKbuCfVHrF0AfxsR1KISb36.png?raw=true",
-        "AccountCreationTime": 1675608570.2804747,
-        "GameshubData": {
-            "Advancements": [
-                1,
-                3
-            ],
-            "Money": 150,
-            "Purchases": [
-                "snakeDLC"
-            ],
-            "GameData": {},
-            "RedButtonClicks": 25
-        },
-        "Misc": {}
     }
 }
