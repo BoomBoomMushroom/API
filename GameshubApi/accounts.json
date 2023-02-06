@@ -24,7 +24,7 @@
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 869
+            "RedButtonClicks": 1431
         },
         "Misc": {},
         "Badges": {},
@@ -82,7 +82,7 @@
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 833
+            "RedButtonClicks": 837
         },
         "Misc": {},
         "Badges": {},
@@ -797,5 +797,28 @@
             "RedButtonClicks": 0
         },
         "Misc": {}
+    },
+    "CzinQ94BxSR7huyUqpVbHxB8QwVkp1ER": {
+        "Username": "jacob",
+        "Password": "25aa34070a75ce79dcf2496484ad2301de3daa2b80581c9b265eaadb79685303",
+        "UUID": "CzinQ94BxSR7huyUqpVbHxB8QwVkp1ER",
+        "IsBanned": false,
+        "IsMuted": false,
+        "IsAdmin": false,
+        "Friends": [],
+        "FriendRequests": [],
+        "UsernameHistory": [],
+        "ProfilePicture": "",
+        "AccountCreationTime": 1675712954.3046002,
+        "GameshubData": {
+            "Advancements": [
+                1
+            ],
+            "Money": 50,
+            "Purchases": [],
+            "GameData": [],
+            "RedButtonClicks": 0
+        },
+        "Misc": []
     }
 }
