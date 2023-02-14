@@ -111,7 +111,7 @@
             "Money": 100,
             "Purchases": [],
             "GameData": {},
-            "RedButtonClicks": 2156
+            "RedButtonClicks": 2157
         },
         "Misc": {},
         "UsernameHistory": [],
@@ -887,6 +887,29 @@
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 103
+        },
+        "Misc": []
+    },
+    "STNuRUG0OGjLFg2ciiljtUTdTQeReA2H": {
+        "Username": "kid77",
+        "Password": "fcdc588eb61d12273d7defce293fe73bc9ab906025298a7655c332613106213d",
+        "UUID": "STNuRUG0OGjLFg2ciiljtUTdTQeReA2H",
+        "IsBanned": false,
+        "IsMuted": false,
+        "IsAdmin": false,
+        "Friends": [],
+        "FriendRequests": [],
+        "UsernameHistory": [],
+        "ProfilePicture": "",
+        "AccountCreationTime": 1676401259.4592824,
+        "GameshubData": {
+            "Advancements": [
+                1
+            ],
+            "Money": 50,
+            "Purchases": [],
+            "GameData": [],
+            "RedButtonClicks": 0
         },
         "Misc": []
     }
