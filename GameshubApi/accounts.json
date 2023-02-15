@@ -891,7 +891,7 @@
         "Misc": []
     },
     "STNuRUG0OGjLFg2ciiljtUTdTQeReA2H": {
-        "Username": "kid77",
+        "Username": "communismkids77",
         "Password": "fcdc588eb61d12273d7defce293fe73bc9ab906025298a7655c332613106213d",
         "UUID": "STNuRUG0OGjLFg2ciiljtUTdTQeReA2H",
         "IsBanned": false,
@@ -900,7 +900,7 @@
         "Friends": [],
         "FriendRequests": [],
         "UsernameHistory": [],
-        "ProfilePicture": "",
+        "ProfilePicture": "https://github.com/BoomBoomMushroom/API/blob/main/ProfilePictures/STNuRUG0OGjLFg2ciiljtUTdTQeReA2H.png?raw=true",
         "AccountCreationTime": 1676401259.4592824,
         "GameshubData": {
             "Advancements": [
@@ -909,7 +909,32 @@
             "Money": 50,
             "Purchases": [],
             "GameData": [],
-            "RedButtonClicks": 0
+            "RedButtonClicks": 71
+        },
+        "Misc": []
+    },
+    "SpRl6r7N788hxmrLFxnUJU9QTeGf5OSD": {
+        "Username": "applesauce",
+        "Password": "5757370666c060a8234206946959f9f6d2ae9151db487f58698c6e3e59609d11",
+        "UUID": "SpRl6r7N788hxmrLFxnUJU9QTeGf5OSD",
+        "IsBanned": false,
+        "IsMuted": false,
+        "IsAdmin": false,
+        "Friends": [],
+        "FriendRequests": [],
+        "UsernameHistory": [],
+        "ProfilePicture": "",
+        "AccountCreationTime": 1676478823.77404,
+        "GameshubData": {
+            "Advancements": [
+                1,
+                6,
+                7
+            ],
+            "Money": 7992,
+            "Purchases": [],
+            "GameData": [],
+            "RedButtonClicks": 125
         },
         "Misc": []
     }
