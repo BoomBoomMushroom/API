@@ -24,7 +24,7 @@
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 1432
+            "RedButtonClicks": 1439
         },
         "Misc": {},
         "Badges": {},
@@ -245,7 +245,7 @@
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 14
+            "RedButtonClicks": 663
         },
         "Misc": {},
         "UsernameHistory": [],
@@ -814,10 +814,10 @@
             "Advancements": [
                 1
             ],
-            "Money": 27300,
+            "Money": 25300,
             "Purchases": [],
             "GameData": [],
-            "RedButtonClicks": 0
+            "RedButtonClicks": 68
         },
         "Misc": []
     },
@@ -837,10 +837,10 @@
             "Advancements": [
                 1
             ],
-            "Money": -3900,
+            "Money": -9150,
             "Purchases": [],
             "GameData": [],
-            "RedButtonClicks": 261
+            "RedButtonClicks": 262
         },
         "Misc": []
     },
