@@ -245,7 +245,7 @@
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 663
+            "RedButtonClicks": 666
         },
         "Misc": {},
         "UsernameHistory": [],
@@ -837,10 +837,10 @@
             "Advancements": [
                 1
             ],
-            "Money": 11350,
+            "Money": 12350,
             "Purchases": [],
             "GameData": [],
-            "RedButtonClicks": 263
+            "RedButtonClicks": 268
         },
         "Misc": []
     },
@@ -936,7 +936,7 @@
             "Money": 16351,
             "Purchases": [],
             "GameData": [],
-            "RedButtonClicks": 163
+            "RedButtonClicks": 187
         },
         "Misc": []
     },
@@ -957,6 +957,29 @@
                 1
             ],
             "Money": 30,
+            "Purchases": [],
+            "GameData": [],
+            "RedButtonClicks": 0
+        },
+        "Misc": []
+    },
+    "tOq8KEx2fkjvTQGFgmLrxQDsFyOROpoQ": {
+        "Username": "hi_lo_32145",
+        "Password": "280df700a070715f248d360828fbaae628889539fd2ca96807ee63ab95e5c709",
+        "UUID": "tOq8KEx2fkjvTQGFgmLrxQDsFyOROpoQ",
+        "IsBanned": false,
+        "IsMuted": false,
+        "IsAdmin": false,
+        "Friends": [],
+        "FriendRequests": [],
+        "UsernameHistory": [],
+        "ProfilePicture": "",
+        "AccountCreationTime": 1677070741.5422626,
+        "GameshubData": {
+            "Advancements": [
+                1
+            ],
+            "Money": 50,
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 0
