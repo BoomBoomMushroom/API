@@ -985,5 +985,28 @@
             "RedButtonClicks": 0
         },
         "Misc": []
+    },
+    "1VUkylN2CdjmvI4PlVc3JRfMluSVUKL4": {
+        "Username": "Dogman",
+        "Password": "150b0e5f5170770070df4a0b6a3287dd041577152564b28a66820dd120ccd2b2",
+        "UUID": "1VUkylN2CdjmvI4PlVc3JRfMluSVUKL4",
+        "IsBanned": false,
+        "IsMuted": false,
+        "IsAdmin": false,
+        "Friends": [],
+        "FriendRequests": [],
+        "UsernameHistory": [],
+        "ProfilePicture": "",
+        "AccountCreationTime": 1677176687.0556586,
+        "GameshubData": {
+            "Advancements": [
+                1
+            ],
+            "Money": 160,
+            "Purchases": [],
+            "GameData": [],
+            "RedButtonClicks": 6
+        },
+        "Misc": []
     }
 }
