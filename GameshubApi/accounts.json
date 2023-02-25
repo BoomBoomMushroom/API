@@ -111,7 +111,7 @@
             "Money": 100,
             "Purchases": [],
             "GameData": {},
-            "RedButtonClicks": 2234
+            "RedButtonClicks": 2279
         },
         "Misc": {},
         "UsernameHistory": [],
@@ -906,10 +906,10 @@
             "Advancements": [
                 1
             ],
-            "Money": 50,
+            "Money": 694,
             "Purchases": [],
             "GameData": [],
-            "RedButtonClicks": 71
+            "RedButtonClicks": 84
         },
         "Misc": []
     },
@@ -954,12 +954,14 @@
         "AccountCreationTime": 1676999796.6520505,
         "GameshubData": {
             "Advancements": [
-                1
+                1,
+                7,
+                6
             ],
-            "Money": 30,
+            "Money": 394,
             "Purchases": [],
             "GameData": [],
-            "RedButtonClicks": 0
+            "RedButtonClicks": 7
         },
         "Misc": []
     },
