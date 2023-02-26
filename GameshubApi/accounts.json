@@ -10,7 +10,7 @@
         "FriendRequests": {},
         "AccountCreationTime": 1636166689.760447,
         "GameshubData": {
-            "Money": 340,
+            "Money": 160,
             "Advancements": [
                 1,
                 9,
@@ -961,7 +961,7 @@
             "Money": 394,
             "Purchases": [],
             "GameData": [],
-            "RedButtonClicks": 7
+            "RedButtonClicks": 22
         },
         "Misc": []
     },
