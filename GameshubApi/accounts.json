@@ -81,15 +81,15 @@
                 9,
                 10
             ],
-            "Money": -11090,
+            "Money": -8590,
             "Purchases": [
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 3058
+            "RedButtonClicks": 3644
         },
         "Misc": {
-            "Snake": 11
+            "Snake": 67
         },
         "Badges": {},
         "UsernameHistory": [
@@ -1110,7 +1110,7 @@
             "Money": 50,
             "Purchases": [],
             "GameData": [],
-            "RedButtonClicks": 130
+            "RedButtonClicks": 155
         },
         "Misc": {
             "Snake": 0
