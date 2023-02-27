@@ -10,7 +10,7 @@
         "FriendRequests": {},
         "AccountCreationTime": 1636166689.760447,
         "GameshubData": {
-            "Money": 160,
+            "Money": 88,
             "Advancements": [
                 1,
                 9,
@@ -24,7 +24,7 @@
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 1457
+            "RedButtonClicks": 1604
         },
         "Misc": {},
         "Badges": {},
@@ -77,12 +77,12 @@
                 9,
                 10
             ],
-            "Money": 207,
+            "Money": -11090,
             "Purchases": [
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 864
+            "RedButtonClicks": 1770
         },
         "Misc": {},
         "Badges": {},
