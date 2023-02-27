@@ -26,7 +26,9 @@
             "GameData": {},
             "RedButtonClicks": 1604
         },
-        "Misc": {},
+        "Misc": {
+            "Snake": 0
+        },
         "Badges": {},
         "UsernameHistory": [],
         "ProfilePicture": "https://github.com/BoomBoomMushroom/API/blob/main/ProfilePictures/QlpUmGhdlaHCaskn1vvSR34V6sQkRUVA.png?raw=true",
@@ -51,7 +53,9 @@
             "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": {},
+        "Misc": {
+            "Snake": 0
+        },
         "Badges": {},
         "UsernameHistory": [],
         "ProfilePicture": "",
@@ -84,7 +88,9 @@
             "GameData": {},
             "RedButtonClicks": 3058
         },
-        "Misc": {},
+        "Misc": {
+            "Snake": 0
+        },
         "Badges": {},
         "UsernameHistory": [
             "DerpyE"
@@ -113,7 +119,9 @@
             "GameData": {},
             "RedButtonClicks": 2279
         },
-        "Misc": {},
+        "Misc": {
+            "Snake": 0
+        },
         "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {},
@@ -140,7 +148,9 @@
             "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": {},
+        "Misc": {
+            "Snake": 0
+        },
         "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {}
@@ -170,7 +180,9 @@
             "GameData": {},
             "RedButtonClicks": 1110
         },
-        "Misc": {},
+        "Misc": {
+            "Snake": 0
+        },
         "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {}
@@ -194,7 +206,9 @@
             "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": {},
+        "Misc": {
+            "Snake": 0
+        },
         "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {}
@@ -221,7 +235,9 @@
             "GameData": {},
             "RedButtonClicks": 44
         },
-        "Misc": {},
+        "Misc": {
+            "Snake": 0
+        },
         "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {}
@@ -247,7 +263,9 @@
             "GameData": {},
             "RedButtonClicks": 666
         },
-        "Misc": {},
+        "Misc": {
+            "Snake": 0
+        },
         "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {}
@@ -271,7 +289,9 @@
             "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": {},
+        "Misc": {
+            "Snake": 0
+        },
         "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {}
@@ -296,7 +316,9 @@
             "GameData": {},
             "RedButtonClicks": 10
         },
-        "Misc": {},
+        "Misc": {
+            "Snake": 0
+        },
         "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {}
@@ -320,7 +342,9 @@
             "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": {},
+        "Misc": {
+            "Snake": 0
+        },
         "UsernameHistory": [],
         "ProfilePicture": "",
         "Trophies": {}
@@ -353,7 +377,9 @@
             "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": {},
+        "Misc": {
+            "Snake": 0
+        },
         "Trophies": {}
     },
     "oifrbO9DUuVNUfHDGx968z3IQGREke2n": {
@@ -377,7 +403,9 @@
             "GameData": {},
             "RedButtonClicks": 6
         },
-        "Misc": {}
+        "Misc": {
+            "Snake": 0
+        }
     },
     "hVe9oCGejmfJyS7uIigRv9veby0qnRSl": {
         "Username": "monkey",
@@ -402,7 +430,9 @@
             "GameData": {},
             "RedButtonClicks": 42
         },
-        "Misc": {}
+        "Misc": {
+            "Snake": 0
+        }
     },
     "FHc2GzQDuDSmoz1Vx1KPEv4QC8a93kKT": {
         "Username": "TheBeast51",
@@ -426,7 +456,9 @@
             "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": {},
+        "Misc": {
+            "Snake": 0
+        },
         "Trophies": {}
     },
     "UVVeVDn2VQjFUjaMnASN8BVkN50EIsto": {
@@ -450,7 +482,9 @@
             "GameData": {},
             "RedButtonClicks": 3
         },
-        "Misc": {}
+        "Misc": {
+            "Snake": 0
+        }
     },
     "GfGRSzTQIVjyC0HmoVAPv0DAUghkCyHT": {
         "Username": "will.i.am",
@@ -480,7 +514,9 @@
             "GameData": {},
             "RedButtonClicks": 200
         },
-        "Misc": {},
+        "Misc": {
+            "Snake": 0
+        },
         "Trophies": {}
     },
     "Juo3V9f2G1UKo8HaBSnUBtaUDcwC8tbo": {
@@ -509,7 +545,9 @@
             "GameData": {},
             "RedButtonClicks": 860
         },
-        "Misc": {}
+        "Misc": {
+            "Snake": 0
+        }
     },
     "2t2OAepRk8TCslmwwRjiKG3L5dJ39Fo8": {
         "Username": "Carter_Woods",
@@ -532,7 +570,9 @@
             "GameData": {},
             "RedButtonClicks": 25
         },
-        "Misc": {}
+        "Misc": {
+            "Snake": 0
+        }
     },
     "Sefdf9TkzFzItatySc84vTxqVFUSI0zd": {
         "Username": "i_lick_my_b@llz",
@@ -555,7 +595,9 @@
             "GameData": {},
             "RedButtonClicks": 57
         },
-        "Misc": {}
+        "Misc": {
+            "Snake": 0
+        }
     },
     "mhovTmcLQD9ePeFpjuiQgJyEHLoj7Iy8": {
         "Username": "(0)(0)",
@@ -578,7 +620,9 @@
             "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": {}
+        "Misc": {
+            "Snake": 0
+        }
     },
     "G15colLKBmCB9G02m24ikCUJpJdV9QU1": {
         "Username": "Happy hippo",
@@ -602,7 +646,9 @@
             "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": {}
+        "Misc": {
+            "Snake": 0
+        }
     },
     "DIDVwOv0eLRSDuUv2bSVQ5jLL5tu3qIz": {
         "Username": "fortnite god",
@@ -625,7 +671,9 @@
             "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": {}
+        "Misc": {
+            "Snake": 0
+        }
     },
     "naapAT3tI90egJCwRS1Kwqq0HG5mcPPn": {
         "Username": "itching my balls",
@@ -652,7 +700,9 @@
             "GameData": {},
             "RedButtonClicks": 925
         },
-        "Misc": {}
+        "Misc": {
+            "Snake": 0
+        }
     },
     "BtecTB3QmapxayzRF8Av4z13L9zjQnR9": {
         "Username": "Angry hippo",
@@ -675,7 +725,9 @@
             "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": {}
+        "Misc": {
+            "Snake": 0
+        }
     },
     "nkl9TP1uAw1gFm4okhcQvSQGhey8SfrV": {
         "Username": "B A ll Sn I FfeR",
@@ -698,7 +750,9 @@
             "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": {}
+        "Misc": {
+            "Snake": 0
+        }
     },
     "9tDu1TR8RyaIvcw6ewdyrEHbATMcRsa4": {
         "Username": "Big cheese",
@@ -721,7 +775,9 @@
             "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": {}
+        "Misc": {
+            "Snake": 0
+        }
     },
     "BDFRDfBP7SMRVfdRsK0ytuNfevUlP1Rg": {
         "Username": "j cole is daddy",
@@ -745,7 +801,9 @@
             "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": {}
+        "Misc": {
+            "Snake": 0
+        }
     },
     "8Tgm10SCuuVasA0wDqEDbj34jPt6I9Tk": {
         "Username": "YourMom",
@@ -773,7 +831,9 @@
             "GameData": {},
             "RedButtonClicks": 31
         },
-        "Misc": {}
+        "Misc": {
+            "Snake": 0
+        }
     },
     "Rq1rMMTtSeQ55SVFyPKiPkLJKVEldOxb": {
         "Username": "D-nice02",
@@ -796,7 +856,9 @@
             "GameData": {},
             "RedButtonClicks": 0
         },
-        "Misc": {}
+        "Misc": {
+            "Snake": 0
+        }
     },
     "CzinQ94BxSR7huyUqpVbHxB8QwVkp1ER": {
         "Username": "jacob",
