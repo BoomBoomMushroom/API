@@ -933,10 +933,10 @@
                 10,
                 8
             ],
-            "Money": 16351,
+            "Money": 18350,
             "Purchases": [],
             "GameData": [],
-            "RedButtonClicks": 200
+            "RedButtonClicks": 203
         },
         "Misc": []
     },
@@ -1008,6 +1008,29 @@
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 6
+        },
+        "Misc": []
+    },
+    "SH9iSRlpICxC78n4uUSzwV6oucvyINrP": {
+        "Username": "Timmy",
+        "Password": "b51683c18943e9d8505cacc3ac4fcdd3f20206cacd2a20f09f32765de5201100",
+        "UUID": "SH9iSRlpICxC78n4uUSzwV6oucvyINrP",
+        "IsBanned": false,
+        "IsMuted": false,
+        "IsAdmin": false,
+        "Friends": [],
+        "FriendRequests": [],
+        "UsernameHistory": [],
+        "ProfilePicture": "",
+        "AccountCreationTime": 1677518467.8774395,
+        "GameshubData": {
+            "Advancements": [
+                1
+            ],
+            "Money": 50,
+            "Purchases": [],
+            "GameData": [],
+            "RedButtonClicks": 130
         },
         "Misc": []
     }
