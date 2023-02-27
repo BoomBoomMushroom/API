@@ -881,7 +881,9 @@
             "GameData": [],
             "RedButtonClicks": 68
         },
-        "Misc": []
+        "Misc": {
+            "Snake": 0
+        }
     },
     "moSBQePmItobFdImRwCz7BzoFSTSEnfn": {
         "Username": "brinda",
@@ -904,7 +906,9 @@
             "GameData": [],
             "RedButtonClicks": 268
         },
-        "Misc": []
+        "Misc": {
+            "Snake": 0
+        }
     },
     "pnT0zBURSe6zM5M9uK91aHxLlNf6eUBx": {
         "Username": "LightlySalted",
@@ -927,7 +931,9 @@
             "GameData": [],
             "RedButtonClicks": 0
         },
-        "Misc": []
+        "Misc": {
+            "Snake": 0
+        }
     },
     "vDqsO8n1pSgvKB6Tg7k74lxmxxawR8R1": {
         "Username": "logan",
@@ -950,7 +956,9 @@
             "GameData": [],
             "RedButtonClicks": 103
         },
-        "Misc": []
+        "Misc": {
+            "Snake": 0
+        }
     },
     "STNuRUG0OGjLFg2ciiljtUTdTQeReA2H": {
         "Username": "communismkids77",
@@ -973,7 +981,9 @@
             "GameData": [],
             "RedButtonClicks": 84
         },
-        "Misc": []
+        "Misc": {
+            "Snake": 0
+        }
     },
     "SpRl6r7N788hxmrLFxnUJU9QTeGf5OSD": {
         "Username": "applesauce",
@@ -1000,7 +1010,9 @@
             "GameData": [],
             "RedButtonClicks": 203
         },
-        "Misc": []
+        "Misc": {
+            "Snake": 0
+        }
     },
     "SDIozHi6A1itB7GclPSkL4UBxFw85eTh": {
         "Username": "DoubleT23",
@@ -1025,7 +1037,9 @@
             "GameData": [],
             "RedButtonClicks": 22
         },
-        "Misc": []
+        "Misc": {
+            "Snake": 0
+        }
     },
     "tOq8KEx2fkjvTQGFgmLrxQDsFyOROpoQ": {
         "Username": "hi_lo_32145",
@@ -1048,7 +1062,9 @@
             "GameData": [],
             "RedButtonClicks": 0
         },
-        "Misc": []
+        "Misc": {
+            "Snake": 0
+        }
     },
     "1VUkylN2CdjmvI4PlVc3JRfMluSVUKL4": {
         "Username": "Dogman",
@@ -1071,7 +1087,9 @@
             "GameData": [],
             "RedButtonClicks": 6
         },
-        "Misc": []
+        "Misc": {
+            "Snake": 0
+        }
     },
     "SH9iSRlpICxC78n4uUSzwV6oucvyINrP": {
         "Username": "Timmy",
@@ -1094,6 +1112,8 @@
             "GameData": [],
             "RedButtonClicks": 130
         },
-        "Misc": []
+        "Misc": {
+            "Snake": 0
+        }
     }
 }
