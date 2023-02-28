@@ -27,7 +27,7 @@
             "RedButtonClicks": 1604
         },
         "Misc": {
-            "Snake": 54
+            "Snake": 148
         },
         "Badges": {},
         "UsernameHistory": [],
@@ -81,15 +81,15 @@
                 9,
                 10
             ],
-            "Money": -8590,
+            "Money": -7590,
             "Purchases": [
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 3644
+            "RedButtonClicks": 3856
         },
         "Misc": {
-            "Snake": 67
+            "Snake": 232
         },
         "Badges": {},
         "UsernameHistory": [
@@ -173,15 +173,15 @@
                 7,
                 10
             ],
-            "Money": -2450,
+            "Money": -8948,
             "Purchases": [
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 1110
+            "RedButtonClicks": 1112
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 154
         },
         "UsernameHistory": [],
         "ProfilePicture": "",
@@ -256,15 +256,15 @@
             "Advancements": [
                 1
             ],
-            "Money": 806,
+            "Money": -444,
             "Purchases": [
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 666
+            "RedButtonClicks": 944
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 188
         },
         "UsernameHistory": [],
         "ProfilePicture": "",
@@ -1005,10 +1005,12 @@
                 10,
                 8
             ],
-            "Money": 18350,
-            "Purchases": [],
+            "Money": 20250,
+            "Purchases": [
+                "snakeDLC"
+            ],
             "GameData": [],
-            "RedButtonClicks": 203
+            "RedButtonClicks": 208
         },
         "Misc": {
             "Snake": 0
@@ -1032,10 +1034,10 @@
                 7,
                 6
             ],
-            "Money": 394,
+            "Money": 1334,
             "Purchases": [],
             "GameData": [],
-            "RedButtonClicks": 22
+            "RedButtonClicks": 34
         },
         "Misc": {
             "Snake": 0
@@ -1114,6 +1116,33 @@
         },
         "Misc": {
             "Snake": 0
+        }
+    },
+    "EUpzQv4BLRP3iSQxOti5AIif0uyybKK3": {
+        "Username": "ABNoble",
+        "Password": "c7e30dd386b20eb6349fafa82bdefb6e1404eb574f514e6eac3f76804db2a459",
+        "UUID": "EUpzQv4BLRP3iSQxOti5AIif0uyybKK3",
+        "IsBanned": false,
+        "IsMuted": false,
+        "IsAdmin": false,
+        "Friends": [],
+        "FriendRequests": [],
+        "UsernameHistory": [],
+        "ProfilePicture": "",
+        "AccountCreationTime": 1677598302.2193482,
+        "GameshubData": {
+            "Advancements": [
+                1
+            ],
+            "Money": 4110,
+            "Purchases": [
+                "snakeDLC"
+            ],
+            "GameData": [],
+            "RedButtonClicks": 3158
+        },
+        "Misc": {
+            "Snake": 31
         }
     }
 }
