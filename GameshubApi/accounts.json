@@ -86,10 +86,10 @@
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 15921
+            "RedButtonClicks": 20052
         },
         "Misc": {
-            "Snake": 294
+            "Snake": 636
         },
         "Badges": {},
         "UsernameHistory": [
@@ -261,7 +261,7 @@
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 944
+            "RedButtonClicks": 1874
         },
         "Misc": {
             "Snake": 188
@@ -1168,6 +1168,33 @@
         },
         "Misc": {
             "Snake": 0
+        }
+    },
+    "b7Sz9SkjaHoQtj3sQs0JlJTPhUAQGieN": {
+        "Username": "polibo",
+        "Password": "1958a3d628c5ec6e0637867d1271d31ac1726e7ec5a4b311d6d522342a782967",
+        "UUID": "b7Sz9SkjaHoQtj3sQs0JlJTPhUAQGieN",
+        "IsBanned": false,
+        "IsMuted": false,
+        "IsAdmin": false,
+        "Friends": [],
+        "FriendRequests": [],
+        "UsernameHistory": [],
+        "ProfilePicture": "",
+        "AccountCreationTime": 1678377484.321864,
+        "GameshubData": {
+            "Advancements": [
+                1
+            ],
+            "Money": 1404,
+            "Purchases": [
+                "snakeDLC"
+            ],
+            "GameData": [],
+            "RedButtonClicks": 12
+        },
+        "Misc": {
+            "Snake": 274
         }
     }
 }
