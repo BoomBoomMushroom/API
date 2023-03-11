@@ -24,7 +24,7 @@
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 1619
+            "RedButtonClicks": 490
         },
         "Misc": {
             "Snake": 148
@@ -81,12 +81,12 @@
                 9,
                 10
             ],
-            "Money": -7590,
+            "Money": 0,
             "Purchases": [
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 20052
+            "RedButtonClicks": 3692
         },
         "Misc": {
             "Snake": 636
@@ -117,7 +117,7 @@
             "Money": 100,
             "Purchases": [],
             "GameData": {},
-            "RedButtonClicks": 2279
+            "RedButtonClicks": 1103
         },
         "Misc": {
             "Snake": 0
@@ -173,7 +173,7 @@
                 7,
                 10
             ],
-            "Money": -8948,
+            "Money": 0,
             "Purchases": [
                 "snakeDLC"
             ],
@@ -256,12 +256,12 @@
             "Advancements": [
                 1
             ],
-            "Money": -444,
+            "Money": 0,
             "Purchases": [
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 1874
+            "RedButtonClicks": 500
         },
         "Misc": {
             "Snake": 188
@@ -1059,7 +1059,7 @@
             "Advancements": [
                 1
             ],
-            "Money": -571,
+            "Money": 0,
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 39
@@ -1139,7 +1139,7 @@
                 "snakeDLC"
             ],
             "GameData": [],
-            "RedButtonClicks": 45877
+            "RedButtonClicks": 4853
         },
         "Misc": {
             "Snake": 41
@@ -1164,7 +1164,7 @@
             "Money": 50,
             "Purchases": [],
             "GameData": [],
-            "RedButtonClicks": 10928
+            "RedButtonClicks": 1294
         },
         "Misc": {
             "Snake": 0
