@@ -1,3 +1,4 @@
 [
     {"name":"Snake Powerups DLC","description":"This DLC lets you use powerups in the Snake game","id":"snakeDLC","price":1000,"canPurchase":"false"}
+    {"name":"Snake Powerups DLC | More Slots","description":"This DLC lets you use 5 selection in the Snake game","id":"canUseFive","price":750,"canPurchase":"false"}
 ]
