@@ -10,7 +10,7 @@
         "FriendRequests": {},
         "AccountCreationTime": 1636166689.760447,
         "GameshubData": {
-            "Money": 88,
+            "Money": 124,
             "Advancements": [
                 1,
                 9,
@@ -24,7 +24,7 @@
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 497
+            "RedButtonClicks": 502
         },
         "Misc": {
             "Snake": 148
@@ -86,7 +86,7 @@
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 94
+            "RedButtonClicks": 97
         },
         "Misc": {
             "Snake": 636
@@ -256,12 +256,12 @@
             "Advancements": [
                 1
             ],
-            "Money": 0,
+            "Money": 3958,
             "Purchases": [
                 "snakeDLC"
             ],
             "GameData": {},
-            "RedButtonClicks": 500
+            "RedButtonClicks": 512
         },
         "Misc": {
             "Snake": 188
@@ -1139,7 +1139,7 @@
                 "snakeDLC"
             ],
             "GameData": [],
-            "RedButtonClicks": 8
+            "RedButtonClicks": 21
         },
         "Misc": {
             "Snake": 41
