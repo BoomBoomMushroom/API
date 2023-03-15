@@ -266,7 +266,7 @@
             "RedButtonClicks": 512
         },
         "Misc": {
-            "Snake": 1418
+            "Snake": 2629
         },
         "UsernameHistory": [],
         "ProfilePicture": "",
@@ -1198,6 +1198,31 @@
         },
         "Misc": {
             "Snake": 274
+        }
+    },
+    "OhwvQTQwVEHvwjeaxrydoDGHNSQRtQ6H": {
+        "Username": "Username",
+        "Password": "dfc3c40f4febab4fca7f76a6936def7c3b6e82397e231ba65e55531c92f7dbff",
+        "UUID": "OhwvQTQwVEHvwjeaxrydoDGHNSQRtQ6H",
+        "IsBanned": false,
+        "IsMuted": false,
+        "IsAdmin": false,
+        "Friends": [],
+        "FriendRequests": [],
+        "UsernameHistory": [],
+        "ProfilePicture": "",
+        "AccountCreationTime": 1678802178.8339643,
+        "GameshubData": {
+            "Advancements": [
+                1
+            ],
+            "Money": -37405,
+            "Purchases": [],
+            "GameData": [],
+            "RedButtonClicks": 0
+        },
+        "Misc": {
+            "Snake": 0
         }
     }
 }
