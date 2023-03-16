@@ -82,13 +82,13 @@
                 9,
                 10
             ],
-            "Money": 2685,
+            "Money": 6685,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
             ],
             "GameData": {},
-            "RedButtonClicks": 97
+            "RedButtonClicks": 111
         },
         "Misc": {
             "Snake": 636
@@ -258,7 +258,7 @@
             "Advancements": [
                 1
             ],
-            "Money": 3208,
+            "Money": 2208,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
@@ -1218,6 +1218,34 @@
                 1
             ],
             "Money": -36605,
+            "Purchases": [],
+            "GameData": [],
+            "RedButtonClicks": 0
+        },
+        "Misc": {
+            "Snake": 0
+        }
+    },
+    "pwRLSxKTy0kqtGlG0gtTMQzIlIJoNVCn": {
+        "Username": "Menace1",
+        "Password": "d409cbacc98dd0dcae058c294447346b7878dbe7852e3625230cb288aca84ef9",
+        "UUID": "pwRLSxKTy0kqtGlG0gtTMQzIlIJoNVCn",
+        "IsBanned": false,
+        "IsMuted": false,
+        "IsAdmin": false,
+        "Friends": [],
+        "FriendRequests": [],
+        "UsernameHistory": [],
+        "ProfilePicture": "",
+        "AccountCreationTime": 1678901472.8624635,
+        "GameshubData": {
+            "Advancements": [
+                1,
+                9,
+                6,
+                7
+            ],
+            "Money": 400,
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 0
