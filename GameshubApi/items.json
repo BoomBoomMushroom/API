@@ -1,4 +1,4 @@
 {
-  "AncientScroll": {"displayName": "Ancient Scroll", "description": "Who knows what it says!", "rarity": "derpy", "image": "https://github.com/BoomBoomMushroom/API/blob/main/ItemImages/AncientScroll.png?raw=true" }
+  "AncientScroll": {"displayName": "Ancient Scroll", "description": "Who knows what it says!", "rarity": "derpy", "image": "https://github.com/BoomBoomMushroom/API/blob/main/ItemImages/AncientScroll.png?raw=true" },
   "Stik": {"displayName": "Stik", "rarity": "common", "description": "What do you expect? Its a stick!", "image": "https://github.com/BoomBoomMushroom/API/blob/main/ItemImages/Stik.png?raw=true" }
 }
