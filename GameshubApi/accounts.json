@@ -119,13 +119,13 @@
             "Money": 100,
             "Purchases": [],
             "GameData": {},
-            "RedButtonClicks": 31
+            "RedButtonClicks": 1000000000
         },
         "Misc": {
             "Snake": 0
         },
         "UsernameHistory": [],
-        "ProfilePicture": "",
+        "ProfilePicture": "https://github.com/BoomBoomMushroom/API/blob/main/ProfilePictures/6ICnSPUbcLkdngIUjSG0pm1TnjcUU6qo.png?raw=true",
         "Trophies": {},
         "Badges": {
             "name": "html"
