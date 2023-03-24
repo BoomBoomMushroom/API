@@ -25,7 +25,7 @@
                 "canUseFive"
             ],
             "GameData": {},
-            "RedButtonClicks": 509
+            "RedButtonClicks": 512
         },
         "Misc": {
             "Snake": 1396
@@ -82,7 +82,7 @@
                 9,
                 10
             ],
-            "Money": -37875,
+            "Money": -35875,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
