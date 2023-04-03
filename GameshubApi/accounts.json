@@ -116,13 +116,13 @@
                 11,
                 9
             ],
-            "Money": 1000000000,
+            "Money": -1000000,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
             ],
             "GameData": {},
-            "RedButtonClicks": 1000000000
+            "RedButtonClicks": 0
         },
         "Misc": {
             "Snake": 1000000000
