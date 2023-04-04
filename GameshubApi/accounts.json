@@ -125,7 +125,7 @@
                 "canUseFive"
             ],
             "GameData": {},
-            "RedButtonClicks": 0
+            "RedButtonClicks": 1000000001
         },
         "Misc": {
             "Snake": 0
