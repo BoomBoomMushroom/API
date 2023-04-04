@@ -28,7 +28,8 @@
             "RedButtonClicks": 516
         },
         "Misc": {
-            "Snake": 1396
+            "Snake": 1396,
+            "Items": []
         },
         "Badges": {},
         "UsernameHistory": [],
@@ -56,7 +57,8 @@
             "RedButtonClicks": 0
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "Badges": {},
         "UsernameHistory": [],
@@ -93,7 +95,8 @@
             "RedButtonClicks": 111
         },
         "Misc": {
-            "Snake": 636
+            "Snake": 636,
+            "Items": []
         },
         "Badges": {},
         "UsernameHistory": [
@@ -123,7 +126,8 @@
             "RedButtonClicks": 0
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "UsernameHistory": [],
         "ProfilePicture": "",
@@ -156,7 +160,8 @@
             "RedButtonClicks": 242
         },
         "Misc": {
-            "Snake": 154
+            "Snake": 154,
+            "Items": []
         },
         "UsernameHistory": [],
         "ProfilePicture": "",
@@ -183,7 +188,8 @@
             "RedButtonClicks": 0
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "UsernameHistory": [],
         "ProfilePicture": "",
@@ -213,7 +219,8 @@
             "RedButtonClicks": 44
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "UsernameHistory": [],
         "ProfilePicture": "",
@@ -243,7 +250,8 @@
             "RedButtonClicks": 512
         },
         "Misc": {
-            "Snake": 2629
+            "Snake": 2629,
+            "Items": []
         },
         "UsernameHistory": [],
         "ProfilePicture": "",
@@ -270,7 +278,8 @@
             "RedButtonClicks": 0
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "UsernameHistory": [],
         "ProfilePicture": "",
@@ -298,7 +307,8 @@
             "RedButtonClicks": 10
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "UsernameHistory": [],
         "ProfilePicture": "",
@@ -325,7 +335,8 @@
             "RedButtonClicks": 0
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "UsernameHistory": [],
         "ProfilePicture": "",
@@ -361,7 +372,8 @@
             "RedButtonClicks": 0
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "Trophies": {},
         "IsStatisticsBanned": false
@@ -388,7 +400,8 @@
             "RedButtonClicks": 6
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -416,7 +429,8 @@
             "RedButtonClicks": 42
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -443,7 +457,8 @@
             "RedButtonClicks": 0
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "Trophies": {},
         "IsStatisticsBanned": false
@@ -470,7 +485,8 @@
             "RedButtonClicks": 3
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -503,7 +519,8 @@
             "RedButtonClicks": 200
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "Trophies": {},
         "IsStatisticsBanned": false
@@ -535,7 +552,8 @@
             "RedButtonClicks": 860
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -561,7 +579,8 @@
             "RedButtonClicks": 25
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -587,7 +606,8 @@
             "RedButtonClicks": 57
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -613,7 +633,8 @@
             "RedButtonClicks": 0
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -640,7 +661,8 @@
             "RedButtonClicks": 0
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -666,7 +688,8 @@
             "RedButtonClicks": 0
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -696,7 +719,8 @@
             "RedButtonClicks": 925
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -722,7 +746,8 @@
             "RedButtonClicks": 0
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -748,7 +773,8 @@
             "RedButtonClicks": 0
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -774,7 +800,8 @@
             "RedButtonClicks": 0
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -801,7 +828,8 @@
             "RedButtonClicks": 0
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -832,7 +860,8 @@
             "RedButtonClicks": 31
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -858,7 +887,8 @@
             "RedButtonClicks": 0
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -884,7 +914,8 @@
             "RedButtonClicks": 68
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -910,7 +941,8 @@
             "RedButtonClicks": 268
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -936,7 +968,8 @@
             "RedButtonClicks": 0
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -962,7 +995,8 @@
             "RedButtonClicks": 117
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -988,7 +1022,8 @@
             "RedButtonClicks": 90
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -1020,7 +1055,8 @@
             "RedButtonClicks": 208
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -1048,7 +1084,8 @@
             "RedButtonClicks": 34
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -1074,7 +1111,8 @@
             "RedButtonClicks": 39
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -1100,7 +1138,8 @@
             "RedButtonClicks": 6
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -1126,7 +1165,8 @@
             "RedButtonClicks": 155
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -1154,7 +1194,8 @@
             "RedButtonClicks": 21
         },
         "Misc": {
-            "Snake": 41
+            "Snake": 41,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -1180,7 +1221,8 @@
             "RedButtonClicks": 31
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -1209,7 +1251,8 @@
             "RedButtonClicks": 12
         },
         "Misc": {
-            "Snake": 274
+            "Snake": 274,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -1235,7 +1278,8 @@
             "RedButtonClicks": 2
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -1264,7 +1308,8 @@
             "RedButtonClicks": 0
         },
         "Misc": {
-            "Snake": 0
+            "Snake": 0,
+            "Items": []
         },
         "IsStatisticsBanned": false
     },
@@ -1305,7 +1350,8 @@
             "RedButtonClicks": 2147483647
         },
         "Misc": {
-            "Snake": 2147483647
+            "Snake": 2147483647,
+            "Items": []
         }
     }
 }
