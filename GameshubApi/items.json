@@ -10,5 +10,6 @@
   "StopSign": {"displayName": "Stop Sign", "rarity": "common", "description": "No", "image": "https://art.pixilart.com/sr2713d9aadb94e.png" },
   "Cake": {"displayName": "Cake", "rarity": "uncommon", "description": "Don't trust it", "image": "https://art.pixilart.com/sr26a8a96b9fa2e.png" },
   "Crystal": {"displayName": "Crystal", "rarity": "rare", "description": "I wonder what it does", "image": "https://art.pixilart.com/sr21e09e0a0af87.png" },
-  "Staff": {"displayName": "Staff", "rarity": "rare", "description": "Upgradded Stik", "image": "https://art.pixilart.com/sr2a2acfe601c1d.png" }
+  "Staff": {"displayName": "Staff", "rarity": "rare", "description": "Upgradded Stik", "image": "https://art.pixilart.com/sr2a2acfe601c1d.png" },
+  "RedStapler": {"displayName": "Red Stapler", "rarity": "common", "description": "With new tungsten staples!", "image": "https://art.pixilart.com/sr24aa8e55801b9.png" }
 }
