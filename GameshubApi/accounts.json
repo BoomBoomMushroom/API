@@ -25,7 +25,7 @@
                 "canUseFive"
             ],
             "GameData": {},
-            "RedButtonClicks": 512
+            "RedButtonClicks": 516
         },
         "Misc": {
             "Snake": 1396
@@ -102,41 +102,6 @@
         "ProfilePicture": "https://github.com/BoomBoomMushroom/API/blob/main/ProfilePictures/AVyS6qQtxFcVeRGR1iRoRDnilU3OTeuD.png?raw=true",
         "Trophies": {},
         "IsStatisticsBanned": false
-    },
-    "6ICnSPUbcLkdngIUjSG0pm1TnjcUU6qo": {
-        "Username": "Circuitbreaker08",
-        "Password": "fef3d83e32b4d981b0c0f75206e891268c6aa8bd8db5a315db7bf24168a4be27",
-        "UUID": "6ICnSPUbcLkdngIUjSG0pm1TnjcUU6qo",
-        "IsBanned": false,
-        "IsMuted": false,
-        "IsAdmin": false,
-        "Friends": {},
-        "FriendRequests": {},
-        "AccountCreationTime": 1647816112.5055916,
-        "GameshubData": {
-            "Advancements": [
-                1,
-                11,
-                9
-            ],
-            "Money": -1000000,
-            "Purchases": [
-                "snakeDLC",
-                "canUseFive"
-            ],
-            "GameData": {},
-            "RedButtonClicks": 1000000001
-        },
-        "Misc": {
-            "Snake": 0
-        },
-        "UsernameHistory": [],
-        "ProfilePicture": "https://github.com/BoomBoomMushroom/API/blob/main/ProfilePictures/6ICnSPUbcLkdngIUjSG0pm1TnjcUU6qo.png?raw=true",
-        "Trophies": {},
-        "Badges": {
-            "name": "html"
-        },
-        "IsStatisticsBanned": true
     },
     "sRT7uGByAOll7g9jl5CTLVpVavOIfIR8": {
         "Username": "misterfireman",
@@ -1302,5 +1267,45 @@
             "Snake": 0
         },
         "IsStatisticsBanned": false
+    },
+    "kkT4o759zdsRUdJEvlsah6JrT6dB7kl4": {
+        "Username": "Circuitbreaker08",
+        "Password": "fef3d83e32b4d981b0c0f75206e891268c6aa8bd8db5a315db7bf24168a4be27",
+        "UUID": "kkT4o759zdsRUdJEvlsah6JrT6dB7kl4",
+        "IsBanned": false,
+        "IsStatisticsBanned": true,
+        "IsMuted": false,
+        "IsAdmin": false,
+        "Friends": [],
+        "FriendRequests": [],
+        "UsernameHistory": [],
+        "ProfilePicture": "https://github.com/BoomBoomMushroom/API/blob/main/ProfilePictures/kkT4o759zdsRUdJEvlsah6JrT6dB7kl4.png?raw=true",
+        "AccountCreationTime": 1680640960.6683424,
+        "GameshubData": {
+            "Advancements": [
+                1,
+                0,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "Money": 2147484972,
+            "Purchases": [
+                "snakeDLC",
+                "canUseFive"
+            ],
+            "GameData": [],
+            "RedButtonClicks": 2147483647
+        },
+        "Misc": {
+            "Snake": 2147483647
+        }
     }
 }
