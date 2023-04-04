@@ -5,11 +5,16 @@
   "MagicalBookOfRedd": {"displayName": "Magical Book of Redde", "rarity": "rare", "description": "A book I shoplifted off of a wizard", "image": "https://art.pixilart.com/sr2a25c6bbd6eb6.png" },
   "Bob": {"displayName": "This is Bob", "rarity": "common", "description": "This is Bob. He is a stock investor.", "image": "https://art.pixilart.com/sr261ebbb70f399.png" },
   "Iphone13": {"displayName": "Iphone 13", "rarity": "rare", "description": "Its an old Iphone 13", "image": "https://art.pixilart.com/sr27613ecf37391.png" },
-  "404": {"displayName": "404 Not Found", "rarity": "ultraRareSuperDeluxeTM", "description": "Sorry, no Item Here", "image": "https://art.pixilart.com/sr26a465051cb3e.png" },
+  "404_NotFound": {"displayName": "404 Not Found", "rarity": "ultraRareSuperDeluxeTM", "description": "Sorry, no Item Here", "image": "https://art.pixilart.com/sr26a465051cb3e.png" },
   "FancyBob": {"displayName": "Fancy Bob", "rarity": "uncommon", "description": "He owns his own company now!", "image": "https://art.pixilart.com/sr2470b827d7f36.png" },
   "StopSign": {"displayName": "Stop Sign", "rarity": "common", "description": "No", "image": "https://art.pixilart.com/sr2713d9aadb94e.png" },
   "Cake": {"displayName": "Cake", "rarity": "uncommon", "description": "Don't trust it", "image": "https://art.pixilart.com/sr26a8a96b9fa2e.png" },
   "Crystal": {"displayName": "Crystal", "rarity": "rare", "description": "I wonder what it does", "image": "https://art.pixilart.com/sr21e09e0a0af87.png" },
   "Staff": {"displayName": "Staff", "rarity": "rare", "description": "Upgradded Stik", "image": "https://art.pixilart.com/sr2a2acfe601c1d.png" },
-  "RedStapler": {"displayName": "Red Stapler", "rarity": "common", "description": "With new tungsten staples!", "image": "https://art.pixilart.com/sr24aa8e55801b9.png" }
+  "RedStapler": {"displayName": "Red Stapler", "rarity": "common", "description": "With new tungsten staples!", "image": "https://art.pixilart.com/sr24aa8e55801b9.png" },
+  "Wrench": {"displayName": "Wrench", "rarity": "uncommon", "description": "gotta move that gear up!", "image": "https://art.pixilart.com/sr20d6b73ca5481.png" },
+  "Tincan": {"displayName": "Tincan", "rarity": "common", "description": "It's empty.", "image": "https://art.pixilart.com/sr2e2dcdf587a2d.png" },
+  "Vase": {"displayName": "Vase", "rarity": "uncommon", "description": "It's full of beans!", "image": "https://art.pixilart.com/sr25b26e437a3a4.png" },
+  "LoadOfBread": {"displayName": "Loaf of Bread", "rarity": "common", "description": "Its all burnt", "image": "https://art.pixilart.com/sr2f930b821557a.png" },
+  "Crab": {"displayName": "Crab", "rarity": "rare", "description": "The Most Trustworthy Fellow", "image": "https://art.pixilart.com/sr25eb5f63c7243.png" }
 }
