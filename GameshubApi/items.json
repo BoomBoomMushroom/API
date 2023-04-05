@@ -16,5 +16,7 @@
   "Tincan": {"displayName": "Tincan", "rarity": "common", "description": "It's empty.", "image": "https://art.pixilart.com/sr2e2dcdf587a2d.png" },
   "Vase": {"displayName": "Vase", "rarity": "uncommon", "description": "It's full of beans!", "image": "https://art.pixilart.com/sr25b26e437a3a4.png" },
   "LoadOfBread": {"displayName": "Loaf of Bread", "rarity": "common", "description": "Its all burnt", "image": "https://art.pixilart.com/sr2f930b821557a.png" },
-  "Crab": {"displayName": "Crab", "rarity": "rare", "description": "The Most Trustworthy Fellow", "image": "https://art.pixilart.com/sr25eb5f63c7243.png" }
+  "Crab": {"displayName": "Crab", "rarity": "rare", "description": "The Most Trustworthy Fellow", "image": "https://art.pixilart.com/sr25eb5f63c7243.png" },
+  "CoffeeMug": {"displayName": "Coffee Mug", "rarity": "epic", "description": "Its half empty", "image": "https://art.pixilart.com/sr255c80d006d27.png" }
+  "BigRedButton": {"displayName": "Big Red Button", "rarity": "mythic", "description": "you should like totally press it", "image": "https://art.pixilart.com/sr262027391129b.png" }
 }
