@@ -1360,5 +1360,32 @@
             "Snake": 2147483647,
             "Items": []
         }
+    },
+    "x4FG49UslVRwuTGaJKwebTuRaKCVj9QB": {
+        "Username": "CheazMaster",
+        "Password": "708ccc8c70dedbde4e674c935cf2ff9af1d0474e1adcd1d710e23ff2af987b1b",
+        "UUID": "x4FG49UslVRwuTGaJKwebTuRaKCVj9QB",
+        "IsBanned": false,
+        "IsStatisticsBanned": false,
+        "IsMuted": false,
+        "IsAdmin": false,
+        "Friends": [],
+        "FriendRequests": [],
+        "UsernameHistory": [],
+        "ProfilePicture": "",
+        "AccountCreationTime": 1680721963.752472,
+        "GameshubData": {
+            "Advancements": [
+                1
+            ],
+            "Money": 50,
+            "Purchases": [],
+            "GameData": [],
+            "RedButtonClicks": 108
+        },
+        "Misc": {
+            "Snake": 0,
+            "Items": []
+        }
     }
 }
