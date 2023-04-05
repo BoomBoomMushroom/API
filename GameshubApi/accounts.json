@@ -29,7 +29,14 @@
         },
         "Misc": {
             "Snake": 1396,
-            "Items": []
+            "Items": [
+                "Crab",
+                "Crab",
+                "Vase",
+                "FancyBob",
+                "StopSign",
+                "MagicalBookOfRedd"
+            ]
         },
         "Badges": {},
         "UsernameHistory": [],
