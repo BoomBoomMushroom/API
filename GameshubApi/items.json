@@ -2,7 +2,7 @@
   "AncientScroll": {"displayName": "Ancient Scroll", "description": "Who knows what it says!", "rarity": "derpy", "image": "https://github.com/BoomBoomMushroom/API/blob/main/ItemImages/AncientScroll.png?raw=true" },
   "Stik": {"displayName": "Stik", "rarity": "common", "description": "What do you expect? Its a stick!", "image": "https://github.com/BoomBoomMushroom/API/blob/main/ItemImages/Stik.png?raw=true" },
   "Cube": {"displayName": "Cube'", "rarity": "rare", "description": "It's a Cube! What shall it do?", "image": "https://art.pixilart.com/sr2cd2753a2233f.png" },
-  "MagicalBookOfRedd": {"displayName": "Magical Book of Redde", "rarity": "rare", "description": "A book I shoplifted off of a wizard", "image": "https://art.pixilart.com/sr2a25c6bbd6eb6.png" },
+  "MagicalBookOfRedd": {"displayName": "Magical Book of Redde", "rarity": "rare", "description": "I theived it off of a wizard", "image": "https://art.pixilart.com/sr2a25c6bbd6eb6.png" },
   "Bob": {"displayName": "This is Bob", "rarity": "common", "description": "This is Bob. He is a stock investor.", "image": "https://art.pixilart.com/sr261ebbb70f399.png" },
   "Iphone13": {"displayName": "Iphone 13", "rarity": "rare", "description": "Its an old Iphone 13", "image": "https://art.pixilart.com/sr27613ecf37391.png" },
   "404_NotFound": {"displayName": "404 Not Found", "rarity": "ultraRareSuperDeluxeTM", "description": "Sorry, no Item Here", "image": "https://art.pixilart.com/sr26a465051cb3e.png" },
