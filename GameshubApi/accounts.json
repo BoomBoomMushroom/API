@@ -35,7 +35,11 @@
                 "Vase",
                 "FancyBob",
                 "StopSign",
-                "MagicalBookOfRedd"
+                "MagicalBookOfRedd",
+                "MagicalBookOfRedd",
+                "FancyBob",
+                "LoadOfBread",
+                "StopSign"
             ]
         },
         "Badges": {},
@@ -1381,7 +1385,7 @@
             "Money": 50,
             "Purchases": [],
             "GameData": [],
-            "RedButtonClicks": 108
+            "RedButtonClicks": 120
         },
         "Misc": {
             "Snake": 0,
