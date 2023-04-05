@@ -10,5 +10,6 @@
   {"id":8,"header":"Close call","desc":"Push with the house with a bet of 100 chips or higher","img":"None","reward":50},
   {"id":9,"header":"Big Man!","desc":"Bet all your chips, totaling 50 or over, in a single round of BlackJack","img":"None","reward":100},
   {"id":10,"header":"BlackJack!","desc":"Get a BlackJack! (Ace + Face card)","img":"None","reward":25},
-  {"id":11,"header":"Mugshot","desc":"Add a custom profile picture to your account!","img":"None","reward":50}
+  {"id":11,"header":"Mugshot","desc":"Add a custom profile picture to your account!","img":"None","reward":50},
+  {"id":12,"header":"I ♥️ Google","desc":"Connect your Google to your GamesHub account!","img":"https://www.google.com/images/branding/googleg/1x/googleg_standard_color_32dp.png","reward":50}
 ]
