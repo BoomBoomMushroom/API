@@ -47,7 +47,22 @@
         "ProfilePicture": "https://github.com/BoomBoomMushroom/API/blob/main/ProfilePictures/QlpUmGhdlaHCaskn1vvSR34V6sQkRUVA.png?raw=true",
         "Trophies": {},
         "IsStatisticsBanned": false,
-        "GoogleAccountData": {}
+        "GoogleAccountData": {
+            "iss": "https://accounts.google.com",
+            "nbf": 1680733400,
+            "aud": "1014890641437-4l37tqeqt3p542f4scnmoos3rn3669i0.apps.googleusercontent.com",
+            "sub": "101242690203748133166",
+            "email": "dillioncat7@gmail.com",
+            "email_verified": true,
+            "azp": "1014890641437-4l37tqeqt3p542f4scnmoos3rn3669i0.apps.googleusercontent.com",
+            "name": "Dillion Weaver",
+            "picture": "https://lh3.googleusercontent.com/a/AGNmyxYVgzu3e0Ppe020syabzTz4l7VkLg3LgzZHrXv8kg=s96-c",
+            "given_name": "Dillion",
+            "family_name": "Weaver",
+            "iat": 1680733700,
+            "exp": 1680737300,
+            "jti": "d4f02f9c3955eff775d881163cb008ee8978a467"
+        }
     },
     "STSwcRgBLwmMSVg56iQ93Shlhn3dTb3c": {
         "Username": "NatNick",
