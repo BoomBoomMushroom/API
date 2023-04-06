@@ -379,7 +379,7 @@
                 1,
                 12
             ],
-            "Money": 100000009937258,
+            "Money": 100000009926258,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
@@ -516,7 +516,24 @@
                 "RedRing",
                 "Potion",
                 "Crystal",
-                "Iphone13"
+                "Iphone13",
+                "AncientScroll",
+                "YourBestFriendAcrid",
+                "Windwaker",
+                "MagicalBookOfRedd",
+                "Windwaker",
+                "RedRing",
+                "Stik",
+                "Cake",
+                "Crystal",
+                "FishingRod",
+                "Bob",
+                "Watch",
+                "CoffeeMug",
+                "Staff",
+                "RedStapler",
+                "FishingRod",
+                "MlgSunglasses"
             ]
         },
         "UsernameHistory": [],
