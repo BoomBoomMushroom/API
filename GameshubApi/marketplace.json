@@ -1,4 +1,4 @@
 [
   {"item": "Crab", "price": 30, "startDate": 1680791991493, "endDate": 1683383967000, "sold": false, "BIN": false},
-  {"item": "CUbe", "price": 45, "startDate": 1680791991493, "endDate": 1683383967000, "sold": false, "BIN": true}
+  {"item": "Cube", "price": 45, "startDate": 1680791991493, "endDate": 1683383967000, "sold": false, "BIN": true}
 ]
