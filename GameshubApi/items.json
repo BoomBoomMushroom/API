@@ -23,7 +23,7 @@
   "Potion": {"displayName": "Potion", "rarity": "epic", "description": "I wonder what it does", "image": "https://art.pixilart.com/sr27e9d8da9d09d.png" },
   "FishingRod": {"displayName": "Fishing Rod", "rarity": "common", "description": "Breaks easily", "image": "https://art.pixilart.com/sr2037510310677.png" },
   "RedRing": {"displayName": "Red Ring", "rarity": "epic", "description": "probably magic or sumthin", "image": "https://art.pixilart.com/sr2551df004b265.png" },
-  "BigBag": {"displayName": "Big O' Bag", "rarity": "rare", "description": "dropped by a leprechaun", "image": "https://art.pixilart.com/sr2fd0fa51cb88c.png" },
+  "BigBag": {"displayName": "Bag O' Gold", "rarity": "rare", "description": "dropped by a leprechaun", "image": "https://art.pixilart.com/sr2fd0fa51cb88c.png" },
   "GoldenCup": {"displayName": "Golen Cup", "rarity": "rare", "description": "Gives immortality... maybe.", "image": "https://art.pixilart.com/sr282a05bf83a8f.png" },
   "Windwaker": {"displayName": "Windwaker", "rarity": "legendary", "description": "grants the power of the sun, or it just disintegrates you. 50/50 chance.", "image": "https://art.pixilart.com/sr237b6a8c7c231.png" },
   "TheUniversalS": {"displayName": "The Universal S", "rarity": "void", "description": "Is it an S or an 8?", "image": "https://art.pixilart.com/sr2520f99df447a.png" },
