@@ -379,7 +379,7 @@
                 1,
                 12
             ],
-            "Money": 100000009894258,
+            "Money": 100000009890758,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
@@ -597,7 +597,10 @@
                 "Pencil",
                 "Vase",
                 "Cube",
-                "LoadOfBread"
+                "LoadOfBread",
+                "Crystal",
+                "Crab",
+                "LegallyDistinctDogMug"
             ]
         },
         "UsernameHistory": [],
