@@ -20,4 +20,20 @@
   "CoffeeMug": {"displayName": "Coffee Mug", "rarity": "epic", "description": "Its half empty", "image": "https://art.pixilart.com/sr255c80d006d27.png" },
   "BigRedButton": {"displayName": "Big Red Button", "rarity": "mythic", "description": "you should like totally press it", "image": "https://art.pixilart.com/sr262027391129b.png" },
   "NewYork": {"displayName": "The Entire City of New Yokr", "rarity": "mythic", "description": "Now with 2 less buildings!", "image": "https://art.pixilart.com/sr2012b6f725457.png" }
+  "Potion": {"displayName": "Potion", "rarity": "epic", "description": "I wonder what it does", "image": "https://art.pixilart.com/sr27e9d8da9d09d.png" },
+  "FishingRod": {"displayName": "Fishing Rod", "rarity": "common", "description": "Breaks easily", "image": "https://art.pixilart.com/sr2037510310677.png" },
+  "RedRing": {"displayName": "Red Ring", "rarity": "epic", "description": "probably magic or sumthin", "image": "https://art.pixilart.com/sr2551df004b265.png" },
+  "BigBag": {"displayName": "Big O' Bag", "rarity": "rare", "description": "dropped by a leprechaun", "image": "https://art.pixilart.com/sr2fd0fa51cb88c.png" },
+  "GoldenCup": {"displayName": "Golen Cup", "rarity": "rare", "description": "Gives immortality... maybe.", "image": "https://art.pixilart.com/sr282a05bf83a8f.png" },
+  "Windwaker": {"displayName": "Windwaker", "rarity": "legendary", "description": "grants the power of the sun, or it just disintegrates you. 50/50 chance.", "image": "grants the power of the sun, or it just disintegrates you. 50/50 chance." },
+  "TheUniversalS": {"displayName": "The Universal S", "rarity": "void", "description": "Is it an S or an 8?", "image": "https://art.pixilart.com/sr2520f99df447a.png" },
+  "KingBob": {"displayName": "King Bob", "rarity": "legendary", "description": "In no way related to King Bob from the hit movie, Minions", "image": "https://art.pixilart.com/sr27b811472ec7b.png" },
+  "GodlyBob": {"displayName": "GodlyBob", "rarity": "void", "description": "He now has control over the universe. Be scared.", "image": "https://art.pixilart.com/sr2635a61da9277.png" },
+  "???Bob": {"displayName": "??? Bob", "rarity": "ultraRareSuperDeluxeTM", "description": "??? Bob", "image": "https://art.pixilart.com/sr261a122e56b83.png" },
+  "Pencil": {"displayName": "Pencil", "rarity": "common", "description": "Freshly sharpened!", "image": "https://art.pixilart.com/sr240526473688d.png" },
+  "Watch": {"displayName": "Watch", "rarity": "uncommon", "description": "\"welp, off to see your mother!\"", "image": "https://art.pixilart.com/sr2e1d07bf162cc.png" },
+  "MlgSunglasses": {"displayName": "MLG Sunglasses", "rarity": "epic", "description": "Cool people only", "image": "https://art.pixilart.com/sr2a509272f66ee.png" },
+  "LegallyDistinctDogMug": {"displayName": "Legally Distinct Dog Mug", "rarity": "epic", "description": "Shielding from DMCA, the Legally Distinct Dog Mug slides into your home.", "image": "https://art.pixilart.com/sr204bf16ee7819.png" },
+  "Walter": {"displayName": "Walter", "rarity": "ultraRareSuperDeluxeTM", "description": "Waltuh", "image": "https://art.pixilart.com/sr29fab1d8e343a.png" },
+  "YourBestFriendAcrid": {"displayName": "Your Best Friend Acrid", "rarity": "epic", "description": "Watch out for his hugs, they are literally toxic", "image": "https://art.pixilart.com/sr2646a059886bb.png" }
 }
