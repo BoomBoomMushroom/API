@@ -1428,7 +1428,7 @@
                 "canUseFive"
             ],
             "GameData": [],
-            "RedButtonClicks": 2147483647
+            "RedButtonClicks": 2147483648
         },
         "Misc": {
             "Snake": 2147483647,
