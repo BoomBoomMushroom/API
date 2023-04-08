@@ -10,7 +10,7 @@
         "FriendRequests": {},
         "AccountCreationTime": 1636166689.760447,
         "GameshubData": {
-            "Money": 1533,
+            "Money": 15,
             "Advancements": [
                 1,
                 9,
@@ -31,7 +31,25 @@
         },
         "Misc": {
             "Snake": 1396,
-            "Items": []
+            "Items": [
+                "KingBob",
+                "Tincan",
+                "Staff",
+                "Tincan",
+                "???Bob",
+                "GoldenCup",
+                "StopSign",
+                "BigRedButton",
+                "Tincan",
+                "GoldenCup",
+                "FishingRod",
+                "Crystal",
+                "FishingRod",
+                "Potion",
+                "GoldenCup",
+                "Crab",
+                "Tincan"
+            ]
         },
         "Badges": {},
         "UsernameHistory": [],
@@ -1420,9 +1438,10 @@
                 8,
                 9,
                 10,
-                11
+                11,
+                12
             ],
-            "Money": 2147484972,
+            "Money": 2147485022,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
