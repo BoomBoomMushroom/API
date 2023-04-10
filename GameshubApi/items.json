@@ -36,4 +36,15 @@
   "LegallyDistinctDogMug": {"displayName": "Legally Distinct Dog Mug", "rarity": "epic", "description": "Shielding from DMCA, the Legally Distinct Dog Mug slides into your home.", "image": "https://art.pixilart.com/sr204bf16ee7819.png" },
   "Walter": {"displayName": "Walter", "rarity": "ultraRareSuperDeluxeTM", "description": "Waltuh", "image": "https://art.pixilart.com/sr29fab1d8e343a.png" },
   "YourBestFriendAcrid": {"displayName": "Your Best Friend Acrid", "rarity": "epic", "description": "Watch out for his hugs, they are literally toxic", "image": "https://art.pixilart.com/sr2646a059886bb.png" }
+  "BackroomsThing": {"displayName": "Backrooms Thing", "rarity": "supaDuperLegendary", "description": "probably made of bacteria. BUT THAT'S JUST A THEORY-", "image": "https://art.pixilart.com/sr232519e99dff4.png" },
+  "BigCube": {"displayName": "Big Cube", "rarity": "supaDuperLegendary", "description": "Totally not the mecca", "image": "https://art.pixilart.com/sr2841935dc0766.png" },
+  "Ohio": {"displayName": "Ohio", "rarity": "void", "description": "Ohio", "image": "https://art.pixilart.com/sr287aedccff768.png" },
+  "BassProShopsPyramid": {"displayName": "BassProShopsPyramid", "rarity": "mythic", "description": "yes, it is an item.", "image": "https://art.pixilart.com/sr2d98af8711c44.png" },
+  "MrKrabs": {"displayName": "MR KRABS", "rarity": "ultraRareSuperDeluxeTM", "description": "SPONGEBOY ME BOB", "image": "https://art.pixilart.com/sr218bd3c402cc6.png" },
+  "TheBoi": {"displayName": "The Boi", "rarity": "depry", "description": "Here comes the boiiiii", "image": "https://art.pixilart.com/sr25ea73f0cc132.png" },
+  "DatBoi": {"displayName": "Dat Boi", "rarity": "they see me rollin'", "description": "supaDuperLegendary", "image": "https://art.pixilart.com/sr267b3a7608894.png" },
+  "Minecraft": {"displayName": "Minecraft", "rarity": "derpy", "description": "haha funny block game", "image": "https://art.pixilart.com/sr267d7fb1e279a.png" },
+  "Snail": {"displayName": "Snail", "rarity": "uncommon", "description": "still faster than my framerate", "image": "https://art.pixilart.com/sr2657510bd1bab.png" },
+  "Umbrella": {"displayName": "Umbrella", "rarity": "common", "description": "say no to the weather", "image": "https://art.pixilart.com/sr268070f1cc7c7.png" },
+  "Waldo": {"displayName": "Waldo", "rarity": "Mythic", "description": "wait, where'd Waldo go?", "image": "https://art.pixilart.com/sr2f9970bcf1096.png" },
 }
