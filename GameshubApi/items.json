@@ -46,5 +46,5 @@
   "Minecraft": {"displayName": "Minecraft", "rarity": "derpy", "description": "haha funny block game", "image": "https://art.pixilart.com/sr267d7fb1e279a.png" },
   "Snail": {"displayName": "Snail", "rarity": "uncommon", "description": "still faster than my framerate", "image": "https://art.pixilart.com/sr2657510bd1bab.png" },
   "Umbrella": {"displayName": "Umbrella", "rarity": "common", "description": "say no to the weather", "image": "https://art.pixilart.com/sr268070f1cc7c7.png" },
-  "Waldo": {"displayName": "Waldo", "rarity": "Mythic", "description": "wait, where'd Waldo go?", "image": "https://art.pixilart.com/sr2f9970bcf1096.png" },
+  "Waldo": {"displayName": "Waldo", "rarity": "Mythic", "description": "wait, where'd Waldo go?", "image": "https://art.pixilart.com/sr2f9970bcf1096.png" }
 }
