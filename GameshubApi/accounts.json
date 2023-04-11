@@ -10,7 +10,7 @@
         "FriendRequests": {},
         "AccountCreationTime": 1636166689.760447,
         "GameshubData": {
-            "Money": 7251,
+            "Money": 6751,
             "Advancements": [
                 1,
                 9,
@@ -48,7 +48,8 @@
                 "Potion",
                 "GoldenCup",
                 "Crab",
-                "Tincan"
+                "Tincan",
+                "StopSign"
             ]
         },
         "Badges": {},
