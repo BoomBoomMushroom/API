@@ -10,7 +10,7 @@
         "FriendRequests": {},
         "AccountCreationTime": 1636166689.760447,
         "GameshubData": {
-            "Money": 6251,
+            "Money": 251,
             "Advancements": [
                 1,
                 9,
@@ -50,7 +50,19 @@
                 "Crab",
                 "Tincan",
                 "StopSign",
-                "Tincan"
+                "Tincan",
+                "Cake",
+                "YourBestFriendAcrid",
+                "BigBag",
+                "RedRing",
+                "Umbrella",
+                "Bob",
+                "Iphone13",
+                "Tincan",
+                "Pencil",
+                "KingBob",
+                "Hammer",
+                "Hammer"
             ]
         },
         "Badges": {},
@@ -127,13 +139,13 @@
                 11,
                 12
             ],
-            "Money": 26959,
+            "Money": 459,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
             ],
             "GameData": {},
-            "RedButtonClicks": 111
+            "RedButtonClicks": 126
         },
         "Misc": {
             "Snake": 636,
@@ -230,7 +242,64 @@
                 "Watch",
                 "Tincan",
                 "LegallyDistinctDogMug",
-                "FancyBob"
+                "FancyBob",
+                "BassProShopsPyramid",
+                "MagicalBookOfRedd",
+                "Bob",
+                "Pencil",
+                "MagicalBookOfRedd",
+                "Watch",
+                "TrafficCone",
+                "Stik",
+                "Cake",
+                "Staff",
+                "LegallyDistinctDogMug",
+                "Maxwell",
+                "Bob",
+                "RedStapler",
+                "Minecraft",
+                "Stik",
+                "FancyBob",
+                "Tincan",
+                "Hammer",
+                "Watch",
+                "Crab",
+                "Minecraft",
+                "BigCube",
+                "FishingRod",
+                "LoadOfBread",
+                "Hammer",
+                "Tincan",
+                "Tincan",
+                "Wrench",
+                "TrafficCone",
+                "Crab",
+                "MagicalBookOfRedd",
+                "TrafficCone",
+                "SwedishMeatballs",
+                "Iphone13",
+                "RedStapler",
+                "KingBob",
+                "FishingRod",
+                "Potion",
+                "Ohio",
+                "StopSign",
+                "MagicalBookOfRedd",
+                "FancyBob",
+                "MagicalBookOfRedd",
+                "Staff",
+                "RedStapler",
+                "Staff",
+                "LoadOfBread",
+                "Umbrella",
+                "LegallyDistinctDogMug",
+                "Iphone13",
+                "Cube",
+                "TrafficCone",
+                "Crystal",
+                "Crystal",
+                "Cake",
+                "Tincan"
             ]
         },
         "Badges": {},
@@ -1459,7 +1528,7 @@
             "RedButtonClicks": 12
         },
         "Misc": {
-            "Snake": 274,
+            "Snake": 291,
             "Items": []
         },
         "IsStatisticsBanned": false,
@@ -1553,7 +1622,7 @@
                 11,
                 12
             ],
-            "Money": 2147495225,
+            "Money": 2147495234,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
