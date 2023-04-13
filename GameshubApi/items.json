@@ -57,7 +57,7 @@
   "Beans": {"displayName": "Beans", "rarity": "void", "description": "beans", "image": "https://art.pixilart.com/sr2007253c2e3e9.png" },
   "TrafficCone": {"displayName": "Traffic Cone", "rarity": "uncommon", "description": "Can also be used as a megaphone", "image": "https://art.pixilart.com/sr2f362b452d433.png" },
   "Hammer": {"displayName": "Hammer", "rarity": "common", "description": "Hammertime!", "image": "https://art.pixilart.com/sr23215f101aa02.png" },
-  "Yes": {"displayName": "Yes", "rarity": "uncommmon", "description": "Speaks for itself", "image": "https://art.pixilart.com/sr2cfbb2cd214c2.png" },
+  "Yes": {"displayName": "Yes", "rarity": "uncommon", "description": "Speaks for itself", "image": "https://art.pixilart.com/sr2cfbb2cd214c2.png" },
   "NuclearWarhead": {"displayName": "Nuclear Warhead", "rarity": "epic", "description": "Big boom", "image": "https://art.pixilart.com/sr28dfa09b9bfcc.png" },
   "StockMarket": {"displayName": "Stock Market", "rarity": "epic", "description": "Stocks, am I right?", "image": "https://art.pixilart.com/sr200af5824f15f.png" },
   "Roomba": {"displayName": "Roomba", "rarity": "uncommon", "description": "Roomba go brrrrrrrr", "image": "https://art.pixilart.com/sr24efd66cfa813.gif" },
