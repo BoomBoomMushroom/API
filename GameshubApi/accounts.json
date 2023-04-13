@@ -10,7 +10,7 @@
         "FriendRequests": {},
         "AccountCreationTime": 1636166689.760447,
         "GameshubData": {
-            "Money": 251,
+            "Money": 358,
             "Advancements": [
                 1,
                 9,
@@ -62,7 +62,12 @@
                 "Pencil",
                 "KingBob",
                 "Hammer",
-                "Hammer"
+                "Hammer",
+                "Stik",
+                "GoldenCup",
+                "Umbrella",
+                "Crab",
+                "Walter2"
             ]
         },
         "Badges": {},
@@ -139,7 +144,7 @@
                 11,
                 12
             ],
-            "Money": 7757,
+            "Money": 257,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
@@ -324,7 +329,22 @@
                 "RedStapler",
                 "KingBob",
                 "YourBestFriendAcrid",
-                "LegallyDistinctDogMug"
+                "LegallyDistinctDogMug",
+                "YourBestFriendAcrid",
+                "BigBag",
+                "TrafficCone",
+                "Cake",
+                "StopSign",
+                "MagicalBookOfRedd",
+                "Magic8Ball",
+                "Potion",
+                "CoffeeMug",
+                "FancyBob",
+                "Hammer",
+                "Magic8Ball",
+                "Waldo",
+                "FancyFrogge",
+                "Crystal"
             ]
         },
         "Badges": {},
@@ -1544,7 +1564,7 @@
             "Advancements": [
                 1
             ],
-            "Money": 654,
+            "Money": 154,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
@@ -1554,7 +1574,9 @@
         },
         "Misc": {
             "Snake": 291,
-            "Items": []
+            "Items": [
+                "Staff"
+            ]
         },
         "IsStatisticsBanned": false,
         "GoogleAccountData": {}
@@ -1647,7 +1669,7 @@
                 11,
                 12
             ],
-            "Money": 2147495234,
+            "Money": 2147495243,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
