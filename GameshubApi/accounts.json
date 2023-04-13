@@ -139,7 +139,7 @@
                 11,
                 12
             ],
-            "Money": 459,
+            "Money": 7757,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
@@ -299,7 +299,32 @@
                 "Crystal",
                 "Crystal",
                 "Cake",
-                "Tincan"
+                "Tincan",
+                "Staff",
+                "Beans",
+                "FishingRod",
+                "GoldenCup",
+                "Pencil",
+                "RedStapler",
+                "FishingRod",
+                "BassProShopsPyramid",
+                "Wrench",
+                "Umbrella",
+                "Magic8Ball",
+                "RedStapler",
+                "StopSign",
+                "Bob",
+                "CheesePizza",
+                "SwedishMeatballs",
+                "CoffeeMug",
+                "Magic8Ball",
+                "Hammer",
+                "Imposter",
+                "BassProShopsPyramid",
+                "RedStapler",
+                "KingBob",
+                "YourBestFriendAcrid",
+                "LegallyDistinctDogMug"
             ]
         },
         "Badges": {},
