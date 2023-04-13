@@ -56,5 +56,17 @@
   "SwedishMeatballs": {"displayName": "Swedish Meatballs", "rarity": "mythic", "description": "freshly baked from IKEA", "image": "https://art.pixilart.com/sr25d77b789f20f.png" },
   "Beans": {"displayName": "Beans", "rarity": "void", "description": "beans", "image": "https://art.pixilart.com/sr2007253c2e3e9.png" },
   "TrafficCone": {"displayName": "Traffic Cone", "rarity": "uncommon", "description": "Can also be used as a megaphone", "image": "https://art.pixilart.com/sr2f362b452d433.png" },
-  "Hammer": {"displayName": "Hamemer", "rarity": "common", "description": "Hammertime!", "image": "https://art.pixilart.com/sr23215f101aa02.png" }
+  "Hammer": {"displayName": "Hammer", "rarity": "common", "description": "Hammertime!", "image": "https://art.pixilart.com/sr23215f101aa02.png" },
+  "Yes": {"displayName": "Yes", "rarity": "uncommmon", "description": "Speaks for itself", "image": "https://art.pixilart.com/sr2cfbb2cd214c2.png" },
+  "NuclearWarhead": {"displayName": "Nuclear Warhead", "rarity": "epic", "description": "Big boom", "image": "https://art.pixilart.com/sr28dfa09b9bfcc.png" },
+  "StockMarket": {"displayName": "Stock Market", "rarity": "epic", "description": "Stocks, am I right?", "image": "https://art.pixilart.com/sr200af5824f15f.png" },
+  "Roomba": {"displayName": "Roomba", "rarity": "uncommon", "description": "Roomba go brrrrrrrr", "image": "https://art.pixilart.com/sr24efd66cfa813.gif" },
+  "Toaster": {"displayName": "Toaster", "rarity": "common", "description": "Burns Everything", "image": "https://art.pixilart.com/sr23d5087cf6f69.png" },
+  "UntitledGoose": {"displayName": "Untitled Goose", "rarity": "supaDuperLegendary", "description": "Honk", "image": "https://art.pixilart.com/sr2c7564f1a8f2c.png" },
+  "FancyFrogge": {"displayName": "Fancy Frogge'", "rarity": "legendary", "description": "He hops with elegance", "image": "https://art.pixilart.com/sr2a09361c4e142.png" },
+  "Pentacle": {"displayName": "Pentacle", "rarity": "ultraRareSuperDeluxeTM", "description": "Slayer reference am I right", "image": "https://art.pixilart.com/sr2b484aa3bc33e.png" },
+  "Triforce": {"displayName": "Triforce", "rarity": "legendary", "description": "When you get defeated by a little kid in a green hood :/", "image": "https://art.pixilart.com/sr27e2c4a5b4d07.png" },
+  "LaserPointer": {"displayName": "Laser Pointer", "rarity": "rare", "description": "Rated 5 stars by cats across the world", "image": "https://art.pixilart.com/sr2e397589cba38.png" },
+  "Walter2": {"displayName": "Walter", "rarity": "legendary", "description": "kinda cursed not gonna lie", "image": "https://art.pixilart.com/sr2c3bbd02b9753.png" },
+  "TaxEvasion": {"displayName": "Tax Evasion", "rarity": "epic", "description": "fun for the whole family!", "image": "https://art.pixilart.com/sr20d867741e9fd.png" }
 }
