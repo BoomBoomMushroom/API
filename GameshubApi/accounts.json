@@ -1738,5 +1738,36 @@
             "Items": []
         },
         "GoogleAccountData": {}
+    },
+    "y3HUV0unaBQ2QqcIsa0Gwy9fgRF9KCsI": {
+        "Username": "faggot",
+        "Password": "24d892ca54c80ba88ba8df7ed18fda45eef87527c12eb59b605cc816092f2190",
+        "UUID": "y3HUV0unaBQ2QqcIsa0Gwy9fgRF9KCsI",
+        "IsBanned": false,
+        "IsStatisticsBanned": false,
+        "IsMuted": false,
+        "IsAdmin": false,
+        "Friends": [],
+        "FriendRequests": [],
+        "UsernameHistory": [],
+        "ProfilePicture": "",
+        "AccountCreationTime": 1681435726.221896,
+        "GameshubData": {
+            "Advancements": [
+                1,
+                8,
+                5,
+                3
+            ],
+            "Money": 400,
+            "Purchases": [],
+            "GameData": [],
+            "RedButtonClicks": 166
+        },
+        "Misc": {
+            "Snake": 0,
+            "Items": []
+        },
+        "GoogleAccountData": {}
     }
 }
