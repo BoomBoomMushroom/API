@@ -150,7 +150,7 @@
                 11,
                 12
             ],
-            "Money": 41,
+            "Money": 329,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
@@ -417,7 +417,17 @@
                 "Wrench",
                 "Tincan",
                 "RedRing",
-                "TrafficCone"
+                "TrafficCone",
+                "Toaster",
+                "MagicalBookOfRedd",
+                "Walter2",
+                "TaxEvasion",
+                "Umbrella",
+                "Crab",
+                "CheesePizza",
+                "Snail",
+                "NewYork",
+                "Crystal"
             ]
         },
         "Badges": {},
@@ -1743,7 +1753,7 @@
                 11,
                 12
             ],
-            "Money": 2147495261,
+            "Money": 2147495279,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
