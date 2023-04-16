@@ -150,13 +150,13 @@
                 11,
                 12
             ],
-            "Money": 55,
+            "Money": 3,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
             ],
             "GameData": {},
-            "RedButtonClicks": 126
+            "RedButtonClicks": 251
         },
         "Misc": {
             "Snake": 636,
@@ -460,7 +460,32 @@
                 "Crystal",
                 "KingBob",
                 "Toaster",
-                "BigBag"
+                "BigBag",
+                "Windwaker",
+                "FishingRod",
+                "Snail",
+                "Minecraft",
+                "Crystal",
+                "MagicalBookOfRedd",
+                "BigBag",
+                "TaxEvasion",
+                "Yes",
+                "StopSign",
+                "Imposter",
+                "LegallyDistinctDogMug",
+                "Vase",
+                "CheesePizza",
+                "BassProShopsPyramid",
+                "Stik",
+                "DatBoi",
+                "Pencil",
+                "Staff",
+                "StockMarket",
+                "Roomba",
+                "StopSign",
+                "Snail",
+                "YourBestFriendAcrid",
+                "TheBoi"
             ]
         },
         "Badges": {},
