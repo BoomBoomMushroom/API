@@ -68,5 +68,11 @@
   "Triforce": {"displayName": "Triforce", "rarity": "legendary", "description": "When you get defeated by a little kid in a green hood :/", "image": "https://art.pixilart.com/sr27e2c4a5b4d07.png" },
   "LaserPointer": {"displayName": "Laser Pointer", "rarity": "rare", "description": "Rated 5 stars by cats across the world", "image": "https://art.pixilart.com/sr2e397589cba38.png" },
   "Walter2": {"displayName": "waltuh", "rarity": "legendary", "description": "water", "image": "https://art.pixilart.com/sr2c3bbd02b9753.png" },
-  "TaxEvasion": {"displayName": "Tax Evasion", "rarity": "epic", "description": "fun for the whole family!", "image": "https://art.pixilart.com/sr20d867741e9fd.png" }
+  "TaxEvasion": {"displayName": "Tax Evasion", "rarity": "epic", "description": "fun for the whole family!", "image": "https://art.pixilart.com/sr20d867741e9fd.png" },
+  "SuperGlue": {"displayName": "superglue", "rarity": "rare", "description": "Most of it is used up", "image": "https://art.pixilart.com/sr2259d759e4e3b.png" },
+  "FancyTopHat": {"displayName": "Fancy Top Hat", "rarity": "rare", "description": "comes with it's own monocle", "image": "https://art.pixilart.com/sr2eda1250450a8.png" },
+  "GoldPLayButton": {"displayName": "Gold Play Button", "rarity": "legendary", "description": "hey guys welcome to my 1 million subscriber unboxing special", "image": "https://art.pixilart.com/sr24e422f79314b.png" },
+  "NintendoEntertainmentSystemTM": {"displayName": "nintendo entertainment system TM", "rarity": "epic", "description": "licensed in 1985", "image": "https://art.pixilart.com/sr211b315e1c420.png" },
+  "Pitchfork": {"displayName": "Pitchfork", "rarity": "common", "description": "can you actually use it as a fork?", "image": "https://art.pixilart.com/sr294d94b663de4.png" },
+  "JacksonPollockPainting": {"displayName": "Jackson Pollock Paintint", "rarity": "legendary", "description": "probably around 34 million dollars", "image": "https://art.pixilart.com/sr2778dc9b23974.png" }
 }
