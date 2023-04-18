@@ -74,5 +74,9 @@
   "GoldPLayButton": {"displayName": "Gold Play Button", "rarity": "legendary", "description": "hey guys welcome to my 1 million subscriber unboxing special", "image": "https://art.pixilart.com/sr24e422f79314b.png" },
   "NintendoEntertainmentSystemTM": {"displayName": "nintendo entertainment system TM", "rarity": "epic", "description": "licensed in 1985", "image": "https://art.pixilart.com/sr211b315e1c420.png" },
   "Pitchfork": {"displayName": "Pitchfork", "rarity": "common", "description": "can you actually use it as a fork?", "image": "https://art.pixilart.com/sr294d94b663de4.png" },
-  "JacksonPollockPainting": {"displayName": "Jackson Pollock Paintint", "rarity": "legendary", "description": "probably around 34 million dollars", "image": "https://art.pixilart.com/sr2778dc9b23974.png" }
+  "JacksonPollockPainting": {"displayName": "Jackson Pollock Paintint", "rarity": "legendary", "description": "probably around 34 million dollars", "image": "https://art.pixilart.com/sr2778dc9b23974.png" },
+  "LilBotBoi": {"displayName": "Lil' Bot Boi", "rarity": "epic", "description": "Beep Boop", "image": "https://art.pixilart.com/sr2432eda3e7be6.gif" },
+  "ExitSign": {"displayName": "Exit sign", "rarity": "uncommon", "description": "Pretty useful", "image": "https://art.pixilart.com/sr2e272cb7866f7.gif" },
+  "LilBotBoi_MK2": {"displayName": "Lil' Bot Boi MK2", "rarity": "legendary", "description": "Bop Beep", "image": "https://art.pixilart.com/sr2cd4c5003743c.gif" },
+  "LilBotBoi_MK3": {"displayName": "Lil' Bot Boi MK3", "rarity": "supaDuperLegendary", "description": "not very lil anymore", "image": "https://art.pixilart.com/sr21dbbf6c29e1b.gif" }
 }
