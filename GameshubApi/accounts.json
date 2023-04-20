@@ -150,7 +150,7 @@
                 11,
                 12
             ],
-            "Money": 3,
+            "Money": 10,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
@@ -485,7 +485,26 @@
                 "StopSign",
                 "Snail",
                 "YourBestFriendAcrid",
-                "TheBoi"
+                "TheBoi",
+                "Crab",
+                "FancyBob",
+                "Umbrella",
+                "Iphone13",
+                "MagicalBookOfRedd",
+                "FancyTopHat",
+                "Clippy",
+                "Hammer",
+                "MlgSunglasses",
+                "Iphone13",
+                "Pencil",
+                "NuclearWarhead",
+                "GoldenCup",
+                "Bob",
+                "GoldenCup",
+                "StockMarket",
+                "FishingRod",
+                "NewYork",
+                "StopSign"
             ]
         },
         "Badges": {},
@@ -1815,13 +1834,13 @@
                 11,
                 12
             ],
-            "Money": 2147495315,
+            "Money": 2147495324,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
             ],
             "GameData": [],
-            "RedButtonClicks": 2147483648
+            "RedButtonClicks": 2147483652
         },
         "Misc": {
             "Snake": 2147483647,
