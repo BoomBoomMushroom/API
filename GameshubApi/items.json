@@ -78,5 +78,8 @@
   "LilBotBoi": {"displayName": "Lil' Bot Boi", "rarity": "epic", "description": "Beep Boop", "image": "https://art.pixilart.com/sr2432eda3e7be6.gif" },
   "ExitSign": {"displayName": "Exit sign", "rarity": "uncommon", "description": "Pretty useful", "image": "https://art.pixilart.com/sr2e272cb7866f7.gif" },
   "LilBotBoi_MK2": {"displayName": "Lil' Bot Boi MK2", "rarity": "legendary", "description": "Bop Beep", "image": "https://art.pixilart.com/sr2cd4c5003743c.gif" },
-  "LilBotBoi_MK3": {"displayName": "Lil' Bot Boi MK3", "rarity": "supaDuperLegendary", "description": "not very lil anymore", "image": "https://art.pixilart.com/sr21dbbf6c29e1b.gif" }
+  "LilBotBoi_MK3": {"displayName": "Lil' Bot Boi MK3", "rarity": "supaDuperLegendary", "description": "not very lil anymore", "image": "https://art.pixilart.com/sr21dbbf6c29e1b.gif" },
+  "DemonCore": {"displayName": "Demon Core", "rarity": "void", "description": "*drops screwdriver* (<-- italicize) \"ruh roh raggy\"", "image": "https://art.pixilart.com/sr290fd43dd94df.png" },
+  "FireAlarm": {"displayName": "Fire Alarm", "rarity": "uncommon", "description": "Pull for candy!", "image": "https://art.pixilart.com/sr2e772631ab1ed.png" },
+  "253_000_KilogramsOfExplosivePowder": {"displayName": "253,000 kilograms of explosive powder", "rarity": "mythic", "description": "I just found it laying around", "image": "https://art.pixilart.com/sr2834649d1397d.png" }
 }
