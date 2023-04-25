@@ -10,7 +10,7 @@
         "FriendRequests": {},
         "AccountCreationTime": 1636166689.760447,
         "GameshubData": {
-            "Money": 62,
+            "Money": 304,
             "Advancements": [
                 1,
                 9,
@@ -73,7 +73,28 @@
                 "MagicalBookOfRedd",
                 "KingBob",
                 "CheesePizza",
-                "DatBoi"
+                "DatBoi",
+                "Snail",
+                "FireAlarm",
+                "Watch",
+                "Tincan",
+                "Pitchfork",
+                "Tincan",
+                "Bob",
+                "Snail",
+                "FancyBob",
+                "Crab",
+                "Magic8Ball",
+                "Stik",
+                "ExitSign",
+                "Yes",
+                "FireAlarm",
+                "FireAlarm",
+                "TrafficCone",
+                "Stik",
+                "Hammer",
+                "FireAlarm",
+                "Tincan"
             ]
         },
         "Badges": {},
@@ -2046,7 +2067,7 @@
                 1,
                 3
             ],
-            "Money": 278,
+            "Money": 182,
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 8
@@ -2450,7 +2471,17 @@
                 "FancyBob",
                 "Bob",
                 "ExitSign",
-                "StockMarket"
+                "StockMarket",
+                "TrafficCone",
+                "ExitSign",
+                "Tincan",
+                "LoadOfBread",
+                "StockMarket",
+                "TrafficCone",
+                "ExitSign",
+                "FireAlarm",
+                "NuclearWarhead",
+                "Staff"
             ]
         },
         "GoogleAccountData": {}
