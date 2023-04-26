@@ -1,1 +1,12 @@
-{}
+{
+    "mCQpfsOyjedkCPhv": {
+        "item": "???Bob",
+        "price": 30,
+        "startDate": 1682469831,
+        "endDate": 1683074631,
+        "sold": false,
+        "BIN": true,
+        "UUID": "mCQpfsOyjedkCPhv",
+        "SellerUUID": "QlpUmGhdlaHCaskn1vvSR34V6sQkRUVA"
+    }
+}
