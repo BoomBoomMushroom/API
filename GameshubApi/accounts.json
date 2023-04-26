@@ -10,7 +10,7 @@
         "FriendRequests": {},
         "AccountCreationTime": 1636166689.760447,
         "GameshubData": {
-            "Money": 111,
+            "Money": 3167,
             "Advancements": [
                 1,
                 9,
@@ -2546,14 +2546,18 @@
             "Advancements": [
                 1
             ],
-            "Money": 50,
+            "Money": 219,
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 9
         },
         "Misc": {
             "Snake": 0,
-            "Items": []
+            "Items": [
+                "Cake",
+                "FancyTopHat",
+                "FishingRod"
+            ]
         },
         "GoogleAccountData": {}
     }
