@@ -1,1 +1,12 @@
-{}
+{
+    "djkr0QckBGB2BGVV": {
+        "item": "Roomba",
+        "price": 250,
+        "startDate": 1682525227,
+        "endDate": 1683130027,
+        "sold": false,
+        "BIN": true,
+        "UUID": "djkr0QckBGB2BGVV",
+        "SellerUUID": "qRzDm7Rmq5UdA1osoPbTVS4PTVKPNJr4"
+    }
+}
