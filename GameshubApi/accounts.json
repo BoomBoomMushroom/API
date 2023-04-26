@@ -2096,14 +2096,30 @@
         "AccountCreationTime": 1680640960.6683424,
         "GameshubData": {
             "Advancements": [],
-            "Money": 0,
+            "Money": 67,
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 0
         },
         "Misc": {
             "Snake": 0,
-            "Items": []
+            "Items": [
+                "FishingRod",
+                "Staff",
+                "Stik",
+                "FireAlarm",
+                "Crab",
+                "Wrench",
+                "Stik",
+                "Iphone13",
+                "Magic8Ball",
+                "Yes",
+                "Vase",
+                "Hammer",
+                "Staff",
+                "ExitSign",
+                "Minecraft"
+            ]
         },
         "GoogleAccountData": {}
     },
