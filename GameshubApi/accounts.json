@@ -2528,5 +2528,33 @@
             ]
         },
         "GoogleAccountData": {}
+    },
+    "NePpuweudurnksl7CyQSiM7uEPnDocGR": {
+        "Username": "zeekode",
+        "Password": "d12dead27c365c438d979207f2624bfe68dc746fa20510353c2a8cc087939388",
+        "UUID": "NePpuweudurnksl7CyQSiM7uEPnDocGR",
+        "IsBanned": false,
+        "IsStatisticsBanned": false,
+        "IsMuted": false,
+        "IsAdmin": false,
+        "Friends": [],
+        "FriendRequests": [],
+        "UsernameHistory": [],
+        "ProfilePicture": "",
+        "AccountCreationTime": 1682471067.2851095,
+        "GameshubData": {
+            "Advancements": [
+                1
+            ],
+            "Money": 50,
+            "Purchases": [],
+            "GameData": [],
+            "RedButtonClicks": 7
+        },
+        "Misc": {
+            "Snake": 0,
+            "Items": []
+        },
+        "GoogleAccountData": {}
     }
 }
