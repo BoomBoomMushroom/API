@@ -1,4 +1,12 @@
 {
-  "abcd": {"item": "Crab", "price": 30, "startDate": 1680791991493, "endDate": 1683383967000, "sold": false, "BIN": true, "UUID": "abcd", "SellerUUID": "QlpUmGhdlaHCaskn1vvSR34V6sQkRUVA"},
-  "efgh": {"item": "NotRealItem", "price": 999, "startDate": 1680791991493, "endDate": 1683383967000, "sold": false, "BIN": true, "UUID": "abcd", "SellerUUID": "QlpUmGhdlaHCaskn1vvSR34V6sQkRUVA"}
+    "abcd": {
+        "item": "Crab",
+        "price": 30,
+        "startDate": 1680791991493,
+        "endDate": 1683383967000,
+        "sold": false,
+        "BIN": true,
+        "UUID": "abcd",
+        "SellerUUID": "QlpUmGhdlaHCaskn1vvSR34V6sQkRUVA"
+    }
 }
