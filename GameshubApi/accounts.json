@@ -2034,7 +2034,7 @@
         "Password": "fef3d83e32b4d981b0c0f75206e891268c6aa8bd8db5a315db7bf24168a4be27",
         "UUID": "kkT4o759zdsRUdJEvlsah6JrT6dB7kl4",
         "IsBanned": false,
-        "IsStatisticsBanned": false,
+        "IsStatisticsBanned": true,
         "IsMuted": false,
         "IsAdmin": false,
         "Friends": [],
