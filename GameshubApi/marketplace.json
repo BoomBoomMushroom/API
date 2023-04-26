@@ -1,1 +1,12 @@
-{}
+{
+    "FsmUVJkeHiv6opj0": {
+        "item": "StockMarket",
+        "price": 1200,
+        "startDate": 1682471433,
+        "endDate": 1683076233,
+        "sold": false,
+        "BIN": true,
+        "UUID": "FsmUVJkeHiv6opj0",
+        "SellerUUID": "QlpUmGhdlaHCaskn1vvSR34V6sQkRUVA"
+    }
+}
