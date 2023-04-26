@@ -1,12 +1,1 @@
-{
-    "abcd": {
-        "item": "Crab",
-        "price": 30,
-        "startDate": 1680791991493,
-        "endDate": 1683383967000,
-        "sold": false,
-        "BIN": true,
-        "UUID": "abcd",
-        "SellerUUID": "QlpUmGhdlaHCaskn1vvSR34V6sQkRUVA"
-    }
-}
+{}
