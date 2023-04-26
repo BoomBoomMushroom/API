@@ -2058,16 +2058,16 @@
                 11,
                 12
             ],
-            "Money": 0,
+            "Money": 2147495324,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
             ],
             "GameData": [],
-            "RedButtonClicks": 0
+            "RedButtonClicks": 2147483652
         },
         "Misc": {
-            "Snake": 0,
+            "Snake": 2147483647,
             "Items": []
         },
         "GoogleAccountData": {}
