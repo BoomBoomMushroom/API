@@ -2043,26 +2043,9 @@
         "ProfilePicture": "https://github.com/BoomBoomMushroom/API/blob/main/ProfilePictures/kkT4o759zdsRUdJEvlsah6JrT6dB7kl4.png?raw=true",
         "AccountCreationTime": 1680640960.6683424,
         "GameshubData": {
-            "Advancements": [
-                1,
-                0,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12
-            ],
+            "Advancements": [],
             "Money": 0,
-            "Purchases": [
-                "snakeDLC",
-                "canUseFive"
-            ],
+            "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 0
         },
