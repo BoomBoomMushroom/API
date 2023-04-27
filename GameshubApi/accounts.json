@@ -2170,7 +2170,7 @@
                 1,
                 3
             ],
-            "Money": 251,
+            "Money": 291,
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 8
@@ -2607,7 +2607,21 @@
                 "FancyTopHat",
                 "GoldenCup",
                 "Umbrella",
-                "FireAlarm"
+                "FireAlarm",
+                "Potion",
+                "Umbrella",
+                "NintendoEntertainmentSystemTM",
+                "Potion",
+                "LilBotBoi",
+                "SuperGlue",
+                "Clippy",
+                "Cake",
+                "BigBag",
+                "Tincan",
+                "StopSign",
+                "Toaster",
+                "Roomba",
+                "CheesePizza"
             ]
         },
         "GoogleAccountData": {}
