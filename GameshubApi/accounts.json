@@ -10,7 +10,7 @@
         "FriendRequests": {},
         "AccountCreationTime": 1636166689.760447,
         "GameshubData": {
-            "Money": 19327,
+            "Money": 19077,
             "Advancements": [
                 1,
                 9,
@@ -194,7 +194,8 @@
                 "Cube",
                 "Snail",
                 "Toaster",
-                "TaxEvasion"
+                "TaxEvasion",
+                "Roomba"
             ]
         },
         "Badges": {},
@@ -2169,7 +2170,7 @@
                 1,
                 3
             ],
-            "Money": 51,
+            "Money": 251,
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 8
@@ -2183,7 +2184,6 @@
                 "StopSign",
                 "Umbrella",
                 "TrafficCone",
-                "Roomba",
                 "FancyBob",
                 "Watch",
                 "BassProShopsPyramid",
