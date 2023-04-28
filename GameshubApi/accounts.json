@@ -272,7 +272,7 @@
                 11,
                 12
             ],
-            "Money": 289,
+            "Money": 330,
             "Purchases": [
                 "snakeDLC",
                 "canUseFive"
@@ -781,7 +781,40 @@
                 "CheesePizza",
                 "NintendoEntertainmentSystemTM",
                 "LaserPointer",
-                "Hammer"
+                "Hammer",
+                "StopSign",
+                "MagicalBookOfRedd",
+                "Bob",
+                "StopSign",
+                "MlgSunglasses",
+                "Bob",
+                "Bob",
+                "Tincan",
+                "Hammer",
+                "Bob",
+                "FireAlarm",
+                "Wrench",
+                "LoadOfBread",
+                "Iphone13",
+                "Minecraft",
+                "Vase",
+                "StockMarket",
+                "Tincan",
+                "AncientScroll",
+                "LegallyDistinctDogMug",
+                "Watch",
+                "GoldPLayButton",
+                "FireAlarm",
+                "NewYork",
+                "Umbrella",
+                "TypeWriter",
+                "Pencil",
+                "Potion",
+                "Stik",
+                "Roomba",
+                "FancyBob",
+                "Yes",
+                "RedStapler"
             ]
         },
         "Badges": {},
@@ -2097,10 +2130,10 @@
         "AccountCreationTime": 1680640960.6683424,
         "GameshubData": {
             "Advancements": [],
-            "Money": 6032,
+            "Money": 5532,
             "Purchases": [],
             "GameData": [],
-            "RedButtonClicks": 0
+            "RedButtonClicks": 2147483655
         },
         "Misc": {
             "Snake": 0,
@@ -2119,7 +2152,8 @@
                 "Hammer",
                 "Staff",
                 "ExitSign",
-                "Minecraft"
+                "Minecraft",
+                "Yes"
             ]
         },
         "GoogleAccountData": {}
