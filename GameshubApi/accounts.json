@@ -2130,10 +2130,10 @@
         "AccountCreationTime": 1680640960.6683424,
         "GameshubData": {
             "Advancements": [],
-            "Money": 23832,
+            "Money": 21832,
             "Purchases": [],
             "GameData": [],
-            "RedButtonClicks": 2147483655
+            "RedButtonClicks": 2147483656
         },
         "Misc": {
             "Snake": 0,
@@ -2153,7 +2153,11 @@
                 "Staff",
                 "ExitSign",
                 "Minecraft",
-                "Yes"
+                "Yes",
+                "Cube",
+                "Bob",
+                "StopSign",
+                "Hammer"
             ]
         },
         "GoogleAccountData": {}
