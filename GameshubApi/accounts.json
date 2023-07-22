@@ -2130,7 +2130,7 @@
         "AccountCreationTime": 1680640960.6683424,
         "GameshubData": {
             "Advancements": [],
-            "Money": 21868,
+            "Money": 18368,
             "Purchases": [],
             "GameData": [],
             "RedButtonClicks": 2147483656
@@ -2157,7 +2157,14 @@
                 "Cube",
                 "Bob",
                 "StopSign",
-                "Hammer"
+                "Hammer",
+                "BigCube",
+                "Roomba",
+                "Stik",
+                "CoffeeMug",
+                "TrafficCone",
+                "Vase",
+                "Crystal"
             ]
         },
         "GoogleAccountData": {}
