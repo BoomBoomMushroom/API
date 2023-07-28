@@ -2724,7 +2724,7 @@
             "Money": 100,
             "Purchases": [],
             "GameData": [],
-            "RedButtonClicks": 1.7000000000000001e+309
+            "RedButtonClicks": Infinity
         },
         "Misc": {
             "Snake": 0,
