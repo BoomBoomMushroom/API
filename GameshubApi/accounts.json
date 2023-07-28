@@ -2702,5 +2702,34 @@
             ]
         },
         "GoogleAccountData": {}
+    },
+    "U6hGCdumKH6ULndsoT23VDTQD4yipjFI": {
+        "Username": "Herobrine",
+        "Password": "88c8cb6e7e3ed354441d7f77c94640f4d95b4b9138c600429c34a8c61530c0fc",
+        "UUID": "U6hGCdumKH6ULndsoT23VDTQD4yipjFI",
+        "IsBanned": false,
+        "IsStatisticsBanned": false,
+        "IsMuted": false,
+        "IsAdmin": false,
+        "Friends": [],
+        "FriendRequests": [],
+        "UsernameHistory": [],
+        "ProfilePicture": "https://github.com/BoomBoomMushroom/API/blob/main/ProfilePictures/U6hGCdumKH6ULndsoT23VDTQD4yipjFI.png?raw=true",
+        "AccountCreationTime": 1690561046.9686122,
+        "GameshubData": {
+            "Advancements": [
+                1,
+                11
+            ],
+            "Money": 100,
+            "Purchases": [],
+            "GameData": [],
+            "RedButtonClicks": -9007199254740992
+        },
+        "Misc": {
+            "Snake": 0,
+            "Items": []
+        },
+        "GoogleAccountData": {}
     }
 }
